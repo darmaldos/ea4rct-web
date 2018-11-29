@@ -2,6 +2,7 @@ baseurl = "https://ea4rct.org/"
 title = "RadioClub EIT"
 theme = "whiteclub"
 languageCode = "es"
+paginatePath = "blog"
 
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright 2018 RadioClub EIT"
@@ -32,6 +33,11 @@ copyright = "&copy; Copyright 2018 RadioClub EIT"
   series = "series"
 
 # Header Menu
+[[menu.main]]
+  name = "Próximas actividades"
+  identifier = "activities"
+  url = "/activities/"
+  weight = 1
 [[menu.main]]
   name = "Blog"
   identifier = "blog"
