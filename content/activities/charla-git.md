@@ -45,6 +45,8 @@ Del campo de la radioafición se explicará cómo funciona la radio, como recibi
 
 ### PROGRAMA
 
+| Hora | Actividad |
+|---|---|
 | 19:30-19:45   | Presentaciones de los asistentes  |
 | 19:45-20:45   | Charla de introducción a la radio y satélites de radioaficionados |
 

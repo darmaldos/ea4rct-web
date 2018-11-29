@@ -31,6 +31,13 @@
       </ul>
       {{ partial "toc.html" . }}
       {{ .Content }}
+
+      <h3 class="article-location"> LOCALIZACIÓN</h3>
+      <p>Lugar: <strong><a href="{{ .Params.map}}"> {{ .Params.place }}, {{ .Params.street }}</a></strong>, {{ .Params.locality}}.</p>
+      <p>Fecha: <strong>{{ .Params.subtitle }}</strong></p>
+      <p>Hora: <strong>de {{ .Params.startDate }} a {{ .Params.endDate }}</strong></p>
+
+
     </article>
 
     {{- if .Params.series }}
