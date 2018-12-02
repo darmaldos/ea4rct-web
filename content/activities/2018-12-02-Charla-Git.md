@@ -33,6 +33,8 @@ Es una herramienta esencial hoy en día en cualquier empresa. Su forma de trabaj
 
 **Se recomienda a los asistentes traer su propio portatil puesto que se trata de un taller práctico**.
 
+Para controlar aforo, necesitamos que rellenes el [Form para venir a la actividad](https://goo.gl/forms/6JNPppLRb8tUH6ZL2)
+
 ---
 
 ### Objetivos
