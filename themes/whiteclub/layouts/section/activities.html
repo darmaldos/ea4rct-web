@@ -1,63 +1,25 @@
 
 {{ define "main" }}
-  <div class="breadcrumb">
-    Archives
-  </div>
   <div class="main" role="main">
-    {{ $paginator := .Paginate ((where .Site.Pages "Kind" "page").GroupByDate "2006-01") -}}
-    <section class="archives">
-      <ul>
-        {{- range $paginator.PageGroups }}
-        <li class="archives-month">{{ .Key }}</li>
-        <li class="archives-monthly-container">
-          {{- range .Pages }}
-          <ul>
-            <li class="archives-item">
-              <a href="{{ .Permalink | relURL }}">{{ .Title }}</a>
-              <ul class="taxonomies">
-                {{- if isset .Params "categories" }}
-                {{- range .Params.categories }}
-                <li class="taxonomies-item"><a href="{{ "/" | relURL }}categories/{{ . | urlize }}/"><i class="fas fa-folder"></i>{{ . }}</a></li>
-                {{- end }}
-                {{- end }}
-                {{- if isset .Params "tags" }}
-                {{- range .Params.tags }}
-                <li class="taxonomies-item"><a href="{{ "/" | relURL }}tags/{{ . | urlize }}/"><i class="fas fa-tag"></i>{{ . }}</a></li>
-                {{- end }}
-                {{- end }}
-              </ul>
-              <time>{{ .Date.Format (default "January 2, 2006" $.Site.Params.dateFormat) }}</time>
-            </li>
-          </ul>
-          {{- end }}
-        </li>
-        {{- end }}
-      </ul>
-    </section>
-    {{ template "_internal/pagination.html" . }}
-
-
     <div class="row">
         <div class="col-md-8">
 
             <h2>Próximos eventos</h2>
-            {% assign curDate = site.time | date: "%Y-%m-%d" %}
-
             <ul>
-                {% for post in site.categories.actividades reversed %}
-                {% assign date = post.date | date: "%Y-%m-%d" %}
-                {% if date >= curDate %}
-                {% endif %}
-                {% endfor %}
+                {{ range .Pages.ByDate }}
+                  {{ if .Date.After now }}
+                    <li><span>{{ .Date.Format "02 Jan 2006" }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+                  {{ end }}
+                {{ end }}
             </ul>
 
             <h2>Anteriores eventos</h2>
             <ul>
-                {% for post in site.categories.actividades %}
-                {% assign date = post.date | date: "%Y-%m-%d" %}
-                {% if date < curDate %}
-                {% endif %}
-                {% endfor %}
+              {{ range .Pages.ByDate }}
+                {{ if .Date.Before now }}
+                  <li><span>{{ .Date.Format "02 Jan 2006" }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+                {{ end }}
+              {{ end }}
             </ul>
         </div>
 

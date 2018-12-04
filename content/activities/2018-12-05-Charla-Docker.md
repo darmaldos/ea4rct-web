@@ -2,10 +2,11 @@
 layout: actividad
 
 #Datos del Evento
-title: "Taller de GIT"
+title: "Taller de Docker"
 subtitle: "5 de diciembre del 2018 / ETSIT UPM, Madrid"
 description: "Introducción rápida de git con gitea. Se explicará cómo sacar partido de git para los trabajos que nos envian en la universidad. Además se enseñarán algunas cosas muy útiles como github pages para hacer blogs."
 
+startDate: "5 de diciembre del 2018"
 startTime: "13:00"
 endTime: "14:30"
 
@@ -28,7 +29,7 @@ user: A100
 
 ### DESCRIPCIÓN
 
-El objetivo de esta charla, y de unas cuantas que vendrán, es que la gente del RadioClub/Eurielec se aprovechen de los servicios desplegados en los respectivos servidores. El primero, y el más útil es GIT, un protocolo de control de versiones que nos servirá para tener nuestros proyectos de la universidad ordenados, y en la red.
+El objetivo de esta charla, y de unas cuantas que vendrán, es que la gente del RadioClub/Eurielec se aprovechen de los servicios desplegados en los respectivos servidores. El primero, y el más útil es Docker, un protocolo de control de versiones que nos servirá para tener nuestros proyectos de la universidad ordenados, y en la red.
 
 Es una herramienta esencial hoy en día en cualquier empresa. Su forma de trabajar permite que mucha gente pueda trabajar al mismo tiempo en un mismo proyecto de forma ordenada.
 
@@ -54,12 +55,6 @@ Para controlar aforo, necesitamos que rellenes el [Form para venir a la activida
 |---|---|
 | 13:00-13:15   | Presentaciones de los asistentes  |
 | 13:15-14:15   | Charla de introducción a Git |
-
----
-
-### Diapositivas
-
-Las diapositivas se encuentran [aquí](https://git.ea4rct.org/m0wer/charla_git)
 
 ---
 

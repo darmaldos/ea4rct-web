@@ -2,14 +2,14 @@
 layout: actividad
 
 #Datos del Evento
-title: "Taller de GIT"
+title: "Taller de Hugo"
 subtitle: "5 de diciembre del 2018 / ETSIT UPM, Madrid"
 description: "Introducción rápida de git con gitea. Se explicará cómo sacar partido de git para los trabajos que nos envian en la universidad. Además se enseñarán algunas cosas muy útiles como github pages para hacer blogs."
 
 startTime: "13:00"
 endTime: "14:30"
 
-date: 2018-12-05T13:00:00
+date: 2018-12-06T13:00:00
 
 #Lugar
 place: "Radioclub, ETSIT UPM, Madrid"
@@ -54,12 +54,6 @@ Para controlar aforo, necesitamos que rellenes el [Form para venir a la activida
 |---|---|
 | 13:00-13:15   | Presentaciones de los asistentes  |
 | 13:15-14:15   | Charla de introducción a Git |
-
----
-
-### Diapositivas
-
-Las diapositivas se encuentran [aquí](https://git.ea4rct.org/m0wer/charla_git)
 
 ---
 

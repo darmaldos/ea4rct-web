@@ -34,7 +34,7 @@
 
       <h3 class="article-location"> LOCALIZACIÓN</h3>
       <p>Lugar: <strong><a href="{{ .Params.map}}"> {{ .Params.place }}, {{ .Params.street }}</a></strong>, {{ .Params.locality}}.</p>
-      <p>Fecha: <strong>{{ .Params.startDate }}</strong></p>
+      <p>Fecha: <strong>{{ .Date.Day }} de {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} del {{ .Date.Year }}</strong></p>
       <p>Hora: <strong>de {{ .Params.startTime}} a {{ .Params.endTime }}</strong></p>
 
 

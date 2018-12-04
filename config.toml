@@ -7,6 +7,9 @@ paginatePath = "blog"
 # Copyright notice. This is displayer in the footer.
 copyright = "&copy; Copyright 2018 RadioClub EIT"
 
+# Build future content [IMPORTANT]
+buildfuture = true
+
 [params]
   # whether to use CDN or local file for fontawesome
   #useCDN = false
