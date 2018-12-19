@@ -4,31 +4,11 @@
       {{ with .Params.image }}<img src="{{ . }}" class="article-image" />{{ end }}
       {{ with .Params.series }}<p class="article-title-series"><a href="{{ "/" | relURL }}series/{{ index . 0 | urlize }}/">{{ index . 0 }}</a>&nbsp;/</p>{{ end }}
       <h1 class="article-title">{{ .Title }}</h1>
-      <h2 class="article-subtitle">{{ .Params.user }} - {{ .Params.subtitle}}</h2>
+      <h2 class="article-subtitle">{{ .Params.subtitle}}</h2>
       <hr class="article-title-bottom">
-      <ul class="article-meta">
-        <li class="article-description">{{ .Params.description }}</li>
-        {{- if .Params.categories }}
-        {{- range .Params.categories }}
-        <li class="article-meta-categories">
-          <a href="{{ "/" | relURL }}categories/{{ . | urlize }}/">
-            <i class="fas fa-folder"></i>
-            {{ . }}
-          </a>&nbsp;
-        </li>
-        {{- end }}
-        {{- end }}
-        {{- if .Params.tags }}
-        {{- range .Params.tags }}
-        <li class="article-meta-tags">
-          <a href="{{ "/" | relURL }}tags/{{ . | urlize }}/">
-            <i class="fas fa-tag"></i>
-            {{ . }}
-          </a>&nbsp;
-        </li>
-        {{- end }}
-        {{- end }}
-      </ul>
+
+      {{- if .Params.description }}<p class="article-description">{{ .Params.description }}</p> {{ end }}
+
       {{ partial "toc.html" . }}
       {{ .Content }}
 
