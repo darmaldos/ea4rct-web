@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on RadioClub EIT</title>
+    <link>https://ea4rct.org/series/</link>
+    <description>Recent content in Series on RadioClub EIT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy; Copyright 2018 RadioClub EIT</copyright>
+    
+	<atom:link href="https://ea4rct.org/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

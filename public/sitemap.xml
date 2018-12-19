@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ea4rct.org/activities/2018-11-04-charla-hugo/</loc>
+    <lastmod>2018-12-06T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/activities/2018-12-05-charla-docker/</loc>
+    <lastmod>2018-12-05T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/activities/2018-12-02-charla-git/</loc>
+    <lastmod>2018-12-05T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/activities/2018-12-03-charla-ansible/</loc>
+    <lastmod>2018-12-03T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/blog/2018-10-18-docker/</loc>
+    <lastmod>2018-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/blog/2018-10-17-certificados-tls/</loc>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/blog/2018-10-15-key-bindings/</loc>
+    <lastmod>2018-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/team/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/activities/</loc>
+    <lastmod>2018-12-06T13:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/blog/</loc>
+    <lastmod>2018-10-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/</loc>
+    <lastmod>2018-12-06T13:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ea4rct.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

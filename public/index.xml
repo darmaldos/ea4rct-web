@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RadioClub EIT</title>
+    <link>https://ea4rct.org/</link>
+    <description>Recent content on RadioClub EIT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>&amp;copy; Copyright 2018 RadioClub EIT</copyright>
+    <lastBuildDate>Thu, 06 Dec 2018 13:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ea4rct.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Taller de Hugo</title>
+      <link>https://ea4rct.org/activities/2018-11-04-charla-hugo/</link>
+      <pubDate>Thu, 06 Dec 2018 13:00:00 +0000</pubDate>
+      
+      <guid>https://ea4rct.org/activities/2018-11-04-charla-hugo/</guid>
+      <description>DESCRIPCIÓN El objetivo de esta charla, y de unas cuantas que vendrán, es que la gente del RadioClub/Eurielec se aprovechen de los servicios desplegados en los respectivos servidores. El primero, y el más útil es GIT, un protocolo de control de versiones que nos servirá para tener nuestros proyectos de la universidad ordenados, y en la red.
+Es una herramienta esencial hoy en día en cualquier empresa. Su forma de trabajar permite que mucha gente pueda trabajar al mismo tiempo en un mismo proyecto de forma ordenada.</description>
+    </item>
+    
+    <item>
+      <title>Taller de Docker</title>
+      <link>https://ea4rct.org/activities/2018-12-05-charla-docker/</link>
+      <pubDate>Wed, 05 Dec 2018 13:00:00 +0000</pubDate>
+      
+      <guid>https://ea4rct.org/activities/2018-12-05-charla-docker/</guid>
+      <description>DESCRIPCIÓN El objetivo de esta charla, y de unas cuantas que vendrán, es que la gente del RadioClub/Eurielec se aprovechen de los servicios desplegados en los respectivos servidores. El primero, y el más útil es Docker, un protocolo de control de versiones que nos servirá para tener nuestros proyectos de la universidad ordenados, y en la red.
+Es una herramienta esencial hoy en día en cualquier empresa. Su forma de trabajar permite que mucha gente pueda trabajar al mismo tiempo en un mismo proyecto de forma ordenada.</description>
+    </item>
+    
+    <item>
+      <title>Taller de GIT</title>
+      <link>https://ea4rct.org/activities/2018-12-02-charla-git/</link>
+      <pubDate>Wed, 05 Dec 2018 13:00:00 +0000</pubDate>
+      
+      <guid>https://ea4rct.org/activities/2018-12-02-charla-git/</guid>
+      <description>DESCRIPCIÓN El objetivo de esta charla, y de unas cuantas que vendrán, es que la gente del RadioClub/Eurielec se aprovechen de los servicios desplegados en los respectivos servidores. El primero, y el más útil es GIT, un protocolo de control de versiones que nos servirá para tener nuestros proyectos de la universidad ordenados, y en la red.
+Es una herramienta esencial hoy en día en cualquier empresa. Su forma de trabajar permite que mucha gente pueda trabajar al mismo tiempo en un mismo proyecto de forma ordenada.</description>
+    </item>
+    
+    <item>
+      <title>Taller de ansible</title>
+      <link>https://ea4rct.org/activities/2018-12-03-charla-ansible/</link>
+      <pubDate>Mon, 03 Dec 2018 13:00:00 +0000</pubDate>
+      
+      <guid>https://ea4rct.org/activities/2018-12-03-charla-ansible/</guid>
+      <description>DESCRIPCIÓN El objetivo de esta charla, y de unas cuantas que vendrán, es que la gente del RadioClub/Eurielec se aprovechen de los servicios desplegados en los respectivos servidores. El primero, y el más útil es GIT, un protocolo de control de versiones que nos servirá para tener nuestros proyectos de la universidad ordenados, y en la red.
+Es una herramienta esencial hoy en día en cualquier empresa. Su forma de trabajar permite que mucha gente pueda trabajar al mismo tiempo en un mismo proyecto de forma ordenada.</description>
+    </item>
+    
+    <item>
+      <title>Notas de Dooooocker</title>
+      <link>https://ea4rct.org/blog/2018-10-18-docker/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ea4rct.org/blog/2018-10-18-docker/</guid>
+      <description> Volumes docker volume create my-vol  docker volume ls  </description>
+    </item>
+    
+    <item>
+      <title>Certificados TLS (?)</title>
+      <link>https://ea4rct.org/blog/2018-10-17-certificados-tls/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ea4rct.org/blog/2018-10-17-certificados-tls/</guid>
+      <description>Algunas cosas de certificados TLS
+Referencias https://www.thesslstore.com/blog/root-certificates-intermediate/</description>
+    </item>
+    
+    <item>
+      <title>Lista de Key-bindings/commands para que no se me olviden</title>
+      <link>https://ea4rct.org/blog/2018-10-15-key-bindings/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ea4rct.org/blog/2018-10-15-key-bindings/</guid>
+      <description> Tmux Scroll: * Ctrol-b then [ then you can use your normal navigation keys to scroll around * Ctrl-b PgUp to go directly into copy mode and scroll one page up
+Git Crear branch $ git checkout -b newBrach  Crear un branch basado en otro (Git-Flow) $ git checkout -b newBranch dev  Cambiar remote url git remote -v  git remote set-url origin https://github.com/USERNAME/REPOSITORY.git  git remote -v  </description>
+    </item>
+    
+  </channel>
+</rss>
