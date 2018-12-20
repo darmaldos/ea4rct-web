@@ -18,6 +18,7 @@ categories: [
 ---
 
 Esta práctica consistirá en determinar los calores específicos de diferentes sustancias. El material proporcionado es el siguiente:
+
 * Agitador magnético con un vaso de precipitado
 * Fuente de alimentación con un barra metálica para aplicar calor
 * Termómetro
@@ -30,6 +31,7 @@ Esta práctica consistirá en determinar los calores específicos de diferentes 
 <img src="/blog/2018-1-26/termometro.jpg" width="35%">
 
 Los objetivos de la prática para las sustancias de Cobre, Hierro, Aluminio y Agua:
+
 * Determinar el error cometido al medir la temperatura, la energía aportada y las masas.
 * Gráfica de calor y temperatura
 * Razonar el comportamiento de la curva
@@ -63,6 +65,7 @@ P = V \cdot I \quad [W]
 $$
 
 Siendo:
+
 * **P** es la potencia instantanea, medida en vatios. \\( [W] = \frac{[J]}{[s]}\\)
 * **V** es el voltaje, medida en voltios (V).
 * **I** es el amperaje, medida en amperios (A).
@@ -76,6 +79,7 @@ P = \frac{E}{t} \quad [W]
 $$
 
 Siendo:
+
 * **P** es la potencia instántanea, medida en vatios. \\( [W] = \frac{[J]}{[s]}\\)
 * **E** es la energía proporcionada en Julios (J).
 * **t** es el tiempo, en segundos (s).
@@ -119,6 +123,7 @@ Para calcular el calor específico necesitaremos el voltaje, la intensidad, el t
 ### Cálculo de errores
 
 Para calcular el error que se comete en las medidas hay que ver el error absoluto de los diferentes aparatos:
+
 * El termómetro da una lectura de 3 dígitos, expresado con 1 decimal, por lo que su error absoluto será de \\(\pm 0.1 ºC\\)
 * La fuente de alimentación tiene dos medidas, el voltaje y el amperaje. **En el volteje** la lectura es de 3 dígitos, expresado con 1 decimal, por lo que su error absoluto será de \\(\pm 0.1 V\\). **En el amperaje** la lectura es de 3 dígitos, expresado con 2 decimales, por lo que su error absoluto será de \\(\pm 0.01 A\\).
 * El cronometro tiene 2 dígitos para minutos, 2 para segundos y 2 para centisegundos. Por lo que el error absoluto será de \\(\pm 0.01 s\\).
@@ -161,6 +166,7 @@ C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inic
 $$
 
 Siendo:
+
 * \\(\Delta V\\) el error del voltaje de la fuente de alimentación, \\(\Delta V = \pm 0.1 V\\).
 * \\(\Delta I\\) el error del amperaje de la fuente de alimentación, \\(\Delta I = \pm 0.01 A\\).
 * \\(\Delta t\\) el error del cronómetro, \\(\Delta t = \pm 0.01 s\\).
@@ -174,6 +180,7 @@ Siendo:
 
 ### Agua
 #### Planteamiento
+
 Primero vamos a empezar con el agua. Los pasos seguidos han sido:
 1. Primero cogemos el vaso de precipitado y lo llenamos de **agua del grifo**. Lo llenamos con unos **400 ml**.
 2. Introducimos la barra metálica de la fuente de alimentación y el termómetro.
@@ -353,6 +360,7 @@ El calor específico del agua según wikipedia tiene un valor de \\(C_e = 1\frac
 #### Planteamiento
 
 Los pasos seguidos con el el cobre han sido los mismos que para el del agua:
+
 1. Introducimos la barra metálica de la fuente de alimentación y el termómetro en el recipiente del cobre.
 2. Encendemos la **fuente de alimentación** y la ponemos a **11 voltios a 2.9 amperios**.
 3. Tomamos los valores de temperatura cada **30 segundos**.
