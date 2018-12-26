@@ -354,8 +354,8 @@ blockquote blockquote blockquote blockquote {
   padding: 0;
   display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-justify-content: left;
+  justify-content: left;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
