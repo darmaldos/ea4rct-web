@@ -16,7 +16,7 @@
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <description>{{ .Params.description }}</description>
+      <description>{{ .Params.description }} {{ .Permalink }}</description>
       <author>{{ .Date.Format "Mon, 02 Jan 2006 " | safeHTML }} {{ .Params.endTime }} </author>
       <category>{{ .Date.Format "Mon, 02 Jan 2006 " | safeHTML }} {{ .Params.startTime }} </category>
       <comments>{{ .Params.map }}</comments>
