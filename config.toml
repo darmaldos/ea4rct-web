@@ -27,7 +27,7 @@ buildfuture = true
   gitea = "http://git.ea4rct.org"
   email = "info@ea4rct.org"
 
-  localizacion =  "Avenida Complutense Nº30 Local L-103"
+  localizacion =  "Avenida Complutense Nº30 Local 101.3-L"
   codigopostal =  "28040, Madrid"
   metro = "Metro: Ciudad Universitaria, Vicente Aleixandre"
   cif = "G28939353"
