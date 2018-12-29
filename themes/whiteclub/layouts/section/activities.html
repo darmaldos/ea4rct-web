@@ -6,18 +6,18 @@
 
             <h2>Próximos eventos</h2>
             <ul>
-                {{ range .Pages.ByDate }}
-                  {{ if .Date.After now }}
-                    <li><span>{{ .Date.Format "02 Jan 2006" }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+                {{ range .Pages.Reverse.ByParam "startDate" }}
+                  {{ if now.Before (time .Params.startDate) }}
+                    <li><span>{{ dateFormat "02 Jan 2006" .Params.startDate }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
                   {{ end }}
                 {{ end }}
             </ul>
 
             <h2>Anteriores eventos</h2>
             <ul>
-              {{ range .Pages.ByDate }}
-                {{ if .Date.Before now }}
-                  <li><span>{{ .Date.Format "02 Jan 2006" }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+              {{ range .Pages.ByParam "startDate" }}
+                {{ if now.After (time .Params.startDate) }}
+                  <li><span>{{ dateFormat "02 Jan 2006" .Params.startDate }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
                 {{ end }}
               {{ end }}
             </ul>

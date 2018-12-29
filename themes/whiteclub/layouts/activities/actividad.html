@@ -32,10 +32,12 @@
       {{ partial "toc.html" . }}
       {{ .Content }}
 
+      {{ $startDate := (time .Params.startDate)}}
+      {{ $endDate := (time .Params.endDate)}}
       <h3 class="article-location"> LOCALIZACIÓN</h3>
       <p>Lugar: <strong><a href="{{ .Params.map}}"> {{ .Params.place }}, {{ .Params.street }}</a></strong>, {{ .Params.locality}}.</p>
-      <p>Fecha: <strong>{{ .Date.Day }} de {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} del {{ .Date.Year }}</strong></p>
-      <p>Hora: <strong>de {{ .Params.startTime}} a {{ .Params.endTime }}</strong></p>
+      <p>Fecha: <strong>{{ $startDate.Day }} de {{ index $.Site.Data.meses (printf "%d" $startDate.Month) }} del {{ $startDate.Year }}</strong></p>
+      <p>Hora: <strong>de {{ $startDate.Format "15:04" }} a {{ $endDate.Format "15:04" }}</strong></p>
 
 
     </article>

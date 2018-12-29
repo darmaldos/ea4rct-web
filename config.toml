@@ -22,21 +22,15 @@ buildfuture = true
 
 # This is displayer in About page.
 [params.about]
-  name = "RadioClub EIT"
-  # Gravatar or Abatar image
-  gravatar = "Gravatar email or MD5 Hash"
-  #avatar = "/path/to/avatar"
-
   twitter = "ea4rct"
   #github = "Github username"
   gitea = "http://git.ea4rct.org"
   email = "info@ea4rct.org"
 
-  nombre =  "Asociación La Jaquería"
-  localizacion =  "C/ Adolfo Marsillac, 12. (Vega de Acá)"
-  codigopostal =  "04003, Almería"
+  localizacion =  "Avenida Complutense Nº30 Local L-103"
+  codigopostal =  "28040, Madrid"
   metro = "Metro: Ciudad Universitaria, Vicente Aleixandre"
-  # cif =
+  cif = "G28939353"
   # telefono =
   #horario = "De lunes a viernes de 9 a 21"
 

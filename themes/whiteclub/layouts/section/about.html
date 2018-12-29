@@ -47,6 +47,17 @@
           </div>
           {{ end }}
 
+          {{ if .Site.Params.about.cif }}
+          <div class="row">
+            <div class="col-xs">
+            <i class="fas fa-id-card"></i>
+            </div>
+            <div class="col-lg">
+              CIF: {{ .Site.Params.about.cif }}
+            </div>
+          </div>
+          {{ end }}
+
           {{ if .Site.Params.about.horario }}
           <div class="row">
             <div class="col-xs">
