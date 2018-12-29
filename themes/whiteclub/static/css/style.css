@@ -160,7 +160,6 @@ blockquote blockquote blockquote blockquote {
 .article img {
   max-width: 100%;
   box-sizing: border-box;
-  border: solid 1px lightgray;
   padding: 4px;
 }
 .article > table {
