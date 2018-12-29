@@ -2,14 +2,14 @@
 layout: actividad
 
 #Datos del Evento
-title: "Taller de Docker"
+title: "Taller de ansible"
 subtitle: "5 de diciembre del 2018 / ETSIT UPM, Madrid"
 description: "Introducción rápida de git con gitea. Se explicará cómo sacar partido de git para los trabajos que nos envian en la universidad. Además se enseñarán algunas cosas muy útiles como github pages para hacer blogs."
 
-date: 2018-12-05
+date: 2019-12-03
 
-startDate: 2018-12-05T13:00:00
-endDate: 2018-12-05T13:00:00
+startDate: 2019-12-05T13:00:00
+endDate: 2019-12-05T13:00:00
 
 #Lugar
 place: "Radioclub, ETSIT UPM, Madrid"
@@ -28,7 +28,7 @@ user: A100
 
 ### DESCRIPCIÓN
 
-El objetivo de esta charla, y de unas cuantas que vendrán, es que la gente del RadioClub/Eurielec se aprovechen de los servicios desplegados en los respectivos servidores. El primero, y el más útil es Docker, un protocolo de control de versiones que nos servirá para tener nuestros proyectos de la universidad ordenados, y en la red.
+El objetivo de esta charla, y de unas cuantas que vendrán, es que la gente del RadioClub/Eurielec se aprovechen de los servicios desplegados en los respectivos servidores. El primero, y el más útil es GIT, un protocolo de control de versiones que nos servirá para tener nuestros proyectos de la universidad ordenados, y en la red.
 
 Es una herramienta esencial hoy en día en cualquier empresa. Su forma de trabajar permite que mucha gente pueda trabajar al mismo tiempo en un mismo proyecto de forma ordenada.
 

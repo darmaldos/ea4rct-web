@@ -6,10 +6,10 @@ title: "Taller de Docker"
 subtitle: "5 de diciembre del 2018 / ETSIT UPM, Madrid"
 description: "Introducción rápida de git con gitea. Se explicará cómo sacar partido de git para los trabajos que nos envian en la universidad. Además se enseñarán algunas cosas muy útiles como github pages para hacer blogs."
 
-date: 2018-12-05
+date: 2019-12-05
 
-startDate: 2018-12-05T13:00:00
-endDate: 2018-12-05T13:00:00
+startDate: 2019-12-05T13:00:00
+endDate: 2019-12-05T13:00:00
 
 #Lugar
 place: "Radioclub, ETSIT UPM, Madrid"
