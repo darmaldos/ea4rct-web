@@ -1,7 +1,7 @@
 
 {{ define "main" }}
   <div class="breadcrumb">
-    Archives
+    Archivo
   </div>
   <div class="main" role="main">
     {{ $paginator := .Paginate (( union (where .Site.Pages "Section" "blog") (where .Site.Pages "Section" "activities")).GroupByDate "2006-01") -}}
@@ -15,9 +15,9 @@
             <li class="archives-item">
               <a href="{{ .Permalink | relURL }}">{{ .Title }}</a>
               <ul class="taxonomies">
-                {{- if isset .Params "categories" }}
-                {{- range .Params.categories }}
-                <li class="taxonomies-item"><a href="{{ "/" | relURL }}categories/{{ . | urlize }}/"><i class="fas fa-folder"></i>{{ . }}</a></li>
+                {{- if isset .Params "categorias" }}
+                {{- range .Params.categorias }}
+                <li class="taxonomies-item"><a href="{{ "/" | relURL }}categorias/{{ . | urlize }}/"><i class="fas fa-folder"></i>{{ . }}</a></li>
                 {{- end }}
                 {{- end }}
                 {{- if isset .Params "tags" }}

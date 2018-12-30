@@ -36,7 +36,7 @@ buildfuture = true
 
 
 [taxonomies]
-  category = "categories"
+  category = "categorias"
   tag = "tags"
   series = "series"
 
@@ -52,9 +52,9 @@ buildfuture = true
   url = "/blog/"
   weight = 2
 [[menu.main]]
-  name = "Categories"
-  identifier = "categories"
-  url = "/categories/"
+  name = "Categorias"
+  identifier = "categorias"
+  url = "/categorias/"
   weight = 3
 [[menu.main]]
   name = "Tags"
@@ -62,17 +62,17 @@ buildfuture = true
   url = "/tags/"
   weight = 4
 [[menu.main]]
-  name = "Archives"
+  name = "Archivo"
   identifier = "archives"
   url = "/archives/"
   weight = 5
 [[menu.main]]
-  name = "Team"
+  name = "Quiénes somos"
   identifier = "team"
   url = "/team/"
   weight = 6
 [[menu.main]]
-  name = "About"
+  name = "Contacto"
   identifier = "about"
   url = "/about/"
   weight = 7
