@@ -9,10 +9,10 @@
       <hr class="article-title-bottom">
       <ul class="article-meta">
         <li class="article-meta-date"><time>{{ .Date.Format (default "January 2, 2006" $.Site.Params.dateFormat) }}</time></li>
-        {{- if .Params.categories }}
-        {{- range .Params.categories }}
+        {{- if .Params.categorias }}
+        {{- range .Params.categorias }}
         <li class="article-meta-categories">
-          <a href="{{ "/" | relURL }}categories/{{ . | urlize }}/">
+          <a href="{{ "/" | relURL }}categorias/{{ . | urlize }}/">
             <i class="fas fa-folder"></i>
             {{ . }}
           </a>&nbsp;

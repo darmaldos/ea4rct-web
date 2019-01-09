@@ -2,13 +2,14 @@
 layout: actividad
 
 #Datos del Evento
-title: "Taller de GIT"
+title: "Taller de Docker"
 subtitle: "5 de diciembre del 2018 / ETSIT UPM, Madrid"
 description: "Introducción rápida de git con gitea. Se explicará cómo sacar partido de git para los trabajos que nos envian en la universidad. Además se enseñarán algunas cosas muy útiles como github pages para hacer blogs."
 
-date: 2018-12-05
-startDate: 2018-12-05T13:00:00
-endDate: 2018-12-05T13:00:00
+date: 2019-12-05
+
+startDate: 2019-12-05T13:00:00
+endDate: 2019-12-05T13:00:00
 
 #Lugar
 place: "Radioclub, ETSIT UPM, Madrid"
@@ -17,17 +18,17 @@ locality: "Madrid"
 postalCode: "28040"
 map: https://goo.gl/maps/VojD4d6S7An
 
-categories:
-- actividades
+category: actividades
+user: A100
 ---
 
 <p align="center">
-  <img src="/activities/2018-12-02/git_logo.png" alt="Logo git" width="39%"/>
+  <img src="/2018-12-02/git_logo.png" alt="Logo git" width="39%"/>
 </p>
 
 ### DESCRIPCIÓN
 
-El objetivo de esta charla, y de unas cuantas que vendrán, es que la gente del RadioClub/Eurielec se aprovechen de los servicios desplegados en los respectivos servidores. El primero, y el más útil es GIT, un protocolo de control de versiones que nos servirá para tener nuestros proyectos de la universidad ordenados, y en la red.
+El objetivo de esta charla, y de unas cuantas que vendrán, es que la gente del RadioClub/Eurielec se aprovechen de los servicios desplegados en los respectivos servidores. El primero, y el más útil es Docker, un protocolo de control de versiones que nos servirá para tener nuestros proyectos de la universidad ordenados, y en la red.
 
 Es una herramienta esencial hoy en día en cualquier empresa. Su forma de trabajar permite que mucha gente pueda trabajar al mismo tiempo en un mismo proyecto de forma ordenada.
 
@@ -53,12 +54,6 @@ Para controlar aforo, necesitamos que rellenes el [Form para venir a la activida
 |---|---|
 | 13:00-13:15   | Presentaciones de los asistentes  |
 | 13:15-14:15   | Charla de introducción a Git |
-
----
-
-### Diapositivas
-
-Las diapositivas se encuentran [aquí](https://git.ea4rct.org/m0wer/charla_git)
 
 ---
 

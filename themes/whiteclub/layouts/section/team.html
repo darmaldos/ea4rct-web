@@ -1,0 +1,67 @@
+{{ define "main" }}
+  <div class="main" role="main">
+    <article class="article about">
+      <h1 class="article-title">Quiénes somos</h1>
+      <hr class="article-title-bottom">
+
+
+      {{ range .Pages.GroupByParam "curso" "desc"}}
+      <h2>{{ .Key }}</h2>
+      <hr class="style2">
+
+
+      <div class="row">
+      {{ range .Pages }}
+        <div class="card-team card">
+          <div class="card-team-thumbnail card-img-top">
+            <img class="rounded" src="{{ .Params.pic }}" alt="Card image cap">
+          </div>
+          <div class="card-body card-text">
+            <h5 class="card-title"> {{ .Params.nombre }} </h5>
+            <p class="card-function text-uppercase">{{ .Params.funcion }}</p>
+            <p class="card-studies">{{ .Params.estudios }}</p>
+
+            {{ if .Params.twitter }}
+            <a href="{{ .Params.twitter }}"><i class="fab fa-twitter fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.github }}
+	          <a href="{{ .Params.github }}"><i class="fab fa-github fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.gitea }}
+            <a href="{{ .Params.gitea }}"><i class="fas fa-code-branch fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.correo }}
+	          <a href="mailto:{{ .Params.correo }}"><i class="fas fa-envelope fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.webpersonal }}
+            <a href="{{ .Params.webpersonal }}"><i class="fas fa-link fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.linkedin }}
+            <a href="{{ .Params.linkedin }}"><i class="fab fa-linkedin fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.facebook }}
+            <a href="{{ .Params.facebook }}"><i class="fab fa-facebook fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.instagram }}
+            <a href="{{ .Params.instagram }}"><i class="fab fa-instagram fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+          </div>
+        </div>
+
+
+      {{ end }}
+
+              </div>
+      {{ end }}
+
+    </article>
+  </div>
+{{ end }}

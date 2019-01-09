@@ -2,13 +2,14 @@
 layout: actividad
 
 #Datos del Evento
-title: "Taller de GIT"
+title: "Taller de ansible"
 subtitle: "5 de diciembre del 2018 / ETSIT UPM, Madrid"
 description: "Introducción rápida de git con gitea. Se explicará cómo sacar partido de git para los trabajos que nos envian en la universidad. Además se enseñarán algunas cosas muy útiles como github pages para hacer blogs."
 
-date: 2018-12-05
-startDate: 2018-12-05T13:00:00
-endDate: 2018-12-05T13:00:00
+date: 2019-12-03
+
+startDate: 2019-12-05T13:00:00
+endDate: 2019-12-05T13:00:00
 
 #Lugar
 place: "Radioclub, ETSIT UPM, Madrid"
@@ -17,12 +18,12 @@ locality: "Madrid"
 postalCode: "28040"
 map: https://goo.gl/maps/VojD4d6S7An
 
-categories:
-- actividades
+category: actividades
+user: A100
 ---
 
 <p align="center">
-  <img src="/activities/2018-12-02/git_logo.png" alt="Logo git" width="39%"/>
+  <img src="/2018-12-02/git_logo.png" alt="Logo git" width="39%"/>
 </p>
 
 ### DESCRIPCIÓN
@@ -53,12 +54,6 @@ Para controlar aforo, necesitamos que rellenes el [Form para venir a la activida
 |---|---|
 | 13:00-13:15   | Presentaciones de los asistentes  |
 | 13:15-14:15   | Charla de introducción a Git |
-
----
-
-### Diapositivas
-
-Las diapositivas se encuentran [aquí](https://git.ea4rct.org/m0wer/charla_git)
 
 ---
 

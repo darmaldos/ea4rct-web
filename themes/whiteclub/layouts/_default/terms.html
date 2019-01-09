@@ -2,6 +2,7 @@
 {{ define "main" }}
   {{ $data := .Data }}
   <div class="breadcrumb">
+    
     {{ $data.Plural | humanize }}
   </div>
   <div class="main" role="main">

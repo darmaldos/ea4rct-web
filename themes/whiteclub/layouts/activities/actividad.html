@@ -6,16 +6,44 @@
       <h1 class="article-title">{{ .Title }}</h1>
       <h2 class="article-subtitle">{{ .Params.subtitle}}</h2>
       <hr class="article-title-bottom">
+<<<<<<< HEAD
 
       {{- if .Params.description }}<p class="article-description">{{ .Params.description }}</p> {{ end }}
 
+=======
+      <ul class="article-meta">
+        <li class="article-description">{{ .Params.description }}</li>
+        {{- if .Params.categorias }}
+        {{- range .Params.categorias }}
+        <li class="article-meta-categories">
+          <a href="{{ "/" | relURL }}categorias/{{ . | urlize }}/">
+            <i class="fas fa-folder"></i>
+            {{ . }}
+          </a>&nbsp;
+        </li>
+        {{- end }}
+        {{- end }}
+        {{- if .Params.tags }}
+        {{- range .Params.tags }}
+        <li class="article-meta-tags">
+          <a href="{{ "/" | relURL }}tags/{{ . | urlize }}/">
+            <i class="fas fa-tag"></i>
+            {{ . }}
+          </a>&nbsp;
+        </li>
+        {{- end }}
+        {{- end }}
+      </ul>
+>>>>>>> 0719f397e8212231fa4724f847a0a44b81efeb96
       {{ partial "toc.html" . }}
       {{ .Content }}
 
+      {{ $startDate := (time .Params.startDate)}}
+      {{ $endDate := (time .Params.endDate)}}
       <h3 class="article-location"> LOCALIZACIÓN</h3>
       <p>Lugar: <strong><a href="{{ .Params.map}}"> {{ .Params.place }}, {{ .Params.street }}</a></strong>, {{ .Params.locality}}.</p>
-      <p>Fecha: <strong>{{ .Date.Day }} de {{ index $.Site.Data.meses (printf "%d" .Date.Month) }} del {{ .Date.Year }}</strong></p>
-      <p>Hora: <strong>de {{ .Params.startTime}} a {{ .Params.endTime }}</strong></p>
+      <p>Fecha: <strong>{{ $startDate.Day }} de {{ index $.Site.Data.meses (printf "%d" $startDate.Month) }} del {{ $startDate.Year }}</strong></p>
+      <p>Hora: <strong>de {{ $startDate.Format "15:04" }} a {{ $endDate.Format "15:04" }}</strong></p>
 
 
     </article>

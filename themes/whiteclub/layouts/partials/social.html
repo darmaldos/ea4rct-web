@@ -1,5 +1,5 @@
 
-{{- with .Site.Params.author }}
+{{- with .Site.Params.about }}
   <ul class="author-social">
     {{- with .twitter }}
     <li><a href="//twitter.com/{{ . }}" target="_blank"><i class="fab fa-twitter"></i></a></li>
@@ -33,6 +33,9 @@
     {{- end }}
     {{- with .gitlab }}
     <li><a href="//gitlab.com/{{ . }}" target="_blank"><i class="fab fa-gitlab"></i></a></li>
+    {{- end }}
+    {{- with .gitea }}
+    <li><a href="{{ . }}" target="_blank"><i class="fas fa-code-branch"></i></a></li>
     {{- end }}
     {{- with .bitbucket }}
     <li><a href="//bitbucket.com/{{ . }}" target="_blank"><i class="fab fa-bitbucket"></i></a></li>

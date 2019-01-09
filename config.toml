@@ -17,23 +17,26 @@ buildfuture = true
   #showShareIcons = false
   # Date format
   dateFormat = "2 January, 2006"
-  description = "Subtexto"
+  description = "EA4RCT"
   avatar = "/logo.png"
 
 # This is displayer in About page.
-[params.author]
-  name = "RadioClub EIT"
-  # Gravatar or Abatar image
-  gravatar = "Gravatar email or MD5 Hash"
-  #avatar = "/path/to/avatar"
+[params.about]
+  twitter = "ea4rct"
+  #github = "Github username"
+  gitea = "http://git.ea4rct.org"
+  email = "info@ea4rct.org"
 
-  twitter = "Twitter username"
-  github = "Github username"
-  gitlab = "Gitlab username"
-  email = "Your email"
+  localizacion =  "Avenida Complutense Nº30 Local 101.3-L"
+  codigopostal =  "28040, Madrid"
+  metro = "Metro: Ciudad Universitaria, Vicente Aleixandre"
+  cif = "G28939353"
+  # telefono =
+  #horario = "De lunes a viernes de 9 a 21"
+
 
 [taxonomies]
-  category = "categories"
+  category = "categorias"
   tag = "tags"
   series = "series"
 
@@ -49,9 +52,9 @@ buildfuture = true
   url = "/blog/"
   weight = 2
 [[menu.main]]
-  name = "Categories"
-  identifier = "categories"
-  url = "/categories/"
+  name = "Categorias"
+  identifier = "categorias"
+  url = "/categorias/"
   weight = 3
 [[menu.main]]
   name = "Tags"
@@ -59,17 +62,17 @@ buildfuture = true
   url = "/tags/"
   weight = 4
 [[menu.main]]
-  name = "Archives"
+  name = "Archivo"
   identifier = "archives"
   url = "/archives/"
   weight = 5
 [[menu.main]]
-  name = "Team"
+  name = "Quiénes somos"
   identifier = "team"
   url = "/team/"
   weight = 6
 [[menu.main]]
-  name = "About"
+  name = "Contacto"
   identifier = "about"
   url = "/about/"
   weight = 7
