@@ -1,5 +1,5 @@
-
 {{ define "main" }}
+{{ partial "add-mathjax.html" . }}
   <div class="main" role="main">
     <article class="article">
       {{ with .Params.image }}<img src="{{ . }}" class="article-image" />{{ end }}
