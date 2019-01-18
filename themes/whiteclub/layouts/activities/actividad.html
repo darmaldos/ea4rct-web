@@ -6,11 +6,6 @@
       <h1 class="article-title">{{ .Title }}</h1>
       <h2 class="article-subtitle">{{ .Params.subtitle}}</h2>
       <hr class="article-title-bottom">
-<<<<<<< HEAD
-
-      {{- if .Params.description }}<p class="article-description">{{ .Params.description }}</p> {{ end }}
-
-=======
       <ul class="article-meta">
         <li class="article-description">{{ .Params.description }}</li>
         {{- if .Params.categorias }}
@@ -34,7 +29,6 @@
         {{- end }}
         {{- end }}
       </ul>
->>>>>>> 0719f397e8212231fa4724f847a0a44b81efeb96
       {{ partial "toc.html" . }}
       {{ .Content }}
 

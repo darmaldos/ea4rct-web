@@ -20,7 +20,7 @@
       <p><a href="/activities" class="button">Ver las actividades</a></p>
 	    <h3>Blog</h3>
       <ul>
-        {{ range first 3 (where .Pages "Params.category" "blog") }}
+        {{ range first 3 (where .Pages "Params.layout" "post") }}
           <li><a href="{{ .URL }}">{{ .Title }}</a></li>
         {{ end }}
       </ul>
