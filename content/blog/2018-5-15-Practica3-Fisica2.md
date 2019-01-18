@@ -11,7 +11,7 @@ tags: [
   "Practicas",
   "Primero"
 ]
-categories: [
+categorias: [
   "Apuntes",
   "Física II"
 ]
@@ -26,12 +26,11 @@ Esta práctica consistirá en medir la velocidad del sonido en el aire con un tu
 Con el generador de señal, le vamos a pasar una señal sinusoidal al altavoz, que enviará un onda armónicoa, \\(y_1\\), de frecuencia \\(f\\), que se desplazará en el sentido positivo del eje x. Dicha onda tendrá la forma:
 
 $$
-
 y_1 = A \cdot \sin(\omega t - k x)
-
 $$
 
 Donde:
+
 * \\(k = \frac{2\pi}{\lambda}\\): Número de onda
 * \\(\omega = \frac{2\pi}{T}\\): frecuencia angular
 * \\(v_{prop} = \lambda \cdot f\\): velocidad de propagación. Con \\(f = 1/T\\)
@@ -40,17 +39,13 @@ Donde:
 Esta onda se desplazará en sentido positivo del eje x, hasta el pistón que hará que se choque generando otra onda armónica \\(y_2\\) de la misma frecuencia \\(f\\), que se desplazará en sentido negativo del eje x, con la misma velocidad de propagación \\(v_{prop}\\). Su expresión matemática será:
 
 $$
-
 y_2 = A \cdot \sin(\omega t + k x)
-
 $$
 
 Y la superposición de ambas será:
 
 $$
-
 y = y_1 + y_2 = 2A \cos(kx) \sin(\omega t)
-
 $$
 
 Que corresponde a una onda estacionaria. Su amplitud será, por tanto, de \\(2A \cos(kx)\\), que hará que en algunos puntos para todo t sea \\(y = 0\\), que denominaremos **nodos**. Y donde sea máxima, es decir, en \\(\cos(kx) = 1\\), los denominaremos **antinodos**.
@@ -60,9 +55,7 @@ Que corresponde a una onda estacionaria. Su amplitud será, por tanto, de \\(2A 
 De esta forma, **en los nodos se satisface la condición** \\(\cos(kx) = 0\\), es decir:
 
 $$
-
 kx = (2n + 1) \cdot \frac{\pi}{2} \Rightarrow x_n = (2n + 1) \cdot \frac{   \lambda}{4}
-
 $$
 
 Por tanto **la distancia entre dos nodos consecutivos será** de \\(\frac{\lambda}{2}\\).
@@ -102,17 +95,11 @@ Esto es sencillo de calcular teniendo en cuenta la teoría antes explicada.
 Los nodos están dispuestos de tal forma que **dos nodos consecutivos** estarán a \\(\frac{\lambda}{2}\\) uno del otro. Nuestro tubo de Kundt tiene una longitud de 80 cm, que es lo que nos determina cual será la longitud máxima de la onda, y la velocidad del sonido es una constante:
 
 $$
-
 \frac{\lambda}{2} = 80 \cdot 10^{-2} \Rightarrow \lambda = 1.6 \ m
-
 \\
-
 v_{prop} = \lambda \cdot f = 350 \ m/s
-
 \\
-
 \Rightarrow f = \frac{350}{1.6} = 218.75 \ Hz
-
 $$
 
 #### Gráfico de velocidad frente a frecuencias
@@ -134,25 +121,19 @@ Los resultados nos salen que la frecuencia están centradas en 350 m/s. Que es l
 
 El error de la medida será:
 
+<div>
 $$
-
 v_{prop} = \lambda \cdot f
-
 \\
-
 \Delta v_{prop} = \bigg \lvert \frac{\delta v_{prop}}{\delta \lambda} \bigg \lvert \Delta \lambda + \bigg \lvert \frac{\delta v_{prop}}{\delta f} \bigg \lvert \Delta f
-
-
 \Rightarrow \Delta v_{prop} = f \cdot \Delta \lambda + \lambda \cdot \Delta f
-
 $$
+</div>
 
 Siendo
 
 $$
-
 \Delta f = 10 \ Hz \qquad \Delta \lambda = 0.5 \cdot 10^{-2}
-
 $$
 
 Por tanto, el error no es mismo para todas las medidas, porque para frecuencias más altas, el error será considerable. De este modo, **vamos a ver si todas las velocidades están dentro del valor real de la velocidad del sonido**.

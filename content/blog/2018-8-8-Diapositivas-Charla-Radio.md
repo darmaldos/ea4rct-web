@@ -10,7 +10,7 @@ tags: [
   "GranaSAT",
   "APRS"
 ]
-categories: [
+categorias: [
   "Radioafición",
   "Charla"
 ]
@@ -39,7 +39,7 @@ Técnicamente cualquier forma de información. Con modulaciones analógicas: fon
 
 ![Foto del Modelo de canal de comunicaciones](/blog/2018-08-08/init04-pag12.png)
 
-### Análisis en frecuencia de un canal de telecomunicaciones: respuesta en frecuencia del canal H(f)
+### Respuesta en frecuencia de un canal H(f)
 
 ![Análisis en frecuencia de un canal de telecomunicaciones](/blog/2018-08-08/analisis_en_frecuencia_radio.png)
 
@@ -76,9 +76,7 @@ El ancho de banda está determinado por las frecuencias superior e inferior fuer
 La Directividad (D) de una antena se define como la relación entre la intensidad de radiación de una antena en la dirección del máximo y la intensidad de radiación de una antena isotrópica que radia con la misma potencia total:
 
 $$
-
 D = \frac{U(max)}{U(iso)}
-
 $$
 
 ### Ganancia
@@ -100,9 +98,7 @@ La **polarización** de una antena es la trayectoria que describe el campo eléc
 La longitud de onda depende de la frecuencia de oscilación y cuanto menor sea la frecuencia de la señal, mayor longitud de onda tendrá la señal emitida. Esto es: a mayor frecuencia, menos longitud de onda y viceversa.
 
 $$
-
 \lambda = \frac{v}{f} = v \cdot T
-
 $$
 
 Siendo \\(v\\) la velocidad, \\(f\\) la frecuencia y \\(T\\) el periodo.

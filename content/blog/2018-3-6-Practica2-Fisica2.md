@@ -11,7 +11,7 @@ tags: [
   "Practicas",
   "Primero"
 ]
-categories: [
+categorias: [
   "Apuntes",
   "Física II"
 ]
@@ -20,6 +20,7 @@ categories: [
 Esta práctica consistirá en el manejo del osciloscopio, de cómo funciona un oscilador, comparación de frecuencias (Figuras de Lissajous) y de la medida de una diferencia de fase.
 
 El material proporcionado es el siguiente:
+
 * Osciloscopio de rayos catódichos
 * Generador de señal sinusoidal
 * Oscilador problema
@@ -33,6 +34,7 @@ El material proporcionado es el siguiente:
 ### Práctica
 
 La práctica se divide en 3 bloques:
+
 1. Manejo del osciloscopio:
   Conectar la salida del generador de ondas al del osciloscopio y poner una determinada frecuencia y medir:
   * La tensión pico-pico
@@ -62,6 +64,7 @@ De primeras podemos ver diferentes datos que nos van a ser de utilidad para los 
 
 Para determinar la tensión pico-pico lo único que tenemos que hacer es contar cuadraditos. **La señal utilizada no es la de la foto anterior, es otra**. En este caso, cada cuadradito tiene un valor de **5 V**, y la onda **desde pico a pico** tiene **4 cuadrantes**. Cada cuadrito está dividido en 5, con lo que su error es del 20%, para cada uno:  
 
+<div>
 $$
 
 V_{onda} = 4 \cdot 5 = 20 \quad V
@@ -74,6 +77,7 @@ V_{onda} = 4 \cdot 5 = 20 \quad V
 
 \Rightarrow V_{onda} = 20 \pm 1 \quad V
 $$
+</div>
 
 #### Frecuencia de la onda y comparar con la que da el generador de señales
 
@@ -84,6 +88,7 @@ Para determinar la frecuencia de la señal también tenemos que contar cuadradit
 
 La onda **se repite cada \\(T_{onda} = 1000 \mu s\\)**. Para determinar su frecuencia, que es la inversa del periodo:
 
+<div>
 $$
 
 f_{onda} = \frac{1}{T_{onda}} = \frac{1}{1000 \cdot 10^{-6}} = 1000 \quad Hz
@@ -101,6 +106,7 @@ f_{onda} = \frac{1}{T_{onda}} = \frac{1}{1000 \cdot 10^{-6}} = 1000 \quad Hz
 \Rightarrow f_{onda} = 1000 \pm 100 \quad Hz
 
 $$
+</div>
 
 Por otro lado, el **generador de onda** nos pone que la **onda generada es de 1 KHz**. Además nos lo da con una precisión de 0.01 KHz ya que el indicador digital nos pone 2 decimales para el KHz, es decir \\(\Delta f_{generador} = 10 Hz\\).  
 
@@ -114,11 +120,13 @@ El oscilador problema, arriba una foto, es uno del que no tenemos ninguna inform
 
 Si la relación entre las frecuencias es de números enteros
 
+<div>
 $$
 
 \frac{\omega_1}{\omega_2} = \frac{n_1}{n_2}
 
 $$
+</div>
 
 Las trayectorias cerradas obtenidas en el osciloscopio son las "*curvas de Lissajous*".
 
@@ -146,6 +154,7 @@ Con esta información llegamos a la conclusión de que la frecuencia del oscilad
 
 El error del generado de funciones *problema* es desconocido. En cambio el error de generado es \\(\Delta f_{generador} = 10 Hz\\). Para calcular su error utilizamos la ecuación anterior para el caso 1:2 :
 
+<div>
 $$
 
 \frac{\omega_1}{\omega_2} = \frac{n_1}{n_2} \Rightarrow \frac{f_1}{f_2} = \frac{n_1}{n_2} \Rightarrow f_1 = \frac{n_1}{n_2} \cdot f_2
@@ -154,16 +163,18 @@ $$
 
 \Delta f_1 = \bigg \lvert \frac{\delta f_1}{\delta f_2} \bigg \lvert \cdot \Delta f_2 = \frac{1}{2} \cdot 10 = 5 \quad Hz
 
-
 $$
+</div>
 
 Con lo que el resultado final será:
 
+<div>
 $$
 
 f_{oscilador} = 850 \pm 5 \quad Hz
 
 $$
+</div>
 
 El error del oscilador problema utilizando este método es muy pequeño. Esto se debe a que de igual forma, **el error del generador es bastante pequeño** (10 Hz). Se podría decir que, **este método para determinar el desfase de una señal es muy efectivo**.
 
@@ -175,6 +186,7 @@ Se monta el circuito siguiente:
 
 Se trata de un filtro paso alto, que se rige por la siguiente ecuación de transferecia:
 
+<div>
 $$
 
 H(s = j\omega) = \frac{s}{s + 1/RC} \qquad \omega_c = \frac{1}{RC}
@@ -184,9 +196,11 @@ H(s = j\omega) = \frac{s}{s + 1/RC} \qquad \omega_c = \frac{1}{RC}
 \Rightarrow H(s = j\omega) = \frac{s}{s + \omega_c}
 
 $$
+</div>
 
 Siendo su fase la siguiente:
 
+<div>
 $$
 
 \phi(\omega) = Arg(s) - Arg(s + \omega_c) = tg\bigg(\frac{\omega}{0}\bigg) - tg\bigg(\frac{1/RC}{\omega}\bigg)
@@ -196,6 +210,7 @@ $$
 \Rightarrow tg(\varphi) = \frac{1}{\omega RC} = \frac{1}{2\pi fRC}
 
 $$
+</div>
 
 
 De acuerdo con el método de la eclipse:
@@ -204,24 +219,29 @@ De acuerdo con el método de la eclipse:
 
 El desfase \\(\varphi\\) se puede calcular a partir de:
 
+<div>
 $$
 
 sen \ \varphi = \frac{AB}{2 x_0}
 
 $$
+</div>
 
 o bien
 
+<div>
 $$
 
 sen \ \varphi = \frac{CD}{2 y_0}
 
 $$
+</div>
 
 #### Valor adecuado de resistencias y calcular el error de la medida del desfase
 
 El **valor del condensador** de es \\(C = 100 nF\\). Hemos puesto el **generador de onda a** \\(f = 270 Hz\\). Las diferentes resistencias de la placa son de: \\(330 \Omega\\), \\(10K \Omega\\) y \\(1K \Omega\\):
 
+<div>
 $$
 
 R = 330 \Omega \Rightarrow \varphi = tg^{-1} \frac{1}{2\pi fRC} = tg^{-1}\frac{1}{2\pi \ 270 \ 330 \ 100\cdot 10^{-9}} = 9.63 º
@@ -235,6 +255,7 @@ R = 10K \ \Omega \Rightarrow \varphi = tg^{-1} \frac{1}{2\pi fRC} = tg^{-1}\frac
 R = 1K \ \Omega \Rightarrow \varphi = tg^{-1} \frac{1}{2\pi fRC} = tg^{-1}\frac{1}{2\pi \ 270 \ 1000 \ 100\cdot 10^{-9}} = 80.37 º
 
 $$
+</div>
 
 De las resistencias disponibles el mejor valor para tomar la medida es la de \\(R = 10 K \ \Omega\\) porque las otras el desfase o muy poco, en el de \\(330 \Omega\\), o es demasiado, en el de \\(1K \ \Omega\\). Así la elipse no estará demasiada *achatada* ni demasiado *alargada*, y podremos tomar las medidas de forma más exacta.
 
@@ -246,6 +267,7 @@ Con esa resistencia, la elipse por pantalla es la siguiente:
 
 Se puede observar que: \\(AB = 2, \ x_0 = 2 \\).Para determinar su fase con las ecuaciones anteriores:
 
+<div>
 $$
 
 sen \ \varphi =  \frac{2}{2 \cdot 2} = \frac{1}{2}
@@ -255,27 +277,33 @@ sen \ \varphi =  \frac{2}{2 \cdot 2} = \frac{1}{2}
 \varphi = sen^{-1} \frac{1}{2} = 30º
 
 $$
+</div>
 
 Cada cuadrante está separado por 5 marcas, es decir que el error de medida del osciloscopio es de \\(\pm 0.2\\). Para calcular su error:
 
+<div>
 $$
 
 \Delta \varphi = \Bigg \lvert \frac{\delta \varphi}{\delta AB} \Bigg \lvert \Delta AB + \Bigg \lvert \frac{\delta \varphi}{\delta x_0} \Bigg \lvert \Delta x_0 = \frac{\Delta AB}{2 x_0} + \frac{AB \Delta x_0}{2 x^2_0} = 0.1 \quad rad
 
 $$
+</div>
 
 Entonces llegamos a la conclusión de que:
 
+<div>
 $$
 
 \varphi = 30º \pm 5.7º
 
 $$
+</div>
 
 #### Calcular el error de la resistencia tomada y su error
 
 Para calcular el valor de la resitencia valor a utilizar la expresión anterior y el valor de \\(\varphi\\):
 
+<div>
 $$
 
 tg \ \varphi = \frac{1}{2\pi fRC} \Rightarrow R = \frac{1}{2 \pi \ f \ C \ tg \ \varphi}
@@ -285,9 +313,11 @@ tg \ \varphi = \frac{1}{2\pi fRC} \Rightarrow R = \frac{1}{2 \pi \ f \ C \ tg \ 
 R = \frac{1}{2 \pi \ 270 \ 100 \cdot 10^{-9} \ 0.58} = 10209.8 \ \Omega
 
 $$
+</div>
 
 El **error de f** es de 10 Hz, como dijimos anteriormente. El **error de C no lo sabemos** por lo que suponemos que no tiene error. Para calcular su error:
 
+<div>
 $$
 
 \Delta R = \bigg \lvert \frac{\delta R}{\delta f} \bigg \lvert \Delta f +  
@@ -298,16 +328,19 @@ $$
 \frac{10}{2 \pi \ 100\cdot 10^{-6} \ tg \ 30º \ 270^2} + \frac{0.1}{2 \pi \ 270 \ 100\cdot 10^{-6} \ (tg \ 30)^2} =
 2.15 \Omega
 $$
+</div>
 
 Es decir, nos queda un resultado:
 
+<div>
 $$
 
 R = 10209.8 \pm 2.15 \Omega
 
 $$
+</div>
 
-Que se parece mucho al valor real de la resistencia, que es de \(10K \pm 500 \Omega\), dentro de nuestro resultado. En este caso hemos despreciado el error del condensador, pero igualmente sigue siendo un error muy pequeño, este método para medir la resistencia es bastante efectivo.
+Que se parece mucho al valor real de la resistencia, que es de \\(10K \pm 500 \Omega\\), dentro de nuestro resultado. En este caso hemos despreciado el error del condensador, pero igualmente sigue siendo un error muy pequeño, este método para medir la resistencia es bastante efectivo.
 
 amil101@debian:~$ EXIT
 

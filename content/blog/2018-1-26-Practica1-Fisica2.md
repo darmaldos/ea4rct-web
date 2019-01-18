@@ -11,7 +11,7 @@ tags: [
   "Practicas",
   "Primero"
 ]
-categories: [
+categorias: [
   "Apuntes",
   "Física II"
 ]
@@ -44,13 +44,16 @@ Nuestra situación es la siguiente, tenemos una fuente de alimentación que nos 
 
 La **capacidad calorífica** \\(C_e\\) se define como
 
+<div>
 $$
 
 C_e = \frac{Q}{m \cdot \Delta T} \quad \frac{[Cal]}{[g \cdot K]}
 
 $$
+</div>
 
 Siendo:
+
 * **Q**: Es la tranferencia de energía en forma calorífica entre el sistema y su entorno y otro sistema, es decir, el calor que le proporcionamos al material con nuestra fuente de alimentación. **Se mide en calorias** (cal). \\(1 cal \Rightarrow 4.18 J\\)
 * **m** la masa del sistema. Se mide en gramos (g).
 * \\( \Delta T \\): El incremento de temperatura del sistema. La temperatura se mide en Kelvins (K).
@@ -58,11 +61,13 @@ Siendo:
 
 Por otro lado, en la fuente de alimentación, se define **potencia instantanea** cómo:
 
+<div>
 $$
 
 P = V \cdot I \quad [W]
 
 $$
+</div>
 
 Siendo:
 
@@ -72,11 +77,13 @@ Siendo:
 
 Igualmente se define la **potencia calorífica**, que es la cantidad de calor que libera por unidad de tiempo, como:
 
+<div>
 $$
 
 P = \frac{E}{t} \quad [W]
 
 $$
+</div>
 
 Siendo:
 
@@ -86,14 +93,17 @@ Siendo:
 
 Juntando lo anterior, podemos igualar las potencias instantaneas para conseguir la potencia calorífica:
 
+<div>
 $$
 
 E = P \cdot t = V \cdot I \cdot t \quad [J]
 
 $$
+</div>
 
 El calor es una forma de trabajo, es decir que podemos igualar la potencia calorífica (E) con el Calor proporcionado (Q). **Tenemos que tener cuidado porque la potencia calorífica(E) está expresada en Julios y el Calor (Q) está expresado en calorias (Cal)**. Dicho esto, igualamos las expresiones de potencia calorífica y <a name="defCalor" style="text-decoration: none;">calor</a>:
 
+<div>
 $$
 
 E \Rightarrow Julios
@@ -101,7 +111,9 @@ E \Rightarrow Julios
 Q \Rightarrow Cal
 
 $$
+</div>
 
+<div>
 $$
 
 Q = E \cdot \frac{1}{4.18} = V \cdot I \cdot t \cdot \frac{1}{4.18} \quad [Cal]
@@ -111,15 +123,19 @@ Q = E \cdot \frac{1}{4.18} = V \cdot I \cdot t \cdot \frac{1}{4.18} \quad [Cal]
 m \cdot C_e \cdot \Delta T = V \cdot I \cdot t \cdot \frac{1}{4.18}
 
 $$
+</div>
 
 Y finalemente llegamos a que:
 
+<div>
 $$
 
 C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot \Delta T} = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inicial})} \quad \frac{[Cal]}{[g \cdot K]}
 $$
+</div>
 
 Para calcular el calor específico necesitaremos el voltaje, la intensidad, el tiempo, la masa y la variación de temperatura, es decir, todas las variables son conocidas.
+
 ### Cálculo de errores
 
 Para calcular el error que se comete en las medidas hay que ver el error absoluto de los diferentes aparatos:
@@ -132,14 +148,17 @@ Para calcular el error que se comete en las medidas hay que ver el error absolut
 
 El error absoluto de una función que dependen de varias magnitudes independientes \\(x_1, x_2, x_3, ...\\) de una función: \\(y = f(x_1, x_2, x_3, ...)\\),  se calcularía así:
 
+<div>
 $$
 
 \Delta y = \Bigg \lvert \frac{\delta y}{\delta x_1} \Bigg \lvert \Delta x_1  + \Bigg \lvert \frac{\delta y}{\delta x_2} \Bigg \lvert \Delta x_2 + ...
 
 $$
+</div>
 
 Para calcular el error absoluto del calor específico se haría <a name="calorEspecifico" style="text-decoration: none;">así</a>:
 
+<div>
 $$
 
 C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inicial})} \quad \frac{[Cal]}{[g \cdot K]}
@@ -164,6 +183,7 @@ C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inic
 \Bigg \lvert \frac{V \cdot I \cdot t}{4.18 \cdot m \cdot (T_{final} - T_{inicial})^2}\Bigg \lvert \Delta T
  \quad \frac{[Cal]}{[g \cdot K]}
 $$
+</div>
 
 Siendo:
 
@@ -204,16 +224,19 @@ La gráfica presenta un leve curva al principio, **la inclinación del inicio** 
 
 Al ser una relación *aparentemente* lineal podremos aproximarlo a una recta de la forma:
 
+<div>
 $$
 
 Y = mX + c
 
 $$
+</div>
 
 Donde m se denomina *pendiente* y *c* ordenada en el origen.
 
 Para obtener dicha función usaremos el método de mínimos cuadrados, que nos permite obtener la recta que más se aproxima a dichos puntos. La pendiente y la ordenada en el origen de dicha recta vienen dadas por las <a name="defError" style="text-decoration: none;">siguientes expresiones</a>:
 
+<div>
 $$
 
 m = \frac{E}{D}
@@ -223,9 +246,11 @@ m = \frac{E}{D}
 c = \bar{Y} - m \bar{X}
 
 $$
+</div>
 
 En donde:
 
+<div>
 $$
 
 E = \Bigg ( \sum_{i = 1}^{n} X_i Y_i \Bigg ) - n \bar{X} \bar{Y}
@@ -235,9 +260,11 @@ E = \Bigg ( \sum_{i = 1}^{n} X_i Y_i \Bigg ) - n \bar{X} \bar{Y}
 D = \Bigg ( \sum_{i = 1}^{n} X_{i}^{2} \Bigg ) - n \bar{X}^{2}
 
 $$
+</div>
 
 Siendo
 
+<div>
 $$
 
 \bar{X} = \frac{1}{n} \sum_{i = 1}^{n} X_i
@@ -247,25 +274,31 @@ $$
 \bar{Y} = \frac{1}{n} \sum_{i = 1}^{n} Y_i
 
 $$
+</div>
 
 Operando con los resultados obtenidos llegamos a que la **pendiente** es \\(m = 190\cdot 10^{-5} \quad \frac{[°C]}{[Cal]}\\) y la ordenada en el origen es \\(c = 23.13 \quad [°C]\\). Se queda tal que:
 
+<div>
 $$
 
 Y = 190\cdot 10^{-5}X + 23.13 \quad [°C]
 
 $$
+</div>
 
 Para calcular el **error cuadrático medio de la pendiente m** se calcula así:
 
+<div>
 $$
 
 \Delta m \cong \sqrt{\frac{A}{\sum_{i = 1}^{n} (D_i^2)}}
 
 $$
+</div>
 
 Donde
 
+<div>
 $$
 
 A = \frac{\sum_{i = 1}^{n} d_i^2}{n - 2}
@@ -279,14 +312,17 @@ d_i = Y_i - m X_i - c
 \sum_{i = 1}^{n} (D_i^2) = \sum_{i = 1}^{n} (X_i - \bar{X})^2
 
 $$
+</div>
 
 Operando **llegamos** a que:
 
+<div>
 $$
 
 \Delta m = 1.0\cdot 10^{-5} \quad \frac{[°C]}{[Cal]}
 
 $$
+</div>
 
 Es decir, un error muy pequeño, los resultados se aproximan mucho a la linea, es *casi* lineal.
 
@@ -294,6 +330,7 @@ Es decir, un error muy pequeño, los resultados se aproximan mucho a la linea, e
 
 <a href="#calorEspecifico">Antes</a> calculamos la expresión para determinar el calor específico (\\(C_e\\)) y su error absoluto (\\(\Delta C_e\\)). Para calcular dicha expresión, substituimos con los valores (también antes mencionados) y <a name="defCalorEsp" style="text-decoration: none;">nos sale</a>:
 
+<div>
 $$
 
 C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inicial})}
@@ -324,12 +361,14 @@ C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inic
 = 0.19 \quad \frac{[Cal]}{[g \cdot K]}
 
 $$
+</div>
 
 El resultado es que el calor específico (\\(C_e\\)) tiene un valor de \\(C_e = 1,33 \pm 0.23
 \frac{[Cal]}{[g \cdot K]}\\). El error que tiene es del 6%, un error normal si tenemos en cuenta que el material utilizado no es extremadamente preciso. El principal generador de este error es el vaso de precipitado, que al tener una marca cada 50 ml su error absoluto es de \\(\pm 50\\) ml, y esto hace que el error aumente considerablemente. Para hacer que el resultado sea más preciso se tendría que utilizar un vaso de precipitado más preciso.
 
 En ese caso hemos cogido el valor incial y final de temperatura, que es un poco *ficticio* pues al principio el calentador se estaba calentando. Para solucionarlo podemos coger dos valores con la función de ajuste por mínimos cuadrados:
 
+<div>
 $$
 
 Y = 190\cdot 10^{-5}X + 23.13 \quad [°C]
@@ -343,14 +382,17 @@ Y(0) = 0 + 23.13 = 23.13 \quad [°C]
 Y(11 \cdot 2.9 \cdot 870 \cdot (1/4.18)) = 190\cdot 10^{-5} \cdot 6639.47 + 23.13 = 35.76 \quad [°C]
 
 $$
+</div>
 
 Con la temperatura inicial de \\(T_{inicial} = 23.13\\) ºC y la temperatura final de \\(T_{final} = 35.76\\) ºC nos saldría:
 
+<div>
 $$
 
 C_e = 1.33 \quad \frac{[Cal]}{[g \cdot K]}
 
 $$
+</div>
 
 Que es el mismo valor que hemos obtenido anteriormente porque la recta por mínimos cuadrados es muy próxima a los valores obtenidos en la práctica.
 
@@ -378,6 +420,7 @@ Al igual que antes, al principio de la curva hay una desviación provocada porqu
 
 Con las <a href="#defError">expresiones anteriores</a> llegamos a los siguientes resultados de la regresión lineal:
 
+<div>
 $$
 
 Y = 793.8 \cdot 10^{-5} \cdot X + 26.99 \quad [ºC]
@@ -387,6 +430,7 @@ Y = 793.8 \cdot 10^{-5} \cdot X + 26.99 \quad [ºC]
 \Delta m = 5.7 \cdot 10^{-5} \quad \frac{[ºC]}{[Cal]}
 
 $$
+</div>
 
 El **error es muy pequeño**, los resultados se aproximan mucho a la recta. Esto nos indica que los resultados obtenidos son correctos.
 
@@ -394,6 +438,7 @@ El **error es muy pequeño**, los resultados se aproximan mucho a la recta. Esto
 
 Con las <a href="#defCalorEsp">expresiones anteriores</a> llegamos a los siguientes resultados de Calor específico y su error:
 
+<div>
 $$
 
 C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inicial})}
@@ -416,6 +461,7 @@ C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inic
 
 = 1.67 \cdot 10^{-3} \quad \frac{[Cal]}{[g \cdot K]}
 $$
+</div>
 
 Si lo comparamos con el valor de wikipedia, que es de \\(C_e = 0.09 \quad \frac{[Cal]}{[g \cdot K]}\\), vemos que el error no es tanto si tenemos en cuenta que el material de laboratorio utilizado no es totalmente preciso. Al igual que antes podemos ver con el resultado, en este caso menos, hay una perdida de calor por lo que le cuesta más trabajo subir de temperatura y eso se aprecia en el calor específico.
 
@@ -434,6 +480,7 @@ En este caso la **fuente de alimentación** estaba a **11 voltios a 2.9 amperios
 
 Con las <a href="#defError">expresiones anteriores</a> llegamos a los siguientes resultados de la regresión lineal:
 
+<div>
 $$
 
 Y = 37.2 \cdot 10^{-4} \cdot X + 23.45 \quad [ºC]
@@ -443,11 +490,13 @@ Y = 37.2 \cdot 10^{-4} \cdot X + 23.45 \quad [ºC]
 \Delta m = 0.3 \cdot 10^{-4} \quad \frac{[ºC]}{[Cal]}
 
 $$
+</div>
 
 #### Cálculo de calor específico con sus errores absolutos
 
 Con las <a href="#defCalorEsp">expresiones anteriores</a> llegamos a los siguientes resultados de Calor específico y su error:
 
+<div>
 $$
 
 C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inicial})}
@@ -470,6 +519,7 @@ C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inic
 = 3.67 \cdot 10^{-3} \quad \frac{[Cal]}{[g \cdot K]}
 
 $$
+</div>
 
 Si lo comparamos con el valor de wikipedia, que es de \\(C_e = 0.21 \quad \frac{[Cal]}{[g \cdot K]}\\), nos ocurre igual que en los casos anteriores.
 
@@ -489,6 +539,7 @@ En este caso la **fuente de alimentación** estaba a **11 voltios a 2.9 amperios
 
 Con las <a href="#defError">expresiones anteriores</a> llegamos a los siguientes resultados de la regresión lineal:
 
+<div>
 $$
 
 Y = 101.1 \cdot 10^{-4} \cdot X + 33.0 \quad [ºC]
@@ -498,9 +549,11 @@ Y = 101.1 \cdot 10^{-4} \cdot X + 33.0 \quad [ºC]
 \Delta m = 0.3 \cdot 10^{-4} \quad \frac{[ºC]}{[Cal]}
 
 $$
+</div>
 
 #### Cálculo de calor específico con sus errores absolutos
 
+<div>
 $$
 
 C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inicial})}
@@ -523,6 +576,7 @@ C_e = \frac{V \cdot I \cdot t}{4.18} \cdot \frac{1}{m \cdot (T_{final} - T_{inic
 = 2.1 \cdot 10^{-3} \quad \frac{[Cal]}{[g \cdot K]}
 
 $$
+</div>
 
 Si lo comparamos con el valor de wikipedia, que es de \\(C_e = 0.11 \quad \frac{[Cal]}{[g \cdot K]}\\), nos ocurre igual que en los casos anteriores.
 

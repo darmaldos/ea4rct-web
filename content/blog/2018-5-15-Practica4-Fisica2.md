@@ -10,7 +10,7 @@ tags: [
   "Soluciones",
   "Practicas"
 ]
-categories: [
+categorias: [
   "Apuntes",
   "Física II"
 ]
@@ -27,12 +27,11 @@ Esta práctica consistirá en el manejo de las lentes del banco de óptica, para
 La imagen de un objeto a través de una lente delgada, verifica la siguiente relación:
 
 $$
-
 \frac{1}{f'} = \frac{1}{s'} + \frac{1}{s}
-
 $$
 
 En donde:
+
 * \\(s\\) es la distancia objeto (distancia entre el objeto y la lente)
 * \\(s'\\) es la distancia imagen (distancia entre la imagen y la lente)
 * \\(f'\\) es la distancia focal de la lente. Se define también la potencia de la lente como \\(\frac{1}{f'}\\)
@@ -45,6 +44,7 @@ En donde:
 ### Realización de la práctica - Parte 1 - Lente convergente
 
 Desplazando la lente convergente a través del soporte se nos pide:
+
 * Si colocamos la **lente convergente** entre la luz y la pantalla, ¿cuántas posiciones de la lente hay para que la imagen en la pantalla sea nítida?
 * En este caso ¿qué relación hay entre los tamaños de la imagen para dichas posiciones?
 * ¿Qué distancia entre objeto y pantalla sería la adecuada para tener el mínimo error en la medida de la distancia focal de la lente?
@@ -68,13 +68,9 @@ La pregunda de en qué posición sería la mejor para tener el menor error posib
 
 
 $$
-
 \frac{1}{f'} = \frac{1}{s'} + \frac{1}{s}
-
 \\
-
 \Delta \frac{1}{f'} = \Bigg \lvert \frac{\delta \frac{1}{f'}}{\delta s'} \Bigg \lvert \Delta s' + \Bigg \lvert \frac{\delta \frac{1}{f'}}{\delta s} \Bigg \lvert \Delta s = \frac{1}{s'^2} \Delta s' + \frac{1}{s^2} \Delta s
-
 $$
 
 
@@ -85,25 +81,17 @@ Es decir, que el error depende de lo anterior, por lo que se minimiza el error c
 **En la primera posición de la imagen nítida**:
 
 $$
-
 s = 22.6 \cdot 10^{-2} \ m \qquad s' = 91.4 - 22.6 = 68.8 \cdot 10^{-2} \ m
-
 \\
-
 P = \frac{1}{f'}= \frac{1}{68.8 \cdot 10^{-2}} + \frac{1}{22.6 \cdot 10^{-2}} = 5.87 \ dioptrías
-
 $$
 
 **En la segunda posición de la imagen nítida**:
 
 $$
-
 s = 68.5 \cdot 10^{-2} \ m \qquad s' = 91.4 - 68.5 = 22.9 \cdot 10^{-2} \ m
-
 \\
-
 P = \frac{1}{f'}= \frac{1}{22.9 \cdot 10^{-2}} + \frac{1}{68.5 \cdot 10^{-2}} = 5.83 \ dioptrías
-
 $$
 
 Que los resultados sean iguales es bastante bueno, pues esto significa que lo estamos haciendo bien porque en ningún momento hemos cambiado la lente, con lo que la potencia en las dos posiciones tiene que ser la misma.
@@ -111,29 +99,19 @@ Que los resultados sean iguales es bastante bueno, pues esto significa que lo es
 El error de la medida la hemos expresado antes. El error de nuestra regla es de \\(\pm 0.001 \ m\\). Para la **primera posición** tenemos un error de:
 
 $$
-
 \Delta \frac{1}{f'} = \Bigg \lvert \frac{\delta \frac{1}{f'}}{\delta s'} \Bigg \lvert \Delta s' + \Bigg \lvert \frac{\delta \frac{1}{f'}}{\delta s} \Bigg \lvert \Delta s = \frac{1}{s'^2} \Delta s' + \frac{1}{s^2} \Delta s
-
 \\
-
 = \frac{1}{(68.8 \cdot 10^{-2})^2} 0.001 + \frac{1}{(22.6 \cdot 10^{-2})^2} 0.001 = 0.02 \ dioptrías
-
 \\
-
 \Rightarrow P = \frac{1}{f'}= \frac{1}{68.8 \cdot 10^{-2}} + \frac{1}{22.6 \cdot 10^{-2}} = 5.87 \pm 0.02 \ dioptrías
-
 $$
 
 Por tanto, el error **para la segunda posición** será de:
 
 $$
-
 \Delta \frac{1}{f'} = \frac{1}{(22.9 \cdot 10^{-2})^2} 0.001 + \frac{1}{(68.5 \cdot 10^{-2})^2} 0.001 = 0.02 \ dioptrías
-
 \\
-
 \Rightarrow P = \frac{1}{f'}= \frac{1}{22.9 \cdot 10^{-2}} + \frac{1}{68.5 \cdot 10^{-2}} = 5.83 \pm 0.02 \ dioptrías
-
 $$
 
 ### Fundamento teórico - Parte 2
@@ -144,27 +122,28 @@ Una lente divergente no forma una imagen real, sino una virtual. Para poder ver 
 
 Teniendo en cuenta las expresiones:
 
+<div>
 $$
 
 D_1 = \frac{1}{s'_ {1}} + \frac{1}{s_ {1}}; \qquad -s_2 = s'_ 1 - d; \qquad D_2 = \frac{1}{s'_ {2}} + \frac{1}{s_ {2}}
 
 $$
+</div>
 
 Donde \\(D_1\\) es la potencia calculada en el apartado anterior para la lente convergente y \\(D_2\\) es la potencia de la lente divergente.
 
-Llamando \\(A = 1/s_1\\) y \\(B = 1/s'_ 2\\)
+Llamando \\( A = 1/s_ 1 \\) y \\( B = 1/s'_ 2 \\)
 
 La potencia de la lente divergente se puede calcular mediante la expresión siguiente:
 
 $$
-
 D_2 = B - \frac{D_1 - A}{1 - d(D_1 - A)}
-
 $$
 
 ### Realización de la práctica - Parte 2 - Lente divergente
 
 En esta parte se pide:
+
 * Encontrar tres posciones diferentes para la pantalla y las dos lentes, de manera que forme una imaagen nítida en la pantalla.
 * Escoger de entre las tres posiciones anteriores una y calcular a partir de ella la potencia de la lente divergente así como su error.
 
@@ -186,44 +165,39 @@ Moviendo las lentes hemos encontrado las siguientes posiciones donde la imagen e
 
 Para hacer esta parte vamos a coger la primera posición, es decir:
 
+<div>
 $$
-
 s_1 = 0.272 \pm 0.001 \ m; \qquad s'_ 2 = 0.389 \pm 0.001 \ m; \qquad d = 0.253 \pm 0.001 \ m
-
 $$
+</div>
 
-De la parte anterior, sabemos que la potencia de la lente será \\(D_1 = 5.87 \pm 0.02\\) dioptrías. Entonces podemos determinar \\(s'_ 1\\):
+De la parte anterior, sabemos que la potencia de la lente será \\(D_ 1=5.87\pm0.02\\) dioptrías. Entonces podemos determinar \\( s'_ 1 \\):
 
+<div>
 $$
-
 5.87 = \frac{1}{s'_ 1} + \frac{1}{0.272} \Rightarrow s'_ 1 = 0,454 \ m
-
 $$
+</div>
 
 Con todo lo anterior ya podremos determinar A y B, y también la potencia de la lente divergente:
 
+<div>
 $$
-
 A = \frac{1}{s_1} = \frac{1}{0.272} = 3.67 \ m^{-1} \qquad B = \frac{1}{s'_ 2} = \frac{1}{0.389} = 2.57 \ m^{-1}
-
-
 \\
-
 D_2 = B - \frac{D_1 - A}{1 - d(D_1 - A)} = 2.57 - \frac{5.87 - 3.67}{1 - 0.253(5.87 - 3.67)} = -2.43 \ dioptrías
-
 $$
+</div>
 
 Para calcular su error será:
 
+<div>
 $$
-
 \Delta D_2 = \Bigg \lvert \frac{\delta D_2}{\delta B} \Bigg \lvert \Delta B + \Bigg \lvert \frac{\delta D_2}{\delta D_1} \Bigg \lvert \Delta D_1 + \Bigg \lvert \frac{\delta D_2}{\delta A} \Bigg \lvert \Delta A + \Bigg \lvert \frac{\delta D_2}{\delta d} \Bigg \lvert \Delta d = 0.033 \ dioptrías
-
 \\
-
 \Rightarrow D_2 = -2.43 \pm 0.033 \ dioptrías
-
 $$
+</div>
 
 Los resultados obtenidos son totalmente razonables. Como por ejemplo que la lente divergente tenga potencia negativa, pues es cómo debería de ser. Los valores de los errores son muy bajos, eso también nos da una idea de que vamos en buen camino.
 
