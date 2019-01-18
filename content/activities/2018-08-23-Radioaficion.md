@@ -7,10 +7,9 @@ subtitle: "23 de agosto del 2018 / Liceo Erasmus, Almería"
 description: "Introducción rápida de qué es la radioafición, cuales son sus posibilidades y cómo poder recibir fotografias desde la mismísima Estación Espacial Internacional"
 
 #Fecha
-startTime: "19:30"
-endTime: "21:00"
-
-date: 2018-09-23T19:30:00
+date: 2018-09-23
+startDate: 2018-09-23T19:30:00
+endDate: 2018-09-23T21:00:00
 
 #Lugar
 place: "Liceo ERASMUS Bilingual School"
@@ -20,8 +19,8 @@ postalCode: "04002"
 map: https://goo.gl/maps/ccEReJxB1HH2
 
 
-categories:
-- actividades
+category: actividades
+user: A100
 ---
 
 <p align="center">

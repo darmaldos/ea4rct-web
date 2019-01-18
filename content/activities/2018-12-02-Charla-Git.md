@@ -17,8 +17,8 @@ locality: "Madrid"
 postalCode: "28040"
 map: https://goo.gl/maps/VojD4d6S7An
 
-categories:
-- actividades
+category: actividades
+user: A100
 ---
 
 <p align="center">

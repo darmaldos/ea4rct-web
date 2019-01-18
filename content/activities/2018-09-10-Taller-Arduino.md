@@ -4,11 +4,13 @@ layout: actividad
 #Datos del Evento
 title: "Taller de Introducción a Arduino"
 subtitle: "10 de octubre del 2018 / ETSIT UPM, Madrid"
+description: "Taller introductorio a la plataforma arduino"
 
-startTime: "13:00"
-endTime: "15:00"
+#Fecha
+date: 2018-10-10
+startDate: 2018-10-10T13:00:00
+endDate: 2018-10-10T15:00:00
 
-date: 2018-10-10T13:00:00
 
 #Lugar
 place: "Radioclub, ETSIT UPM, Madrid"
@@ -17,8 +19,8 @@ locality: "Madrid"
 postalCode: "28040"
 map: https://goo.gl/maps/VojD4d6S7An
 
-categories:
-- actividades
+category: actividades
+user: A100
 ---
 
 <div style="text-align:center;"><br/>Miércoles 10 de Octubre del 2018 / ETSIT UPM</div>
