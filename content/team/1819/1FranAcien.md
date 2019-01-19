@@ -10,5 +10,5 @@ gitea: "https://git.ea4rct.org/acien101"
 correo: "f.acien@upm.es"
 webpersonal: "https://acien101.github.io/BlaBlaBla"
 
-curso: 1819
+curso: 18-19
 ---

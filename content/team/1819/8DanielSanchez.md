@@ -8,5 +8,5 @@ twitter: "https://twitter.com/danny_arsenal98"
 correo: "danielsanchezponce98@gmail.com"
 instagram: "https://www.instagram.com/dani_sanchezp98/"
 
-curso: 1819
+curso: 18-19
 ---

@@ -8,5 +8,5 @@ twitter: "https://twitter.com/sergiosan98"
 correo: "sergiosanchezlara98@gmail.com"
 instagram: "https://www.instagram.com/sergio9806/"
 
-curso: 1819
+curso: 18-19
 ---

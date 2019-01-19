@@ -6,5 +6,5 @@ estudios: "Estudiante del grado en Ingeniería de Tecnologías y Servicios de Te
 
 correo: "nachol2013@gmail.com"
 
-curso: 1819
+curso: 18-19
 ---

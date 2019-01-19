@@ -8,5 +8,5 @@ twitter: "https://twitter.com/martuus97"
 correo: "marta.dfuente@alumnos.upm.es"
 instagram: "https://www.instagram.com/martuus97/"
 
-curso: 1819
+curso: 18-19
 ---

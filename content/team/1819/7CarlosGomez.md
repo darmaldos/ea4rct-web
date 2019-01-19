@@ -8,5 +8,5 @@ twitter: "https://twitter.com/goroca98"
 correo: "gorocarlos98@gmail.com"
 instagram: "https://www.instagram.com/goroca98/"
 
-curso: 1819
+curso: 18-19
 ---

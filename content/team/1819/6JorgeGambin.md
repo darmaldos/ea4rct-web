@@ -4,5 +4,5 @@ pic: "/team/jorgegambin.jpg"
 funcion: "Vocal de nevera"
 estudios: "Estudiante del grado en Ingeniería de Tecnologías y Servicios de Telecomunicación"
 
-curso: 1819
+curso: 18-19
 ---

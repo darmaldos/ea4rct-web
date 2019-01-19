@@ -9,5 +9,5 @@ correo: clariandi@gmail.com
 instagram: "https://www.instagram.com/claraandi/"
 linkedin: "https://www.linkedin.com/in/clara-andina-sierra-36b6ab14a"
 
-curso: 1718
+curso: 17-18
 ---
