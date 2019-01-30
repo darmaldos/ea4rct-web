@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: ¿Cómo se apunta al examen de radioaficionados?
-date: 2018-09-23
+date: 2019-01-28
 tags: [
   "Radioafición"
 ]
@@ -33,4 +33,4 @@ Hay que tener en cuenta que el examen se puede hacer cualquier día laboral.
 
 Para practicar podemos hacer ejercicios online, [ejercicios de FEDIEA](https://www.fediea.org/examen/ejercicios/), [ejercicios de la URE](https://www.ure.es/examenes/electricidad-y-radioelectricidad/) o [ejercicios de la URE normativa](https://www.ure.es/examenes/reglamentacion/).
 
-Como veis es super sencillo. Así que, ¿a qué estamos esperando para hacer el examen¿
+Como veis es super sencillo. Así que, ¿a qué estamos esperando para hacer el examen?

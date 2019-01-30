@@ -8,6 +8,9 @@
       {{ with .Params.subtitle }}<h2 class="article-subtitle">{{ . }}</h2>{{ end }}
       <hr class="article-title-bottom">
       <ul class="article-meta">
+        {{- if .Params.author}}
+          <li>{{ .Params.author}} -</li>
+        {{- end}}
         <li class="article-meta-date"><time>{{ .Date.Format (default "January 2, 2006" $.Site.Params.dateFormat) }}</time></li>
         {{- if .Params.categorias }}
         {{- range .Params.categorias }}
