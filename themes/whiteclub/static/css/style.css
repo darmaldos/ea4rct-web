@@ -161,6 +161,9 @@ blockquote blockquote blockquote blockquote {
   max-width: 100%;
   box-sizing: border-box;
   padding: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .article > table {
   width: auto;
