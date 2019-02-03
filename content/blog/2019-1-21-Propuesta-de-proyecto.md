@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: "Propuesta de proyecto: Recepción de telemetría del satélite NOAA 19"
-date: 2019-01-21
+date: 2019-01-31
 author: "Fran Acién"
 tags: [
   "Radioafición",
@@ -13,14 +13,6 @@ categorias: [
   "Radioafición"
 ]
 ---
-
-* Telemetria/telecomandos
-* SSTV
-* TLE
-* Diagramas polares
-* NOAA 19
-* Directividad antenas
-* SDR
 
 Para este nuevo cuatrimestre se va a intentar hacer 2 proyectos relacionados con radio: La recepción de las ondas de Júpiter (por Marta Donate), y la recepción de telemetría del satélite NOAA 19. Este artículo será un repaso de algunos conceptos importantes de cara a realizar este proyecto. Con lo que, **si alguien está interesado en ayudar tendrá que leer y comprender los siguiente puntos**. Empezamos.
 
@@ -43,12 +35,15 @@ Necesitaremos de una antena con algo de directividad, un receptor de radio (posi
 
 ## Vocabulario
 
-Telemetría. Información que **baja desde** el satélite.
-Telecomando. Comando que **sube hacia** el satélite.
+* **Telemetría**. Información que **baja desde** el satélite.
+
+* **Telecomando**. Comando que **sube hacia** el satélite.
+
+* **Transpondedor**. Emisor/Receptor que está en un satélite. En un satélite, cada transpondedor se utiliza para una cosa distinta, por ejemplo uno para emitir imagenes, otra para emitir telemetría, otra para recibir telecomandos, etc.
 
 ## NOAA 19
 
-El NOAA 19 es un satélite meteorológico lanzado por la NASA en 2009 que tiene  **5 transpondedores**, esto es que tiene 5 emisores/receptores.
+El NOAA 19 es un satélite meteorológico lanzado por la NASA en 2009 que tiene  **5 transpondedores**.
 
 El que a nosotros nos interesa es el **emisor de SSTV** que está en 137.100 MHZ. Pues este transpondedore está emitiendo imagenes en SSTV.
 
@@ -58,7 +53,7 @@ El SSTV es la Televisión de barrido lento. Un método para transmitir imágenes
 
 Normalmente hay unas frecuencias para SSTV en todas las bandas de radioaficionado. Uno de los más usados es en 144.500 Mhz
 
-## ¿Dónde está este satélite?
+## ¿Dónde está el satélite?
 
 Este satélite dará algunos pases (de 3 a 4) por el cielo de Madrid durante un día. **Un pase** es cuando un satélite entra por un horizonte y sale por el otro, esto suele durar desde 5 minutos (si tiene muy poca elevación) o 15 minutos (si tiene mucha elevación).
 
@@ -68,7 +63,7 @@ Para saber dónde está el satélite vamos a utilizar los llamados TLE's. Un **T
 
 **Cuidado con esto, porque los TLE's tiene caducidad. Cada semana hay que actualizarlos con celestrak porque pierden precisión**
 
-Una vez se tiene el TLE hay que **propagar** la trayectoria del satélite. Le vas dando valores a la *ecuación matemática* para saber su posición, por ejemplo dentro de 4 días 3 horas 2 mintos y 3 segundos.
+Una vez se tiene el TLE hay que **propagar** la trayectoria del satélite. Le vas dando valores a la *ecuación matemática* para saber su posición, por ejemplo dentro de 4 días 3 horas 2 minutos y 3 segundos.
 
 Para encontrar el TLE de nuestro satélite, el NOAA 19, vamos [aquí][1]. En este momento, tiene el siguiente TLE:
 
@@ -116,12 +111,56 @@ La idea inicial es que elijamos una antena y la construyamos en una sesión de b
 
 ## El receptor de radio
 
+Es importante que nuestro receptor de radio tenga las características correctas para nuestra misión. Necesitaremos tener un receptor de radio que trabaje en nuestra banda de frecuencias y que tenga el ancho de banda correcto.
 
+* Cómo hemos dicho antes, **recibiremos la señal de SSTV en torno a 137.100 MHz**, ya que por el efecto doppler (el satélite va a toda ostia) la frecuencia se modificará un poco.
 
+* SSTV normalmente sólo utiliza un máximo de 3 kHz de ancho de banda.
+
+En el radio tenemos un receptor de radio especializado en satélites, la ICOM 9500, que es una radio muy buena que nos donó alguien de aeronautica. Pero... **tiene un problema**, ICOM 9500 no puede recibir frecuencias de 137.100 MHZ porque está **cerrada en banda**.
+
+Cuando una radio está **cerrada en banda** quiere decir que no puede acceder a bandas que no son de radioaficionado. **¿Por qué?**, para no meternos en lios. De hecho, si la policia te pilla con una radio **abierta en banda** te puede multar. Una radio abierta en banda es peligrosa porque tienes la libertad de meter ruido a la banda de la policia, de los aviones, etc.
+
+En cambio, tenemos otro "receptor" de radio. **Un SDR de Funcube**.
+
+## ¿Qué es un SDR?
+
+Los SDR son super útiles para hacer radio y otras muchísimas cosas, y cuestan muuuuy poco dinero. Es por esto que en los últimos años están super de moda.
+
+![SDR](/blog/2019-01-28/sdr.jpg)
+
+La historia de los SDR's es graciosa. Porque en realidad son aparatos que estaban diseñados como TDT para el ordenador. Pero cuando alguien descubrión que si hackeabas el software se podía utilizar como receptor de radio, pues revolucionó el mundo de la radioafición. Además, son cacharros capaces de recibir un margen de frecuencias super grande (150KHz a 250Mhz y 410Mhz a 1900Mhz). Y todo esto por menos de 5€ (los más baratos).
+
+Los SDR son super útiles porque se ve en la pantalla un waterfall de la banda de frecuencias en la que estás. En una radio convencional tendriamos que movernos frecuancia a frecuencia para ver si están emitiendo. Pero en un SDR vemos de forma visual en qué frecuencias está emitiendo. Esto se hace porque va cogiendo "cachitos" de todas las frecuencias y ve donde se está recibiendo más potencia.
+
+![Web SDR](/blog/2019-01-28/web-sdr.gif)
+
+Para utilizar un SDR se puede hacer de muchas formas, incluso en páginas web dejan utilizar SDR's **los webSDR's**. Pero nosotros **vamos a utilizar el programa Gqrx**. Es un programa de software libre para poder utilizar los SDR's.
+
+[Gqrx](http://gqrx.dk/)
+
+![gqrx](/blog/2019-01-28/gqrx.jpg)
+
+Y con todo eso deberiamos de poder recibir la señal del NOAA 19.
+
+## Resumen
+
+Los pasos del proyecto serían:
+
+1. Buscar una antena que cumpla nuestras especificaciones.
+2. Construir la antena.
+3. Probarla con un SDR (por ejemplo).
+4. Ver cuando sería el próximo pase del NOAA 19 con una elevación aceptable.
+5. Preparar todo para la recepción. Antenas en la dirección correcta, la frecuencia correcta (cuidado con el efecto doppler), el **Gqrx** a punto, sincronizados con un reloj y brujula en mano.
+6. Con la recepción grabada, tendriamos que decodificar el **SSTV** y nos debería de dar la imagen que queremos.
+
+**Si te quieres unir al proyecto, háblame y te tendré en cuenta. Por lo pronto habrá una sesión para pensar que antena vamos a construir, y luego construirla.**
 
 ## Referencias
 
 https://db.satnogs.org/satellite/33591/
+
 https://en.wikipedia.org/wiki/NOAA-19
+
 [1]: https://celestrak.com/NORAD/elements/noaa.txt
 [2]: https://github.com/shashwatak/satellite-js
