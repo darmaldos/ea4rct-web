@@ -46,3 +46,24 @@
 hr.style2 {
 	border-top: 1px dashed grey;
 }
+
+.slideshow {
+  margin-bottom: 15px;
+}
+
+.carousel-item{
+    height: 300px;
+}
+
+.carousel-item img {
+  width: 100% !important;
+  display: block !important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
