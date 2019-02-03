@@ -4,7 +4,7 @@ layout: actividad
 category: actividades
 
 #Datos del Evento
-title: "Curso de Picosatélites y Servicide de Radioaficionados por Satélite"
+title: "Curso de Picosatélites y Servicio de Radioaficionados por Satélite"
 subtitle: "6 sesiones de 2h, desde el 12 de febrero del 2019 / ETSIT UPM, Madrid"
 description: "Se trata de presentar una panorámica sobre los picosatélites, su operativa y los elementos
 técnicos comunes con el Servicio de Radioaficionados por satélite. En ambos casos se suelen
