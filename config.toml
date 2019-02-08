@@ -1,4 +1,4 @@
-baseurl = "https://ea4rct.org/"
+baseurl = "https://radio.clubs.etsit.upm.es"
 title = "RadioClub EIT"
 theme = "whiteclub"
 languageCode = "es"
@@ -24,7 +24,7 @@ buildfuture = true
 [params.about]
   twitter = "ea4rct"
   #github = "Github username"
-  gitea = "http://git.ea4rct.org"
+  gitea = "http://git.radio.clubs.etsit.upm.es"
   email = "info@ea4rct.org"
 
   localizacion =  "Avenida Complutense Nº30 Local 101.3-L"
