@@ -1,6 +1,6 @@
 ---
 nombre: "Carlos Gómez Rodríguez"
-pic: "/team/cgomez.jpg"
+pic: "/team/cgomez.jpeg"
 funcion: "Vocal de organización"
 estudios: "Estudiante del grado en Ingeniería de Tecnologías y Servicios de Telecomunicación"
 
