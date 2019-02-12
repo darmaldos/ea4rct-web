@@ -1,4 +1,5 @@
-# This is a simple script for update hugo web page hosted on gitea
+#! /bin/bash
+#This is a simple script for update hugo web page hosted on gitea
 # Due to the bad documentation of Gitea and Drone, this is a partial solution
 #
 # YOU HAVE TO SET BASE_DIR AS A ENV VARIABLE LIKE THIS `export WEB_BASE_DIR="PATHOFHUGOREPO/"``
