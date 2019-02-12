@@ -12,9 +12,6 @@ utilizar satélites de órbita baja, operando en las mismas frecuencias, ya que 
 picosatélites científicos utilizan las frecuencias atribuidas al servicio de radioaficionados por
 satélite."
 
-#Cuando publicas la página del evento
-date: 2019-03-12
-
 #Fecha del evento
 startDate: 2019-02-12T13:00:00
 endDate: 2019-03-07T15:00:00

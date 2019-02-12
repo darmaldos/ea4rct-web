@@ -8,9 +8,6 @@ title: "Nombre del Taller"
 subtitle: "5 de diciembre del 2018 / ETSIT UPM, Madrid"
 description: "Descripción breve de que trata el taller"
 
-#Cuando publicas la página del evento
-date: 2018-11-26
-
 #Fecha del evento
 startDate: 2018-12-05T13:00:00
 endDate: 2018-12-05T14:50:00

@@ -8,9 +8,6 @@ title: "Reparación/Inspección de las antenas del RadioClub E.I.T"
 subtitle: "2 de febrero del 2019 / ETSIT UPM, Madrid"
 description: "Desde hace un tiempo no se sube al tejado de la escuela a revisar el estado de las antenas, por este motivo esta actividad consistirá en subir al tejado a revisar cómo están"
 
-#Cuando publicas la página del evento
-date: 2019-02-02
-
 #Fecha del evento
 startDate: 2019-02-02T10:00:00
 endDate: 2019-02-02T15:00:00

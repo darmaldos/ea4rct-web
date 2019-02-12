@@ -15,8 +15,8 @@
       <h3>Próximas Actividades</h3>
       <ul>
         {{ range where .Pages.ByDate "Params.category" "actividades" }}
-          {{ if .Date.After now }}
-            <li><span>{{ .Date.Format "2 Jan 2006" }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+          {{ if now.Before (time .Params.startDate) }}
+            <li><span>{{ dateFormat "02 Jan 2006" .Params.startDate }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
           {{ end }}
         {{ end }}
       </ul>
