@@ -15,7 +15,7 @@
 
             <h2>Anteriores eventos</h2>
             <ul>
-              {{ range .Pages.ByParam "startDate" }}
+              {{ range (.Pages.ByParam "startDate").Reverse }}
                 {{ if now.After (time .Params.startDate) }}
                   <li><span>{{ dateFormat "02 Jan 2006" .Params.startDate }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
                 {{ end }}

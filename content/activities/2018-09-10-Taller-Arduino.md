@@ -7,7 +7,6 @@ subtitle: "10 de octubre del 2018 / ETSIT UPM, Madrid"
 description: "Taller introductorio a la plataforma arduino"
 
 #Fecha
-date: 2018-10-10
 startDate: 2018-10-10T13:00:00
 endDate: 2018-10-10T15:00:00
 
