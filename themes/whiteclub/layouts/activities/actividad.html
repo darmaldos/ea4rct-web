@@ -6,30 +6,6 @@
       <h1 class="article-title">{{ .Title }}</h1>
       <h2 class="article-subtitle">{{ .Params.subtitle}}</h2>
       <hr class="article-title-bottom">
-      <ul class="article-meta">
-        <li class="article-description">{{ .Params.description }}</li>
-        {{- if .Params.categorias }}
-        {{- range .Params.categorias }}
-        <li class="article-meta-categories">
-          <a href="{{ "/" | relURL }}categorias/{{ . | urlize }}/">
-            <i class="fas fa-folder"></i>
-            {{ . }}
-          </a>&nbsp;
-        </li>
-        {{- end }}
-        {{- end }}
-        {{- if .Params.tags }}
-        {{- range .Params.tags }}
-        <li class="article-meta-tags">
-          <a href="{{ "/" | relURL }}tags/{{ . | urlize }}/">
-            <i class="fas fa-tag"></i>
-            {{ . }}
-          </a>&nbsp;
-        </li>
-        {{- end }}
-        {{- end }}
-      </ul>
-      {{ partial "toc.html" . }}
       {{ .Content }}
 
       {{ $startDate := (time .Params.startDate)}}
@@ -61,29 +37,11 @@
     </section>
     {{- end }}
 
-    {{ partial "share.html" . }}
-
     {{- if and .Site.DisqusShortname (or (not (isset .Params "comments")) (eq .Params.comments nil) .Params.comments) }}
     <div class="disqus-comments">
       {{ template "_internal/disqus.html" . }}
     </div>
     {{- end }}
 
-    <ul class="pager article-pager">
-      {{- if .NextInSection }}
-      <li class="pager-newer">
-          <a href="{{ .NextInSection.Permalink | relURL }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">&lt; Newer</a>
-      </li>
-      {{- else }}
-      <li class="pager-newer pager-noitem">&lt; Newer</li>
-      {{- end }}
-      {{- if .PrevInSection }}
-      <li class="pager-older">
-        <a href="{{ .PrevInSection.Permalink | relURL }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">Older &gt;</a>
-      </li>
-      {{- else }}
-      <li class="pager-older pager-noitem">Older &gt;</li>
-      {{- end }}
-    </ul>
   </div>
 {{ end }}
