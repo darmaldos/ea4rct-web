@@ -1,7 +1,8 @@
 ---
 #Tipo de contenido
 layout: actividad
-category: actividades
+categorias:
+  - actividades
 
 #Datos del Evento
 title: "Curso de Picosatélites y Servicio de Radioaficionados por Satélite"

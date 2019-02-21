@@ -1,7 +1,8 @@
 ---
 #Tipo de contenido
 layout: actividad
-category: actividades
+categorias:
+  - actividades
 
 #Datos del Evento
 title: "Reparación/Inspección de las antenas del RadioClub E.I.T"

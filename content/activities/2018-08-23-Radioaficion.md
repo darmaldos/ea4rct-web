@@ -18,7 +18,8 @@ postalCode: "04002"
 map: https://goo.gl/maps/ccEReJxB1HH2
 
 
-category: actividades
+categorias:
+  - actividades
 user: A100
 ---
 

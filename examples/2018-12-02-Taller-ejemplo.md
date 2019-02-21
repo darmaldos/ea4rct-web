@@ -1,12 +1,13 @@
 ---
 #Tipo de contenido
 layout: actividad
-category: actividades
+categorias:
+  - actividades
 
 #Datos del Evento
 title: "Nombre del Taller"
 subtitle: "5 de diciembre del 2018 / ETSIT UPM, Madrid"
-description: "Descripción breve de que trata el taller"
+description: "Descripción breve de que trata el taller"   #Descripción para el correo electrónico
 
 #Fecha del evento
 startDate: 2018-12-05T13:00:00
