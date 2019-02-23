@@ -27,7 +27,7 @@ steps:
     - eval "$(ssh-agent -s)"
     - ssh-add ~/.ssh/id_rsa
     - ssh-keyscan -H $HOST >> ~/.ssh/known_hosts
-    - scp -P $PORT public/* $USER@$HOST:$HUGO_PATH
+    - scp -r -P $PORT public/* $USER@$HOST:$HUGO_PATH
   when:
     branch:
     - master
