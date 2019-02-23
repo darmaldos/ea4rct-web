@@ -26,7 +26,7 @@ steps:
     - chmod 600 ~/.ssh/id_rsa && chmod 700 ~/.ssh
     - eval "$(ssh-agent -s)"
     - ssh-add ~/.ssh/id_rsa
-    - ssh-keyscan -H $HOST >> ~/.ssh/known_hosts
+    - ssh-keyscan -p $PORT -H $HOST >> ~/.ssh/known_hosts
     - scp -r -P $PORT public/* $USER@$HOST:$HUGO_PATH
   when:
     branch:
