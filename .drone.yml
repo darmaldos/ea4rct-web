@@ -3,7 +3,34 @@ name: default
 
 steps:
 - name: build
-  image: plugins/hugo
-  settings:
-    hugo_version: 0.55
-    validate: true
+  image: orus/hugo-builder
+  commands:
+    - hugo
+
+- name: deploy
+  image: orus/concourse-scp-resource
+  environment:
+    USER:
+      from_secret: ssh_username
+    SCP_KEY:
+      from_secret: ssh_hugo_key
+    PORT:
+      from_secret: ssh_port
+    HUGO_PATH:
+      from_secret: hugo_path
+    HOST:
+      from_secret: ssh_host
+  commands:
+    - mkdir -p ~/.ssh
+    - echo "$SCP_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa && chmod 700 ~/.ssh
+    - eval "$(ssh-agent -s)"
+    - ssh-add ~/.ssh/id_rsa
+    - ssh-keyscan -H $HOST >> ~/.ssh/known_hosts
+    - scp -P $PORT public/* $USER@$HOST:$HUGO_PATH
+  when:
+    branch:
+    - master
+    event:
+      exclude:
+      - pull_request
