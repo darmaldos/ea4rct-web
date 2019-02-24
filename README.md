@@ -36,47 +36,38 @@ Para hacer esto:
 
 1. Crea una copia del repositorio original (`junta/ea4rct-web`) en tu cuenta de usuario, esto se llama hacer un *fork*. Para ello pulsa el botón llamado *cuchillo* o *fork*:
 
-![Botón fork](/static/man/fork.png)
-
+    ![Botón fork](./static/man/fork.png)
+    
 2. Aparecerá en pantalla alguna información referente al *fork*. Con lo que estamos haciendo, crearemos una copia exacta (de la web en el momento en el que haces el fork) en tu usuario.
 
-![Botón fork](/static/man/fork2.png)
-
+    ![Botón fork](./static/man/fork2.png)
+    
 3. Clona el repositorio en tu ordenador. Para ello vete a al repositorio clonado, pulsa HTTPS, y luego copia la URL que te darán. La URL será de la forma `https://git.radio.clubs.etsit.upm.es/USUARIO/ea4rct-web.git`:
 
-![Link clonar](/static/man/clone1.png)
-
-Abre una terminal ejecuta, cambiando `URL_REPO_FORK` con la URL anteriormente copiada.:
-
-`$ git clone URL_REPO_FORK`
-
+    ![Link clonar](./static/man/clone1.png)
+    
+    Abre una terminal ejecuta, cambiando `URL_REPO_FORK` con la URL anteriormente copiada:
+    `$ git clone URL_REPO_FORK`
 4. Añade nuevas actividades/posts. Más abajo se explica cómo se hace para añadir nuevas actividades o posts paso a paso.
-
 5. Cuando tengas terminados tus cambios, revisa que todo está en orden:
-
-```
-$ cd ea4rct-web/
-$ snap run hugo server
-```
-
-En la salida del comando, te dirá que la web está en localhost, en algún puerto. Abre esa web y verás lo que has cambiado en el navegador. Revisa que todo está en órden.
-
+    ```
+    $ cd ea4rct-web/
+    $ snap run hugo server
+    ```
+    En la salida del comando, te dirá que la web está en localhost, en algún puerto. Abre esa web y verás lo que has cambiado en el navegador. Revisa que todo está en órden.
 6. Cuando tengas todo listo, sube los cambios a tu repositorio:
-
-```
-$ git add .
-$ git commit -m "COMENTARIO DE LO QUE HAS CAMBIADO"
-$ git push
-```
-
+    ```
+    $ git add .
+    $ git commit -m "COMENTARIO DE LO QUE HAS CAMBIADO"
+    $ git push
+    ```
 7. Para enviar los cambios al repositorio *global* tendrás que crear un **Pull Request**, es decir, una petición para que tus cambios se añadan al servidor, con el visto bueno de algún administrador. Ve a tu repositorio y pulsa:
 
-![Pull Request](/static/man/PR.png)
+    ![Pull Request](./static/man/PR.png)
+    
+    Eso te llevará a una pestaña donde tienes describir los cambios que has realizado. Pulsa en el botón *Crear Pull Request*, y tus cambios se enviarán al repositorio global. Cuando alguien le de el visto bueno, tus cambios se subirán a la web.
 
-Eso te llevará a una pestaña donde tienes describir los cambios que has realizado. Pulsa en el botón *Crear Pull Request*, y tus cambios se enviarán al repositorio global. Cuando alguien le de el visto bueno, tus cambios se subirán a la web.
-
-![Enviar Pull Request](/static/man/PR2.png)
-
+    ![Enviar Pull Request](./static/man/PR2.png)
 
 ## ¿Cómo añadir una nueva actividad?
 
