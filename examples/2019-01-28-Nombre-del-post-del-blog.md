@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: TÍTULO DEL POST
-date: 2019-01-28
+date: 2019-01-28  # La fecha va con la forma YYYY-MM-DD
 tags: [
   "Tag 1",
   "Tag 2"

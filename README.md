@@ -25,12 +25,62 @@ Para más información: [Install Hugo](https://gohugo.io/getting-started/install
 Para utilizar Hugo vete a la carpeta raiz  de la web y ejecuta:
 
 ```
-$ hugo server
+$ snap run hugo server
 ```
+
+## ¿Cómo trabajar con este repositorio?
+
+Para poder enviar tu trabajo a la página web tendrás que copiar el repositorio global a tu usuario personal (fork), hacer tus cambios, y luego enviarlos al repositorio global para que sea revisado por algún admin y se añada a la página web.
+
+Para hacer esto:
+
+1. Crea una copia del repositorio original (`junta/ea4rct-web`) en tu cuenta de usuario, esto se llama hacer un *fork*. Para ello pulsa el botón llamado *cuchillo* o *fork*:
+
+![Botón fork](/static/man/fork.png)
+
+2. Aparecerá en pantalla alguna información referente al *fork*. Con lo que estamos haciendo, crearemos una copia exacta (de la web en el momento en el que haces el fork) en tu usuario.
+
+![Botón fork](/static/man/fork2.png)
+
+3. Clona el repositorio en tu ordenador. Para ello vete a al repositorio clonado, pulsa HTTPS, y luego copia la URL que te darán. La URL será de la forma `https://git.radio.clubs.etsit.upm.es/USUARIO/ea4rct-web.git`:
+
+![Link clonar](/static/man/clone1.png)
+
+Abre una terminal ejecuta, cambiando `URL_REPO_FORK` con la URL anteriormente copiada.:
+
+`$ git clone URL_REPO_FORK`
+
+4. Añade nuevas actividades/posts. Más abajo se explica cómo se hace para añadir nuevas actividades o posts paso a paso.
+
+5. Cuando tengas terminados tus cambios, revisa que todo está en orden:
+
+```
+$ cd ea4rct-web/
+$ snap run hugo server
+```
+
+En la salida del comando, te dirá que la web está en localhost, en algún puerto. Abre esa web y verás lo que has cambiado en el navegador. Revisa que todo está en órden.
+
+6. Cuando tengas todo listo, sube los cambios a tu repositorio:
+
+```
+$ git add .
+$ git commit -m "COMENTARIO DE LO QUE HAS CAMBIADO"
+$ git push
+```
+
+7. Para enviar los cambios al repositorio *global* tendrás que crear un **Pull Request**, es decir, una petición para que tus cambios se añadan al servidor, con el visto bueno de algún administrador. Ve a tu repositorio y pulsa:
+
+![Pull Request](/static/man/PR.png)
+
+Eso te llevará a una pestaña donde tienes describir los cambios que has realizado. Pulsa en el botón *Crear Pull Request*, y tus cambios se enviarán al repositorio global. Cuando alguien le de el visto bueno, tus cambios se subirán a la web.
+
+![Enviar Pull Request](/static/man/PR2.png)
+
 
 ## ¿Cómo añadir una nueva actividad?
 
-Para añadir una nueva actividad a la página web, copia el fichero `examples/2018-12-02-Taller-ejemplo.md` en la carpeta `content/projects/` y llámalo con el nombre de la actividad con la forma:
+Para añadir una nueva actividad a la página web, copia el fichero `examples/2018-12-02-Taller-ejemplo.md` en la carpeta `content/activities/` y llámalo con el nombre de la actividad, siguiendo la forma `YYYY-MM-DD-Nombre-actividad.md`. Por ejemplo:
 
 ```
 2018-09-10-Taller-Arduino.md
@@ -46,7 +96,7 @@ Y las carpetas quedarán de la forma:
 
 Actualiza el fichero con la información de la actividad.
 
-Para ver la página de la actividad ejectura `hugo server` y entra en la dirección que te proporciona el comando.
+Para ver la página de la actividad ejecuta `snap run hugo server` y entra en la dirección que te proporciona el comando.
 
 ## ¿Cómo añadir un nuevo post al blog?
 
@@ -66,8 +116,32 @@ Y las carpetas quedarán de la forma:
 
 Actualiza el fichero con la información del post. Echa un vistazo antes a las categorias y los tags, para poner los tags que encajen con tu post.
 
-Para ver la página de la actividad ejectura `hugo server` y entra en la dirección que te proporciona el comando.
+Para ver la página de la actividad ejecuta `snap run hugo server` y entra en la dirección que te proporciona el comando.
 
+## Cómo añadir gente a Team
+
+La pestaña team tiene todos los miembros de la junta año por año. Para añadir nuevos miebros al team (Ej: Nueva junta) copia el fichero `examples/NOMBRE.md` en la carpeta `content/team/AÑO/` y llámalo con el nombre de la persona. Para que siga un orden (el presidente el primero), se puede poner al principio un número, que indicará de menor a mayor la posición en la web:
+
+```
+1FranAcien.md
+```
+
+Y las carpetas quedarán de la forma:
+
+```
+├── content
+│   ├── team
+|   |   ├── 1819
+│   │   |    ├── 1FranAcien.md
+│   │   |    ├── 2NachoLopez.md
+│   │   |    ├── 3SergioSanchez.md
+```
+
+Actualiza el fichero con la información de la persona.
+
+Las imágenes guárdalas en el directorio `static/team/`, y para referenciarla será `/team/facien.jpg`, por ejemplo.
+
+Para ver que todo está en órden, ejecuta `snap run hugo server` y entra en la dirección que te proporciona el comando.
 
 ## Añadiendo imágenes
 
