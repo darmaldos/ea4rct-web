@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Taller de pedales
+title: Taller de electrónica analógica aplicada a señales de audio
 date: 2019-03-06
 tags: [
   "Electrónica",
