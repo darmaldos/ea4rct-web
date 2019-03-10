@@ -9,6 +9,7 @@ correo: "gorocarlos98@gmail.com"
 instagram: "https://www.instagram.com/goroca98/"
 linkedin: "https://www.linkedin.com/in/goroca/"
 gitea: "https://git.radio.clubs.etsit.upm.es/Goroca"
+gitHub: "https://github.com/Goroca"
 
 curso: 18-19
 ---
