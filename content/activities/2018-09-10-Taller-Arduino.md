@@ -26,9 +26,18 @@ user: A100
 <div style="text-align:center;"><br/>Miércoles 10 de Octubre del 2018 / ETSIT UPM</div>
 
 <p align="center">
-  <img src="/activities/2018-09-10/capucha.gif" alt="Foto de adafruit" width="49%"/>
-  <img src="/activities/2018-09-10/gafas.gif" alt="Gafas" width="49%"/>
-  <img src="/activities/2018-09-10/patin.gif" alt="Gafas" width="66%"/>
+
+<video class="video-preview" preload="auto" muted="muted" loop="loop" autoplay="autoplay" data-error="/assets/missing%2Fmissing.png">
+<source src="https://cdn-learn.adafruit.com/guides/cropped_images/000/001/034/medium640mp4/goggles-anim.mp4?1535571422">
+<source src="https://cdn-learn.adafruit.com/guides/cropped_images/000/001/034/medium640webm/goggles-anim.webm?1535571422" type="video/webm; codecs=vp8,vorbis">
+Your browser does not support the video tag.
+</video>
+
+<video class="video-preview" preload="auto" muted="muted" loop="loop" autoplay="autoplay" data-error="/assets/missing%2Fmissing.png">
+<source src="https://cdn-learn.adafruit.com/guides/cropped_images/000/000/654/medium640mp4/skate-loop.mp4?1535049386">
+<source src="https://cdn-learn.adafruit.com/guides/cropped_images/000/000/654/medium640webm/skate-loop.webm?1535049386" type="video/webm; codecs=vp8,vorbis">
+Your browser does not support the video tag.
+</video>
 </p>
 
 ### DESCRIPCIÓN
