@@ -13,7 +13,7 @@ categorias: [
 ]
 ---
 
-El **próximo día 7 de abril de 2019 el RadioClub EIT de la ETSIT UPM, nosotros, daremos una charla** rápida de **Cómo administrar un RadioClub en una Escuela Universitaria de Ingeniería en el congreso STARcon celebrado en la ETSIT UPM**.
+El **próximo día 7 de abril de 2019, el RadioClub EIT de la ETSIT UPM dará una charla** rápida de **Cómo administrar un RadioClub en una Escuela Universitaria de Ingeniería en el congreso STARcon celebrado en la ETSIT UPM**.
 
 Más información del congreso en la [página de la actividad](../../activities/2019-04-06-starcon/), o en la [web de STARcon](https://starcon-ea.github.io/).
 
@@ -23,7 +23,7 @@ El abstract de la charla es el siguiente:
 
 ---
 
-El RadioClub EIT de la ETSIT UPM tiene mucha historia, por él pasado mucha gente, y la tecnología ha ido cambiando. Por eso es vital seguir una metodología a la hora de hacer las cosas. Para que lo entiendas tú, la comunidad y la gente que vendrá.
+El RadioClub EIT de la ETSIT UPM tiene mucha historia, por él ha pasado mucha gente, y la tecnología ha ido cambiando. Por eso es vital seguir una metodología a la hora de hacer las cosas. Para que lo entiendas tú, la comunidad y la gente que vendrá.
 
 En esta línea, hemos desarrollado la [Página web del RadioClub](https://radio.clubs.etsit.upm.es/) dónde intentamos reflejar todo el trabajo desarrollado en el club. La página web se gestiona con **Gitea**, autogestionada en nuestros equipos.
 
