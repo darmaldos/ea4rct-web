@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: El RadioClub E.I.T en la STARcon
-date: 2019-04-21  # La fecha va con la forma YYYY-MM-DD
+date: 2019-03-21  # La fecha va con la forma YYYY-MM-DD
 tags: [
   "Radioafición",
   "Charla"
