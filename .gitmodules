@@ -1,0 +1,3 @@
+[submodule "themes/whiteclub"]
+	path = themes/whiteclub
+	url = https://git.radio.clubs.etsit.upm.es/Whiteclub/Whiteclub-Hugo-Theme.git
