@@ -20,6 +20,16 @@ buildfuture = true
   description = "EA4RCT"
   avatar = "/logo.png"
 
+  # Activities info
+  [params.activities]
+
+    # Using Google calendar on "insert calendar"
+    calendarPublicURL = "https://calendar.google.com/calendar?cid=ZWE0cmN0Lm9yZ19oNjVidW1obzRydGRwNWRsYmtpajFodWxmY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+
+    # iframe from Google Calendar: Better without title, without print icon, using month, wight: 500, height: 400
+    calendarIframeSrc = "https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showPrint=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ea4rct.org_h65bumho4rtdp5dlbkij1hulfc%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FMadrid"
+
+
 # This is displayer in About page.
 [params.about]
   twitter = "ea4rct"
@@ -34,6 +44,32 @@ buildfuture = true
   # telefono =
   #horario = "De lunes a viernes de 9 a 21"
 
+# Slideshow of pictures on homepage.
+[params.slideshow]
+  [params.slideshow.pic1]
+    file = "/slideshow/junta.jpg"
+    title = "Junta 2018-19"
+    desc = "Septiembre 2018"
+  [params.slideshow.pic2]
+    file = "/slideshow/terraza.jpg"
+    title = "Actividad de reparación de las antenas"
+    desc = "Feb 2019"
+  [params.slideshow.pic3]
+    file = "/slideshow/taller-arduino.jpg"
+    title = "Taller de arduino"
+    desc = "Oct 2018"
+  [params.slideshow.pic4]
+    file = "/slideshow/radio.jpg"
+    #title = "Fourth great pic"
+    #desc = "This pic was on West Africa"
+  [params.slideshow.pic5]
+    file = "/slideshow/pedales.jpg"
+    title = "Taller de pedales de guitarra"
+    desc = "Feb 2019"
+  [params.slideshow.pic6]
+    file = "/slideshow/jackbox.jpg"
+    #title = "Sixth pic"
+    desc = "Un jackbox en el Radio"
 
 [taxonomies]
   category = "categorias"
