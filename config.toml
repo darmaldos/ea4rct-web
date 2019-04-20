@@ -24,11 +24,12 @@ buildfuture = true
   [params.activities]
 
     # Using Google calendar on "insert calendar"
-    calendarPublicURL = "https://calendar.google.com/calendar?cid=ZWE0cmN0Lm9yZ19oNjVidW1obzRydGRwNWRsYmtpajFodWxmY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+    calendarPublicURL = 'https://calendar.google.com/calendar/embed?src=ea4rct.org_h65bumho4rtdp5dlbkij1hulfc%40group.calendar.google.com&ctz=Europe%2FMadrid'
 
     # iframe from Google Calendar: Better without title, without print icon, using month, wight: 500, height: 400
-    calendarIframeSrc = "https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showPrint=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ea4rct.org_h65bumho4rtdp5dlbkij1hulfc%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FMadrid"
-
+    calendarIframe = '''
+    <iframe src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showDate=0&amp;showCalendars=0&amp;height=400&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=ea4rct.org_h65bumho4rtdp5dlbkij1hulfc%40group.calendar.google.com&amp;color=%23691426&amp;ctz=Europe%2FMadrid" style="border-width:0" width="500" height="400" frameborder="0" scrolling="no"></iframe>
+    '''
 
 # This is displayer in About page.
 [params.about]
