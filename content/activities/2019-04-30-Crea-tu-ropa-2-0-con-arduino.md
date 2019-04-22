@@ -55,13 +55,21 @@ El taller estará enfocado a utilizar la placa basada en arduino, llamada **Wemo
 
 ### ¿He de llevar algo?
 
-**Tendrás que traer el material que quieras customizar**. Deberás llevar un arduino pequeño (LilyPad, Micro o Nano) y unos LEDs (preferiblemente RGB). Un par de sensores adicionales (acelerómetros, humedad…) o un módulo bluetooth podrían dar mucho juego también. Lo más básico podría ser una camiseta, pero puedes echarle un poco de imaginación y construirte una espada laser, una sudadera con intermitentes, etc. **Al final de la actividad se verán las creaciones de todo el mundo y se votará por la más original**. ¡Ahora tienes las escusa perfecta para crear tu próximo disfraz!
+**Tendrás que traer el material que quieras customizar**. Deberás llevar un arduino pequeño (LilyPad, Micro o Nano) y unos LEDs (preferiblemente RGB). Un par de sensores adicionales (acelerómetros, humedad…) o un módulo bluetooth podrían dar mucho juego también. Lo más básico podría ser una camiseta, pero puedes echarle un poco de imaginación y construirte una espada laser, una sudadera con intermitentes, etc. **Al final de la actividad se verán las creaciones de todo el mundo y se votará por la más original**. ¡Ahora tienes las excusa perfecta para crear tu próximo disfraz!
 
 Para la realización del taller podrás traer tu propio material... ¿No sabes dónde conseguir el Arduino y los LEDS? para la actividad proporcionaremos un Kit con un precio de **5€** que contiene:
 
 * Placa Wemos D1
 * x10 Luces RGB Neopixel
 * Sensor de luminosidad
+
+---
+
+### Inscripción al evento
+
+**Si quieres asistir a esta actividad rellena el siguiente formulario**. Si quieres comprar el kit de arduino con las luces, en el formulario se podrá pedir.
+
+[Inscripción](https://forms.gle/J8XceP6XR5fTQWZ99) <https://forms.gle/J8XceP6XR5fTQWZ99>
 
 ---
 
