@@ -13,7 +13,7 @@ startDate: 2019-04-30T15:00:00
 endDate: 2019-04-30T18:00:00
 
 #Lugar
-place: "Radioclub, ETSIT UPM, Madrid, Aula por confirmar"
+place: "Radioclub, ETSIT UPM, Madrid, Aula B-11"
 street: "Av. Complutense, 30"
 locality: "Madrid"
 postalCode: "28040"
