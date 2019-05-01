@@ -52,25 +52,25 @@ buildfuture = true
     title = "Junta 2018-19"
     desc = "Septiembre 2018"
   [params.slideshow.pic2]
+    file = "/slideshow/wearables.gif"
+    title = "Taller de Wearables"
+    desc = "Abril 2019"
+  [params.slideshow.pic3]
     file = "/slideshow/terraza.jpg"
     title = "Actividad de reparación de las antenas"
     desc = "Feb 2019"
-  [params.slideshow.pic3]
+  [params.slideshow.pic4]
     file = "/slideshow/taller-arduino.jpg"
     title = "Taller de arduino"
     desc = "Oct 2018"
-  [params.slideshow.pic4]
+  [params.slideshow.pic5]
     file = "/slideshow/radio.jpg"
     #title = "Fourth great pic"
     #desc = "This pic was on West Africa"
-  [params.slideshow.pic5]
+  [params.slideshow.pic6]
     file = "/slideshow/pedales.jpg"
     title = "Taller de pedales de guitarra"
     desc = "Feb 2019"
-  [params.slideshow.pic6]
-    file = "/slideshow/jackbox.jpg"
-    #title = "Sixth pic"
-    desc = "Un jackbox en el Radio"
 
 [taxonomies]
   category = "categorias"
