@@ -48,26 +48,30 @@ buildfuture = true
 # Slideshow of pictures on homepage.
 [params.slideshow]
   [params.slideshow.pic1]
-    file = "/slideshow/junta.jpg"
-    title = "Junta 2018-19"
-    desc = "Septiembre 2018"
+    file = "/slideshow/junta1920.jpeg"
+    title = "Junta 2019-20"
+    desc = "Septiembre 2019"
   [params.slideshow.pic2]
+    file = "/slideshow/recepcionSept19.jpeg"
+    title = "Recepción telemetría satélite Meteor desde el RadioClub"
+    desc = "Septiembre 2019"
+  [params.slideshow.pic3]
     file = "/slideshow/wearables.gif"
     title = "Taller de Wearables"
     desc = "Abril 2019"
-  [params.slideshow.pic3]
+  [params.slideshow.pic4]
     file = "/slideshow/terraza.jpg"
     title = "Actividad de reparación de las antenas"
     desc = "Feb 2019"
-  [params.slideshow.pic4]
+  [params.slideshow.pic5]
     file = "/slideshow/taller-arduino.jpg"
     title = "Taller de arduino"
     desc = "Oct 2018"
-  [params.slideshow.pic5]
+  [params.slideshow.pic6]
     file = "/slideshow/radio.jpg"
     #title = "Fourth great pic"
     #desc = "This pic was on West Africa"
-  [params.slideshow.pic6]
+  [params.slideshow.pic7]
     file = "/slideshow/pedales.jpg"
     title = "Taller de pedales de guitarra"
     desc = "Feb 2019"
