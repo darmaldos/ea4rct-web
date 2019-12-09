@@ -21,7 +21,7 @@ postalCode: "28040"
 map: https://goo.gl/maps/VojD4d6S7An
 ---
 
-![](https://i.imgur.com/iQLJTDZ.jpg)
+![](https://i.imgur.com/3Lb6z0R.jpg)
 
 ### DESCRIPCIÓN
 
@@ -31,6 +31,8 @@ Que tienes que traer:
 * **La tela que quieres utilizar**. Si no tienes, avisanos y treremos una para ti.
 
 Para venir al taller solo tienes que presentarte el día indicado a la hora que empiece el taller.
+
+La documentación elaborada para la realización del taller es la siguiente -> https://codimd.ea4rct.org/s/S16nIbFar
 
 ---
 
