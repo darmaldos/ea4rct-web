@@ -19,6 +19,8 @@ buildfuture = true
   dateFormat = "2 January, 2006"
   description = "EA4RCT"
   avatar = "/logo.png"
+  favicon = "/favicon.png"
+  
 
   # Activities info
   [params.activities]
