@@ -20,7 +20,8 @@ buildfuture = true
   description = "EA4RCT"
   avatar = "/logo.png"
   favicon = "/favicon.png"
-  
+  logo = "/favicon_big.png"
+
 
   # Activities info
   [params.activities]
