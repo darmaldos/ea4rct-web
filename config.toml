@@ -21,7 +21,7 @@ buildfuture = true
   avatar = "/logo.png"
   favicon = "/favicon.png"
   logo = "/favicon_big.png"
-
+  twitter = "ea4rct"
 
   # Activities info
   [params.activities]
