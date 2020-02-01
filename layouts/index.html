@@ -17,7 +17,7 @@
     <div class="col-md-5">
       <h3>Próximas Actividades</h3>
       <ul>
-        {{ range where .Pages.ByDate "Params.layout" "actividad" }}
+        {{ range where (.Pages.Reverse.ByParam "startDate") "Params.layout" "actividad" }}
           {{ if now.Before (time .Params.startDate) }}
             <li><span>{{ dateFormat "02 Jan 2006" .Params.startDate }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
           {{ end }}
