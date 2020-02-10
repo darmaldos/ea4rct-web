@@ -14,7 +14,7 @@ startDate: 2020-02-11T15:00:00
 endDate: 2020-02-11T16:30:00
 
 #Lugar
-place: "Radioclub, ETSIT UPM, Madrid"
+place: "Aula A-102.L2, ETSIT UPM, Madrid"
 street: "Av. Complutense, 30"
 locality: "Madrid"
 postalCode: "28040"
