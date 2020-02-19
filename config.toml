@@ -69,9 +69,9 @@ disqusShortname = "radioclub-eit"
     title = "Taller de Wearables"
     desc = "Abril 2019"
   [params.slideshow.pic4]
-    file = "/slideshow/terraza.jpg"
-    title = "Actividad de reparación de las antenas"
-    desc = "Feb 2019"
+    file = "/slideshow/taller-iss.jpeg"
+    title = "Actividad de reparación de la ISS con SDR"
+    desc = "Enero 2020"
   [params.slideshow.pic5]
     file = "/slideshow/taller-arduino.jpg"
     title = "Taller de arduino"
