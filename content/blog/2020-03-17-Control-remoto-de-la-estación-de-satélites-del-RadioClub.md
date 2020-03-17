@@ -89,7 +89,7 @@ Tras 24h funcionando ininterrumpidamente tanto el rotor como el SDR, estas son a
 
 ![](https://i.imgur.com/lBHmZv5.jpg)
 
-![](https://i.imgur.com/DiHT646.jpg)
+![](https://i.imgur.com/tYhJUlr.jpg)
 
 
 
