@@ -1,16 +1,29 @@
 ---
-
-title: "Control de la estación de satélites desde dispositivos Android"
+layout:  post
 author: Pablo Álvarez
-tags: proyectos, antenas, satelites, SDR, Android, apps
+published: true
+date: 2020-03-29  # La fecha va con la forma YYYY-MM-DD
+title: "Control de la estación de satélites desde dispositivos Android"
+tags: [
+  proyectos,
+  antenas,
+  satélites,
+  SDR,
+  android,
+  apps
+]
+categorias: [
+  proyectos,
+  SDR
+]
 
 ---
 
 # Control de la estación de satélites desde dispositivos Android
 
-Debido a la actual situación en que nos encontramos (de cuarentena y sin poder salir de casa), nos es extremadamente difícil avanzar en el desarrollo de cualquier proyecto que implique el uso o diseño de hardware. Es por ello que decidimos aprovechar este periodo para la mejora de los servicios telemáticos del RadioClub (puesta a punto y actualización de servidores, automatización de tareas de mantenimiento, etc.). 
+Debido a la actual situación en que nos encontramos (de cuarentena y sin poder salir de casa), nos es extremadamente difícil avanzar en el desarrollo de cualquier proyecto que implique el uso o diseño de hardware. Es por ello que decidimos aprovechar este periodo para la mejora de los servicios telemáticos del RadioClub (puesta a punto y actualización de servidores, automatización de tareas de mantenimiento, etc.).
 
-Durante una de estas tardes de desarrollo de software surgió la siguiente conversación: 
+Durante una de estas tardes de desarrollo de software surgió la siguiente conversación:
 
 — Oye, pues estaría guapo poder mover las antenas desde el móvil.
 — ¿Para qué?
@@ -26,7 +39,7 @@ La aplicación desarrollada consta de 3 apartados: un socket TCP para la comunic
 
 ### Socket TCP
 
-Para la creación de un socket TCP, basta crear una clase AsyncTask dentro de nuestra actividad principal (las tareas relacionadas con la comunicación en red no pueden ejecutarse en la misma hebra que la intefaz de usuario, de ahí la necesidad de declararla como AsyncTask). 
+Para la creación de un socket TCP, basta crear una clase AsyncTask dentro de nuestra actividad principal (las tareas relacionadas con la comunicación en red no pueden ejecutarse en la misma hebra que la intefaz de usuario, de ahí la necesidad de declararla como AsyncTask).
 
 En nuestro caso, reutilizamos parte del código publicado en [este repositorio](https://github.com/dombrock-archive/TCPz-Android) (no es necesario reinventar la rueda), modificándolo para que en lugar de enviar mensajes arbitrarios, envíe los comandos necesarios para que nuestro servidor rotctld los reconozca. Estos comandos pueden consultarse desde [este enlace](http://manpages.ubuntu.com/manpages/xenial/man8/rotctld.8.html#commands). Concretamente, nos centraremos en los comandos *p* (get_position) y *P AZ EL* (set_position):
 
@@ -36,7 +49,7 @@ Cuando se pulse un botón en la aplicación de Android, se actualizará una vari
 
 ![](https://i.imgur.com/DLQDI3t.png)
 
-Es importante tener en cuenta que cada usuario querrá conectarse a un rotor distinto, que estará conectado a un servidor con dirección IP diferente a la nuestra. Es por ello que tanto la IP como el puerto con los que se establece la conexión se almacenarán en las variables de clase *server_address* y *server_port* y se podrán modificar desde ajustes. 
+Es importante tener en cuenta que cada usuario querrá conectarse a un rotor distinto, que estará conectado a un servidor con dirección IP diferente a la nuestra. Es por ello que tanto la IP como el puerto con los que se establece la conexión se almacenarán en las variables de clase *server_address* y *server_port* y se podrán modificar desde ajustes.
 
 ![](https://i.imgur.com/6lnGaja.png)
 
@@ -53,7 +66,7 @@ Una segunda clase llamada SettingsFragment se encargará del manejo del objeto S
 
 ### Lectura de los próximos satélites
 
-Es importante que lo usuarios de la aplicación tomen conciencia y eviten mover las antenas mientras se está recibiendo un satélite meteorológico. Para identificar cuándo se recibirá uno de setos satélites, aprovechamos que sabemos de antemano que la estación captará automáticamente aquellos pasos de los satélites NOAA 15, 18 y 19 y Meteor M-N2 de más de 20º de elevación. Para obtener estos pasos, se pueden seguir dos caminos distintos: descargar los archivos TLE (Two Line Element) de cada satélite y realizar los cálculos pertinentes para obtener la órbita del satélite o conectarse a una API externa que ofrezca dicha información. En nuestro caso, optamos por la segunda opción, utilizando la [API de N2YO](https://www.n2yo.com/api/). 
+Es importante que lo usuarios de la aplicación tomen conciencia y eviten mover las antenas mientras se está recibiendo un satélite meteorológico. Para identificar cuándo se recibirá uno de setos satélites, aprovechamos que sabemos de antemano que la estación captará automáticamente aquellos pasos de los satélites NOAA 15, 18 y 19 y Meteor M-N2 de más de 20º de elevación. Para obtener estos pasos, se pueden seguir dos caminos distintos: descargar los archivos TLE (Two Line Element) de cada satélite y realizar los cálculos pertinentes para obtener la órbita del satélite o conectarse a una API externa que ofrezca dicha información. En nuestro caso, optamos por la segunda opción, utilizando la [API de N2YO](https://www.n2yo.com/api/).
 
 Obtener los datos que buscamos es extremadamente sencillo gracias a esta herramienta. Sólo necesitamos realizar una petición GET con el formato que nos indica la documentación y se nos devolverá un objeto JSON con los datos requeridos. Además, nos permite filtrar pasos según su elevación máxima, ahorrándonos el trabajo de tener que realizar el filtrado manualmente.
 
@@ -78,13 +91,13 @@ Finalmente, se sacarán estos datos por pantalla.
 
 ## Descarga de la aplicación
 
-Toda la información relacionada con la app se puede encontrar en su [repositorio de Gitea](https://git.radio.clubs.etsit.upm.es/Pablo/ControlAntenas_Android). 
+Toda la información relacionada con la app se puede encontrar en su [repositorio de Gitea](https://git.radio.clubs.etsit.upm.es/Pablo/ControlAntenas_Android).
 
 No sólo encontrarás el archivo .apk para la instalación, sino todo el código fuente de la applicación y los archivos necesarios para la importación del proyecto desde Android Studio.
 
 ## Conclusión
 
-Graacias a este proyecto aprendimos a implementar comunicaciones en red en aplicaciones android (tanto peticiones web como sockets). Si bien su utilidad práctica parece reducida, no deja de ser una forma más de intentar modernizar los equipos de radio, adaptándolos a los tiempos actuales. 
+Graacias a este proyecto aprendimos a implementar comunicaciones en red en aplicaciones android (tanto peticiones web como sockets). Si bien su utilidad práctica parece reducida, no deja de ser una forma más de intentar modernizar los equipos de radio, adaptándolos a los tiempos actuales.
 
 Esperamos que demostraciones de esta aplicación ayuden también a generar un interés hacia el RadioClub y la radioafición por parte de estudiantes de nuevo ingreso o jóvenes a los que les atraigan las nuevas tecnologías.
 
