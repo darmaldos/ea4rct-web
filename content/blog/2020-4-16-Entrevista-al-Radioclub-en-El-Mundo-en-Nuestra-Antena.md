@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Entrevista al Radioclub en El Mundo en Nuestra Antena"
 author: Pablo Álvarez
-date: 2019-01-28
+date: 2020-04-16
 tags: [
   "Proyectos"
 ]
@@ -17,7 +17,7 @@ categorias: [
 
 ¡Desde el RadioClub no paramos ni en cuarentena!
 
-La semana pasada nuestros miembros Fran Acién y Pablo M. Álvarez fueron entrevistados en el programa de radio El Mundo en Nuestra Antena, donde hablamos de qué es el RadioClub, qué hacemos, nuestros proyectos y nuestro futuro. 
+La semana pasada nuestros miembros Fran Acién y Pablo M. Álvarez fueron entrevistados en el programa de radio El Mundo en Nuestra Antena, donde hablamos de qué es el RadioClub, qué hacemos, nuestros proyectos y nuestro futuro.
 
 
 
