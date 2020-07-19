@@ -59,7 +59,7 @@ Las medidas son las siguientes:
 | Long. Reflector   | 1051 |
 | Long. Dipolo (cada pata) | 490 |
 | Long. Director    | 892 |
-| Dist. Reflectos-Dipolo | 203 |
+| Dist. Reflector-Dipolo | 203 |
 | Dist. Dipolo-Director | 318 |
 
 Imagen con medidas en pulgadas:
