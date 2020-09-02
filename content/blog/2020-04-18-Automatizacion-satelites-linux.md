@@ -15,7 +15,6 @@ categorias: [
 ]
 ---
 
-# Automatización recepción de satélites meteorológicos en remoto
 
 Este post forma parte del proyecto [Estación automática para la recepción de satélites meteorológicos en VHF](https://radio.clubs.etsit.upm.es/blog/2020-02-03-propuesta-automatizacion-noaa/). Parte del proyecto consiste en automatizar la recepción de satélites en Linux, en este post te explicaremos como lo hemos hecho.
 
@@ -28,11 +27,11 @@ Por las circunstancias en las que estamos ahora no podemos estar presencialmente
 El objetivo del proyecto consiste en recibir, demodular, decodificar y subir la información a la web de los satélites meteorológicos que pasan por el cielo de nuestra estación. En el RadioClub E.I.T contamos con unas antenas de VHF/UHF con rotores de Azimuth y Elevación que se pueden controlar por TCP usando [rotctld](http://manpages.ubuntu.com/manpages/trusty/man8/rotctld.8.html). Contamos con el SDR [Airspy hf+ discovery](https://airspy.com/airspy-hf-discovery/) conectado a la antena y que podemos controlar por remoto con [spyserver](https://airspy.com/quickstart/).
 
 
-![](https://i.imgur.com/DnDK4T9.jpg)
+![](/blog/2020-04-18/1.jpg)
 
 Esto nos hace que mover las antenas y controlar el SDR se haga conectandonos a un puerto TCP. Por este motivo, el proyecto se puede testear con cualquier SDR que utilice spyserver, aunque no estemos presencialmente, o no sea nuestro incluso. En este link podemos ver algunos SDR's que podemos [utilizar remotamente](https://airspy.com/directory/#).
 
-![FOTO SPYSERVER](https://i.imgur.com/Svlc8Fe.jpg)
+![FOTO SPYSERVER](/blog/2020-04-18/2.jpg)
 
 Utilizaremos GNU/Linux en todo el proceso porque es más amigable para automatizar cosas y porque haremos todo sin interfaz gráfica. Utilizaremos únicamente herramientas libres.
 
@@ -172,11 +171,11 @@ Ya por último nos queda subir a la web nuestras recepciones. Esto no lo voy a e
 
 De esta forma nuestro bot de twitter queda así de chulo:
 
-![](https://i.imgur.com/VAP8ezc.png)
+![](/blog/2020-04-18/3.jpg)
 
 Y también hemos creado una web para poder ver las diferentes recepciones y ver toda la información del pase. Estos días haremos un post explicando esta parte porque nos parece muy interesante. Se puede encontrar en <https://archive.ea4rct.org>
 
-![](https://i.imgur.com/WX8EGEF.gif)
+![](/blog/2020-04-18/4.gif)
 
 
 
