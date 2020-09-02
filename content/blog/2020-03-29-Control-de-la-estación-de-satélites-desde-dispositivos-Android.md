@@ -16,10 +16,8 @@ categorias: [
   proyectos,
   SDR
 ]
-
+image:/blog/2020-03-29/1.jpeg
 ---
-
-# Control de la estación de satélites desde dispositivos Android
 
 Debido a la actual situación en que nos encontramos (de cuarentena y sin poder salir de casa), nos es extremadamente difícil avanzar en el desarrollo de cualquier proyecto que implique el uso o diseño de hardware. Es por ello que decidimos aprovechar este periodo para la mejora de los servicios telemáticos del RadioClub (puesta a punto y actualización de servidores, automatización de tareas de mantenimiento, etc.). 
 
@@ -238,6 +236,8 @@ Finalmente, se sacarán estos datos por pantalla.
 Toda la información relacionada con la app se puede encontrar en su [repositorio de Gitea](https://git.radio.clubs.etsit.upm.es/Pablo/ControlAntenas_Android). 
 
 No sólo encontrarás el archivo .apk para la instalación, sino todo el código fuente de la applicación y los archivos necesarios para la importación del proyecto desde Android Studio.
+
+![](/blog/2020-03-29/1.jpeg)
 
 ## Conclusión
 
