@@ -17,6 +17,7 @@ categorias: [
   "Proyecto",
   "Radioafición"
 ]
+image: /blog/2019-08-10/BBC-Test.jpg
 ---
 
 Slow-scan television (SSTV) is a method for picture transmission used by amateur radio operators to transmit and receive images. SSTV uses analog frequency modulation, in which every different value of brightness in the image gets a different audio frequency. In other words, the signal frequency shifts up or down to designate brighter or darker pixels, respectively. Color is achieved by sending the brightness of each color component separately.

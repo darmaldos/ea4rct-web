@@ -9,6 +9,7 @@ tags: [
 categorias: [
   "Radioafición"
 ]
+image: /blog/2019-03-27/santi.jpeg
 ---
 
 # Actividad de radioafición en el curso de picosatélites 2018-2019

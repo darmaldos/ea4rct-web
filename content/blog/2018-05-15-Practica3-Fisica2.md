@@ -15,12 +15,13 @@ categorias: [
   "Apuntes",
   "Física II"
 ]
+image: /blog/2018-05-15/todo_practica_3.jpg
 ---
 Esta práctica consistirá en medir la velocidad del sonido en el aire con un tubo de Kundt, micrófono y altavoz, generador de una frecuencia variable, y un oscilocopio.
 
-<img src="/blog/2018-5-15/osciloscopio_generador_senal.jpg" width="49%">
-<img src="/blog/2018-5-15/todo_practica_3.jpg" width="49%">
-<img src="/blog/2018-5-15/mic_altavoz.jpg" width="99%">
+<img src="/blog/2018-05-15/osciloscopio_generador_senal.jpg" width="49%">
+<img src="/blog/2018-05-15/todo_practica_3.jpg" width="49%">
+<img src="/blog/2018-05-15/mic_altavoz.jpg" width="99%">
 
 ### Fundamento teórico
 Con el generador de señal, le vamos a pasar una señal sinusoidal al altavoz, que enviará un onda armónicoa, \\(y_1\\), de frecuencia \\(f\\), que se desplazará en el sentido positivo del eje x. Dicha onda tendrá la forma:

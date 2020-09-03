@@ -14,6 +14,7 @@ categorias: [
   "Radioafición",
   "Charla"
 ]
+image: /blog/2018-08-08/directividad_antena.jpg
 ---
 
 Charla dada por Fran Acién en HackLab Almería el 16 de agosto de 2018, la charla de apertura de [La Jaqueria](https://lajaqueria.org/).
