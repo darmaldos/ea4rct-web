@@ -13,6 +13,7 @@ categorias: [
   "Radioafición",
   "Antenas"
 ]
+image: /blog/2019-02-05/team.jpg
 ---
 
 El pasado 02/01/2019 tuvimos la ocasión de subir al tejado del Edificio A con el objetivo de ver las antenas para recoger un poco su propósito, entender cómo funcionan y ver si se necesitaba arreglar alguna cosa. Contamos con la ayuda de Gema Ruiz (EA4RF), antigua presi del RadioClub, que nos estuvo explicando muy pacientemente la distribución del espectro radioeléctrico, algunos aparatos de radio que tenemos en el club, como identificar los cables de antena, y cada antena del tejado. A continuación dejamos un resumen de las antenas que tenemos en el tejado, su funcionalidad.

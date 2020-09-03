@@ -11,6 +11,7 @@ categorias: [
   "Actividades",
   "Charla"
 ]
+image: /blog/2019-04-30/2.jpg
 ---
 
 ![](/blog/2019-04-30/3.gif)

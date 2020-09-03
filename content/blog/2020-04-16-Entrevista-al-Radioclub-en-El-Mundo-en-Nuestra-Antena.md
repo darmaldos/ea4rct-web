@@ -10,6 +10,7 @@ tags: [
 categorias: [
   "Proyectos"
 ]
+image: /blog/2020-04-16/2.png
 ---
 
 

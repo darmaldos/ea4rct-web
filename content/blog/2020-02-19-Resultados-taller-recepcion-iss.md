@@ -17,6 +17,7 @@ categorias: [
   "Sstv"
 ]
 author: Pablo Álvarez
+image: /blog/2020-02-19/6.jpg
 ---
 
 # Taller de recepción de la ISS mediante SSTV

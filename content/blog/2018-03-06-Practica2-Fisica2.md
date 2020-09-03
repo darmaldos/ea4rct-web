@@ -15,6 +15,7 @@ categorias: [
   "Apuntes",
   "Física II"
 ]
+image: /blog/2018-03-06/eclipseOsc.jpg
 ---
 
 Esta práctica consistirá en el manejo del osciloscopio, de cómo funciona un oscilador, comparación de frecuencias (Figuras de Lissajous) y de la medida de una diferencia de fase.
@@ -26,10 +27,10 @@ El material proporcionado es el siguiente:
 * Oscilador problema
 * Panel con resistencias y condensadores
 
-<img src="/blog/2018-3-6/generadorDeOndas.jpg" width="49%">
-<img src="/blog/2018-3-6/osciloscopio.jpg" width="49%">
-<img src="/blog/2018-3-6/placaDeComponentes.jpg" width="49%">
-<img src="/blog/2018-3-6/osciladorProblema.jpg" width="49%">
+<img src="/blog/2018-03-06/generadorDeOndas.jpg" width="49%">
+<img src="/blog/2018-03-06/osciloscopio.jpg" width="49%">
+<img src="/blog/2018-03-06/placaDeComponentes.jpg" width="49%">
+<img src="/blog/2018-03-06/osciladorProblema.jpg" width="49%">
 
 ### Práctica
 

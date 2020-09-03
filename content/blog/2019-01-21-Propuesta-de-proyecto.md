@@ -12,6 +12,7 @@ tags: [
 categorias: [
   "Radioafición"
 ]
+image: /blog/2019-01-28/gqrx.jpeg
 ---
 
 Para este nuevo cuatrimestre se va a intentar hacer 2 proyectos relacionados con radio: La recepción de las ondas de Júpiter (por Marta Donate), y la recepción de telemetría del satélite NOAA 19. Este artículo será un repaso de algunos conceptos importantes de cara a realizar este proyecto. Con lo que, **si alguien está interesado en ayudar tendrá que leer y comprender los siguiente puntos**. Empezamos.

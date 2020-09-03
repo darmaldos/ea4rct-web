@@ -13,6 +13,7 @@ categorias: [
   "Radioafición",
   "Actividades"
 ]
+image: /blog/2019-09-27/meteor.jpg
 ---
 
 Durante esta semana en el RadioClub hemos estado trabajando con la Estación de Satélites. Este año tenemos pensado hacer muchos proyectos de satélites, y para probar la operatividad de nuesta estación hemos hecho algunas recepciones del NOAA 15 y el Meteor M2-2.

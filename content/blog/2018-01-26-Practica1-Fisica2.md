@@ -15,6 +15,7 @@ categorias: [
   "Apuntes",
   "Física II"
 ]
+image: /blog/2018-01-26/sustancias.jpg
 ---
 
 Esta práctica consistirá en determinar los calores específicos de diferentes sustancias. El material proporcionado es el siguiente:
@@ -25,10 +26,10 @@ Esta práctica consistirá en determinar los calores específicos de diferentes 
 * Diferentes sustancias en unos recipientes metálicos
 * Cronómetro
 
-<img src="/blog/2018-1-26/fuente_de_alimentación.jpg" width="49%">
-<img src="/blog/2018-1-26/removedor.jpg" width="49%">
-<img src="/blog/2018-1-26/sustancias.jpg" width="64%">
-<img src="/blog/2018-1-26/termometro.jpg" width="35%">
+<img src="/blog/2018-01-26/fuente_de_alimentación.jpg" width="49%">
+<img src="/blog/2018-01-26/removedor.jpg" width="49%">
+<img src="/blog/2018-01-26/sustancias.jpg" width="64%">
+<img src="/blog/2018-01-26/termometro.jpg" width="35%">
 
 Los objetivos de la prática para las sustancias de Cobre, Hierro, Aluminio y Agua:
 

@@ -14,9 +14,7 @@ categorias: [
   proyectos,
   SDR
 ]
-
-
-
+image: /blog/2020-03-17/6.jpg
 ---
 
 # Control remoto de la estación de satélites del RadioClub E.I.T.
@@ -38,7 +36,7 @@ En nuestro caso, utilizaremos la herramienta *rotctld*, la cual nos permite crea
 
 Una vez ejecutemos el comando *rotctld*, ya podremos configurar el rotor desde GPredict. Para ello, añadiremos un nuevo rotor desde el apartado Edit -> Preferences -> Interfaces -> Rotators
 
-![](https://i.imgur.com/nmSsYl1.jpg)
+![](/blog/2020-03-17/1.jpg)
 
 Tras esto, ya debería funcionar correctamente. 
 
@@ -49,7 +47,7 @@ Para conectar el SDR a internet y poder utilizarlo de forma remote, disponemos d
 
 Una vez instalado, editamos el archivo spyserver.config según nuestros gustos (añadida descripción y coordenadas, fijado número máximo de clientes, bajado el número de fps de la fft, etc.). Para comprobar que funciona correctamente, podemos acceder a la web de [Airspy](https://airspy.com/directory/#), y comprobar que aparece nuestro SDR en el mapa.
 
-![](https://i.imgur.com/Svlc8Fe.jpg)
+![](/blog/2020-03-17/2.jpg)
 
 
 ## Pruebas realizadas. 
@@ -59,19 +57,19 @@ Lo primero que hicimos fue intentar acceder tanto al SDR como al rotor desde la 
 Tras ajustar algunos detalles y corregir ciertos errores, esta mañana conseguimos trackear y recibir un paso del Meteor M2 y otro del NOAA 18 a distancia:
 
 
-![](https://i.imgur.com/3U8cWrT.jpg)
+![](/blog/2020-03-17/3.jpg)
 Paso del NOAA 18
 
-![](https://i.imgur.com/I6NoXn0.jpg)
+![](/blog/2020-03-17/4.jpg)
 Paso del Meteor M2
 
 
 Estos fueron los resultados obtenidos:
 
-![](https://i.imgur.com/MTNrryQ.jpg)
+![](/blog/2020-03-17/5.jpg)
 Imaxen do NOAA 18
 
-![](https://i.imgur.com/0dniQpJ.jpg)
+![](/blog/2020-03-17/6.jpg)
 Imaxen do Meteor M2
 
 
@@ -81,17 +79,17 @@ Actualmente estamos intentando automatizar el proceso de recepción de este tipo
 
 Tras 24h funcionando ininterrumpidamente tanto el rotor como el SDR, estas son algunas de las imágenes captadas:
 
-![](https://i.imgur.com/GlUnqZm.jpg)
+![](/blog/2020-03-17/7.jpg)
 
-![](https://i.imgur.com/u54oxHe.jpg)
+![](/blog/2020-03-17/8.jpg)
 
-![](https://i.imgur.com/nojEAQF.jpg)
+![](/blog/2020-03-17/9.jpg)
 
-![](https://i.imgur.com/lBHmZv5.jpg)
+![](/blog/2020-03-17/10.jpg)
 
-![](https://i.imgur.com/tYhJUlr.jpg)
+![](/blog/2020-03-17/11.jpg)
 
-![](https://i.imgur.com/cZ7uMjZ.jpg)
+![](/blog/2020-03-17/12.jpg)
 
 
 

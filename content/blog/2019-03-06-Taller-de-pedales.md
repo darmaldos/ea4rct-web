@@ -10,6 +10,7 @@ tags: [
 categorias: [
   "Instrumentación"
 ]
+image: /blog/2019-03-06/construccion2.jpeg
 ---
 
  

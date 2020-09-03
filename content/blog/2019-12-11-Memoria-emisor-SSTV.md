@@ -14,6 +14,7 @@ categorias: [
   "Proyecto",
   "Radioafición"
 ]
+image: /blog/2019-12-11/2.jpg
 ---
 
 # Memoria Proyecto SSTV

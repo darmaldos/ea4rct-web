@@ -14,6 +14,7 @@ categorias: [
   "Radioafición"
 ]
 author: Pablo Álvarez
+image: /blog/2019-11-26/2.jpg
 ---
 
 # Automatización del tracking de satélites en rotores analógicos con Arduino

@@ -14,13 +14,14 @@ categorias: [
   "Apuntes",
   "Física II"
 ]
+image: /blog/2018-05-15/lentes_suma_lentes.png
 ---
 
 Esta práctica consistirá en el manejo de las lentes del banco de óptica, para ver como afectan las lentes convergentes y divergentes al paso de la luz. El banco óptico está compuesto de una lente convergente y otra divergente, que moveremos a traves del soporte en el que hay un emisor de luz.
 
-<img src="/blog/2018-5-15/lentes_diferentes.jpg" width="49%">
-<img src="/blog/2018-5-15/lentes_emisor.jpg" width="49%">
-<img src="/blog/2018-5-15/lentes_normal.jpg" width="99%">
+<img src="/blog/2018-05-15/lentes_diferentes.jpg" width="49%">
+<img src="/blog/2018-05-15/lentes_emisor.jpg" width="49%">
+<img src="/blog/2018-05-15/lentes_normal.jpg" width="99%">
 
 ### Fundamento teórico - Parte 1
 
@@ -37,8 +38,8 @@ En donde:
 * \\(f'\\) es la distancia focal de la lente. Se define también la potencia de la lente como \\(\frac{1}{f'}\\)
 
 
-<img src="/blog/2018-5-15/lente_convergente.png" width="49%">
-<img src="/blog/2018-5-15/lente_divergente.png" width="49%">
+<img src="/blog/2018-05-15/lente_convergente.png" width="49%">
+<img src="/blog/2018-05-15/lente_divergente.png" width="49%">
 
 
 ### Realización de la práctica - Parte 1 - Lente convergente
@@ -54,7 +55,7 @@ Desplazando la lente convergente a través del soporte se nos pide:
 
 El procedimiento seguido es poner la lente convergente en el soporte y movernos en el hasta encontrar una imagen nítida. Hemos encontrado 2, uno en 22.6 cm y otro en 68.5 cm. De una forma más gráfica seria:
 
- ![Posición de las lentes](/blog/2018-5-15/lentes_a.png)
+ ![Posición de las lentes](/blog/2018-05-15/lentes_a.png)
 
 La **imagen objeto se trata** de una flecha de 2.6 cm.
 
@@ -118,7 +119,6 @@ $$
 
 Una lente divergente no forma una imagen real, sino una virtual. Para poder ver la imagen real es necesario combinarla con una convergente, según se muestra en el esquema:
 
-![Imagen cogida de la práctica](/blog/2018-5-15/lentes_suma_lentes.png)
 
 Teniendo en cuenta las expresiones:
 
@@ -151,7 +151,7 @@ En esta parte se pide:
 
 El procedimiento seguido es igual que con el de la lente convergente, pero con dos lentes. Por lo tanto tendremos algo parecido a esto:
 
-![](/blog/2018-5-15/lentes_divergente.png)
+![](/blog/2018-05-15/lentes_divergente.png)
 
 Moviendo las lentes hemos encontrado las siguientes posiciones donde la imagen es nítida:
 

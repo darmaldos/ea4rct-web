@@ -15,6 +15,7 @@ categorias: [
   "Proyecto"
 ]
 author: Pablo Álvarez
+image: /blog/2020-02-03/noaa.jpeg
 ---
 
 ## Abstract

@@ -18,6 +18,7 @@ categorias: [
   "Radioafición"
 ]
 author: Pablo Álvarez
+image: /blog/2019-12-31/13.jpg
 ---
 
 # Recepción de WeatherFAX mediante SDR - Parte 2: Mejoras y resultados finales

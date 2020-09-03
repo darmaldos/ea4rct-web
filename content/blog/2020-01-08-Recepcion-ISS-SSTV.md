@@ -18,6 +18,7 @@ categorias: [
   "Radioafición"
 ]
 author: "Pablo Álvarez"
+image: /blog/2020-01-08/9.jpg
 ---
 
 # Construcción de antena casera para la recepción de imágenes SSTV emitidas por la ISS
