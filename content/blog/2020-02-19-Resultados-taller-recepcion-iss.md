@@ -20,8 +20,6 @@ author: Pablo Álvarez
 image: /blog/2020-02-19/6.jpg
 ---
 
-# Taller de recepción de la ISS mediante SSTV
-
 El 30 y 31 de enero organizamos un taller abierto en el RadioClub en el que enseñamos a los asistentes los principios de la comunicación por SSTV, el uso de SDR y el tracking de satélites LEO para poder recibir las imágenes emitidas por la ISS de forma no profesional.
 
 En esta entrada resumiremos tanto lo explicado durante el taller como la experiencia de los asistentes

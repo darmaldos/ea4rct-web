@@ -17,8 +17,6 @@ categorias: [
 image: /blog/2019-12-11/2.jpg
 ---
 
-# Memoria Proyecto SSTV
-
 ## Planteamiento inicial del proyecto
 
 La actividad que se propone realizar es la creación de un dispositivo portable que envie imagenes en tiempo real moduladas en *BLU* (Banda Lateral Única) con la codificación SSTV.

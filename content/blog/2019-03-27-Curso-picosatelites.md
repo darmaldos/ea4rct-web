@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Actividad de radioafición en el curso de picosatélites
+title: Actividad de radioafición en el curso de picosatélites 2018-2019
 date: 2019-03-27  # La fecha va con la forma YYYY-MM-DD
 tags: [
   "Radioafición"
@@ -11,8 +11,6 @@ categorias: [
 ]
 image: /blog/2019-03-27/santi.jpeg
 ---
-
-# Actividad de radioafición en el curso de picosatélites 2018-2019
 
 Con motivo del curso de picosatélites que se imparte desde la ETSIT, organizado por el Grupo de Radiocomunicaciones del departamento SSR  y  por el Radio Club E.I.T., se realizó una actividad relacionada con la radio y los satélites. Para ello nos acompañó el presidente de AMSAT-EA, Félix Páez (EA4GQS). El objetivo de este post es describir la actividad y mostrar algunos resutado de ésta. ¡Vamos a ello!
 

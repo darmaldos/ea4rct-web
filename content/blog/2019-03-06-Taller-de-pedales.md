@@ -13,11 +13,6 @@ categorias: [
 image: /blog/2019-03-06/construccion2.jpeg
 ---
 
- 
-
-
-
-
 ## Planteamiento
 
 Pasos del proyecto:

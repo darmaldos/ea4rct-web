@@ -17,8 +17,6 @@ author: Pablo Álvarez
 image: /blog/2019-11-26/2.jpg
 ---
 
-# Automatización del tracking de satélites en rotores analógicos con Arduino
-
 Este año, desde el Radioclub EIT, tenemos como proyecto general indagar un poco en las comunicaciones vía satélite. Un buen punto de partida para ello es la recepción de satélites tanto destinados a comunicaciones entre radioaficionados como a suministrar información de caracter meteorológico o incluso la misma ISS (Estación Espacial Internacional).
 
 Todos estos sistemas satelitales tienen un elemento en común: describen órbitas LEO (Low Earth Orbit, entre 400Km y 800Km de altitud). Es por ello que, para recibir la señal que emiten, se vuelve imprescindible el uso de un sistema de seguimiento, para asegurar un buen apuntamiento de la antena y que así la zona de mayor ganancia de ésta esté siempre enfocada hacia el punto en el cielo donde se encuentra el satélite emitiendo.

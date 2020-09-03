@@ -19,8 +19,6 @@ author: Pablo Álvarez
 image: /blog/2019-12-09/2.jpg
 ---
 
-# Recepción de WeatherFAX mediante SDR
-
 A raíz de las rebajas del pasado viernes, y con vista a futuros proyectos relacionados con comunicaciones satelitales en banda VHF, decidimos adquirir desde el radioclub un SDR Airspy HF+ Discovery. Dicha radio es capaz de recibir señales desde ULF (500Hz) hasta VHF (260MHz).
 
 Ya que con el anterior SDR con el que contábamos no podíamos explotar la banda de HF (sólo subría hasta los 26MHz), decidimos realizar un pequeño proyecto de prueba del Airspy que cubriera esta zona de frecuencias. Es por ello que elegimos probar a recibir señales de WeatherFAX.
