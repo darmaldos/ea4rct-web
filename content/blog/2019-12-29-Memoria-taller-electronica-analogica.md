@@ -16,8 +16,6 @@ categorias: [
 ]
 ---
 
-# Memoria: Taller de electrónica analógica aplicada a señales de audio
-
 ## Planteamiento inicial del proyecto
 El proyecto nació con la finalidad de introducir a la mayoría de socios de nuevo ingreso del curso 2018-2019 (31 nuevos socios) a la electrónica analógica y señales de audio de una forma atractiva. También fomentar la participación en proyectos futuros, habiendo ya visto y experimentado la forma de trabajar del club. Esta forma de trabajar es esencial fomentarla a toda la asociación y que quede integrada en todo socio que quiera participar en proyectos, pues seguirán dicha metodología.
 

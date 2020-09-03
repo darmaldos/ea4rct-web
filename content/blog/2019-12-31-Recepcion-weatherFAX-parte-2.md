@@ -21,8 +21,6 @@ author: Pablo Álvarez
 image: /blog/2019-12-31/13.jpg
 ---
 
-# Recepción de WeatherFAX mediante SDR - Parte 2: Mejoras y resultados finales
-
 Hace menos de un mes publicamos una entrada en la web acerca de la recepción de FAX meteorológicos con un SDR Airspy HF+ discovery y una antena de HF. Viendo el éxito obtenido a la hora de recibir nuestros primeros WeFAX, decidimos probar distintas configuraciones con el finde optimizar la recepción de las imágenes.
 
 ## Mejoras realizadas

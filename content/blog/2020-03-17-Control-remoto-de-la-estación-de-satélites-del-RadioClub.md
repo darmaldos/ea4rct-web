@@ -17,8 +17,6 @@ categorias: [
 image: /blog/2020-03-17/6.jpg
 ---
 
-# Control remoto de la estación de satélites del RadioClub E.I.T.
-
 Este último mes en el RadioClub estuvimos trabajando en conseguir controlar parte de nuestros equipos a través de internet, para poder hacer uso de ellos sin necesidad de encontrarse físicamente en el Club. En un principio, la idea era automatizar la estación de satélites de cara al proyecto propuesto para este año (una [estación automatizada para satélites meteorológicos en VHF](https://ea4rct.org/blog/2020-02-03-propuesta-automatizacion-noaa/)). Sin embargo, debido al cierre de las universidades que estamos viviendo, este proyecto se ha vuelto imprescindible de cara a poder seguir disfrutando de la radiafición mediante satélites sin salir de casa.
 
 

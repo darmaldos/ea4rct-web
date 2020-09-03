@@ -21,9 +21,6 @@ author: "Pablo Álvarez"
 image: /blog/2020-01-08/9.jpg
 ---
 
-# Construcción de antena casera para la recepción de imágenes SSTV emitidas por la ISS
-
-
 Hace menos de una semana que el [blog oficial](http://ariss-sstv.blogspot.com/?m=1) de ARISS (Amateur Radio of the International Space Station) anunció que, tanto con motivo de rememorar al astronauta Alexei Leonov como para celebrar la navidad, encenderían el transpondedor de SSTV entre los días 28 de diciembre y 1 de enero. Son fechas muy complicadas, ya que, no solo la gran mayoría de estudiantes miembros del RadioClub nos encontramos fuera de Madrid para pasar las fiestas, sino que, además, la universidad permanece cerrada durante estos días, por lo que nos es imposible acceder a club y hacer uso de nuestros equipos de radioafición.
 
 Sin embargo, parte de la gracia de recibir este tipo de señales reside el la posibilidad de hacerlo sin utilizar material (antenas, filtros, amplificadores, receptores, etc.) profesional. Es por ello que Pablo M., uno de los miembros del club, se animó a intentar recibir algún paso de la ISS utilizando material de andar por casa. A final de esta entrada podéis encontrar los resultados que obtuvo.
