@@ -146,6 +146,7 @@ Este proyecto no está terminado, pero después de crear tantas herramientas alr
 Todo el código referenciado anteriormente lo podréis encontrar en <https://git.radio.clubs.etsit.upm.es/Meteor-automated>.
 
 Los repositorios de software creados alrededor de este proyecto son los siguientes:
+
 * [ControlAntenas_Android](https://git.radio.clubs.etsit.upm.es/Meteor-automated/ControlAntenas_Android) - Aplicación Android para el control remoto de antenas
 * [AutomatedRotorTacker](https://git.radio.clubs.etsit.upm.es/Meteor-automated/AutomatedRotorTacker) - Interfaz en arduino para crear la conexión serie entre ordenador y rotor
 * [wx-ground-station](https://git.radio.clubs.etsit.upm.es/Meteor-automated/wx-ground-station) - Automatización de recepción de satélites en bash
