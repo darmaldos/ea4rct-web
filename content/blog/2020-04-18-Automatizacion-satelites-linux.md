@@ -11,7 +11,8 @@ tags: [
 ]
 categorias: [
   "proyectos",
-  "SDR"
+  "SDR",
+  "WX Ground Station"
 ]
 image: /blog/2020-04-18/3.jpg
 ---

@@ -12,7 +12,8 @@ tags: [
 ]
 categorias: [
   proyectos,
-  SDR
+  SDR,
+  "WX Ground Station"
 ]
 image: /blog/2020-03-17/6.jpg
 ---
@@ -26,29 +27,29 @@ Actualmente, contamos con dos dispositivos conectados a Internet: el rotor de la
 
 #### Rotor
 
-Para conectar el rotor de las antenas (un Yaesu G-5500 analógico), el primer paso es conseguir controlarlo desde un ordenador. Para ello, utilizaremos el controlador que diseñamos [a comienzos de curso](https://ea4rct.org/blog/2019-11-26-tracking-satelites-rotores-arduino/). 
+Para conectar el rotor de las antenas (un Yaesu G-5500 analógico), el primer paso es conseguir controlarlo desde un ordenador. Para ello, utilizaremos el controlador que diseñamos [a comienzos de curso](https://ea4rct.org/blog/2019-11-26-tracking-satelites-rotores-arduino/).
 
-Una vez comos capaces de mover las antenas a través de comandos serie, instalamos en nuestro servidor la librería [Hamlib](http://hamlib.sourceforge.net/manuals/1.2.15/index.html). Ésta cuenta con multitud de utilidades para controlar tanto radios como rotores por USB o puerto serie. 
+Una vez comos capaces de mover las antenas a través de comandos serie, instalamos en nuestro servidor la librería [Hamlib](http://hamlib.sourceforge.net/manuals/1.2.15/index.html). Ésta cuenta con multitud de utilidades para controlar tanto radios como rotores por USB o puerto serie.
 
-En nuestro caso, utilizaremos la herramienta *rotctld*, la cual nos permite crear un servidor que recibe comandos a través de la red y con ellos controlar el rotor. Es compatible con multitud de protocolos, pero en nuestro caso utilizaremos Easycomm II, ya que nuestro programa de Arduino fue diseñado para trabajar con él. 
+En nuestro caso, utilizaremos la herramienta *rotctld*, la cual nos permite crear un servidor que recibe comandos a través de la red y con ellos controlar el rotor. Es compatible con multitud de protocolos, pero en nuestro caso utilizaremos Easycomm II, ya que nuestro programa de Arduino fue diseñado para trabajar con él.
 
 Una vez ejecutemos el comando *rotctld*, ya podremos configurar el rotor desde GPredict. Para ello, añadiremos un nuevo rotor desde el apartado Edit -> Preferences -> Interfaces -> Rotators
 
 ![](/blog/2020-03-17/1.jpg)
 
-Tras esto, ya debería funcionar correctamente. 
+Tras esto, ya debería funcionar correctamente.
 
 
 #### SDR
 
-Para conectar el SDR a internet y poder utilizarlo de forma remote, disponemos de dos opciones: hacerlo mediante rtl_tcp o desplegando un servidor spyserver. Optamos por la segunda opción, ya que ésta no es más que una optimización de la primera que requiere de menos ancho de banda para funcionar corectamente y ofrece un mayor número de opciones de personalización. La instalación es muy sencilla, existen multitud de [tutoriales](https://www.rtl-sdr.com/rtl-sdr-tutorial-setting-up-and-using-the-spyserver-remote-streaming-server-with-an-rtl-sdr/) disponibles online. 
+Para conectar el SDR a internet y poder utilizarlo de forma remote, disponemos de dos opciones: hacerlo mediante rtl_tcp o desplegando un servidor spyserver. Optamos por la segunda opción, ya que ésta no es más que una optimización de la primera que requiere de menos ancho de banda para funcionar corectamente y ofrece un mayor número de opciones de personalización. La instalación es muy sencilla, existen multitud de [tutoriales](https://www.rtl-sdr.com/rtl-sdr-tutorial-setting-up-and-using-the-spyserver-remote-streaming-server-with-an-rtl-sdr/) disponibles online.
 
 Una vez instalado, editamos el archivo spyserver.config según nuestros gustos (añadida descripción y coordenadas, fijado número máximo de clientes, bajado el número de fps de la fft, etc.). Para comprobar que funciona correctamente, podemos acceder a la web de [Airspy](https://airspy.com/directory/#), y comprobar que aparece nuestro SDR en el mapa.
 
 ![](/blog/2020-03-17/2.jpg)
 
 
-## Pruebas realizadas. 
+## Pruebas realizadas.
 
 Lo primero que hicimos fue intentar acceder tanto al SDR como al rotor desde la propia red local. Una vez comprobamos que todo funcionaba correctamente, abrimos los puertos correspondientes (5555 y 4533) para poder acceder a ellos de forma remota a través de Internet.
 
@@ -93,7 +94,7 @@ Tras 24h funcionando ininterrumpidamente tanto el rotor como el SDR, estas son a
 
 ## Conclusión.
 
-El hecho de poder trabajar con nuestra estación de forma remota nos ofrece mucha versatilidad a la hora de realizar comunicaciones satelitales, ya que, de no ser por ello, y al encontrarse la universidad cerrada indefinidamente, nos sería imposible hacer uso de cualquiera de nuestros equipos durante un largo periodo de tiempo. 
+El hecho de poder trabajar con nuestra estación de forma remota nos ofrece mucha versatilidad a la hora de realizar comunicaciones satelitales, ya que, de no ser por ello, y al encontrarse la universidad cerrada indefinidamente, nos sería imposible hacer uso de cualquiera de nuestros equipos durante un largo periodo de tiempo.
 
 Además, gracias a ello podemos trabajar en la automatización de la recepción de satélites meteorológicos, avanzando así en el proyecto propuesto para este curso.
 

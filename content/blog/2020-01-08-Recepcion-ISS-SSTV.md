@@ -15,7 +15,8 @@ tags: [
 categorias: [
   "Antenas",
   "Sstv",
-  "Radioafición"
+  "Radioafición",
+  "WX Ground Station"
 ]
 author: "Pablo Álvarez"
 image: /blog/2020-01-08/9.jpg

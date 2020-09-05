@@ -12,7 +12,8 @@ tags: [
 categorias: [
   "Radioafición",
   "Antenas",
-  "Proyecto"
+  "Proyecto",
+  "WX Ground Station"
 ]
 author: Pablo Álvarez
 image: /blog/2020-02-03/noaa.jpeg

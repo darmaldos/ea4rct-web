@@ -11,7 +11,8 @@ tags: [
   "arduino"
 ]
 categorias: [
-  "Radioafición"
+  "Radioafición",
+  "WX Ground Station"
 ]
 author: Pablo Álvarez
 image: /blog/2019-11-26/2.jpg
