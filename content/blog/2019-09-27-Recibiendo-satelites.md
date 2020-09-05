@@ -11,7 +11,8 @@ tags: [
 ]
 categorias: [
   "Radioafición",
-  "Actividades"
+  "Actividades",
+  "WX Ground Station"
 ]
 image: /blog/2019-09-27/meteor.jpg
 ---
