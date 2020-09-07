@@ -93,3 +93,5 @@ Démonos cuenta que existen multitud de valores de $C$ y $L$ que satisfacen las 
 ## Conclusión
 
 La gran mayoría del hardware utilizado es tanto de diseño como de fabricación propia. Si bien es una lástima que, dadas las circunstancias en que nos encontramos, no nos sea posible comenzar a construir ninguno de los elementos de hardware, el proceso de diseño fue lo suficientemente exhaustivo para asegurar buenos resultados. Además, el hecho de poder acompañar estos resultados con simulaciones que corroboren su veracidad demuestran la viabilidad del proyecto en sí.
+
+~mamado@EA1FID
