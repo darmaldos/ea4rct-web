@@ -1,8 +1,8 @@
 ---
 layout: post
 published: true
-title: Estación Metereológica - Resumen Software creado hasta la fecha
-date: 2020-08-05  # La fecha va con la forma YYYY-MM-DD
+title: Estación Metereológica - Resumen del Software desarrollado hasta la fecha
+date: 2020-09-05  # La fecha va con la forma YYYY-MM-DD
 tags: [
   "proyectos",
   "antenas",
