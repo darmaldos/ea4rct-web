@@ -18,7 +18,7 @@ image: /blog/2020-09-06/1.jpg
 
 Desde que se aprobó el desarrollo de la estación de satélites meteorológicos en banda VHF como proyecto principal del RadioClub para el año 2020, un gran número de socios ha estado involucrado en el diseño de todos los equipos de hardware necesarios. Gracias a su labor, ha sido posible acercarnos al objetivo principal del proyecto: una estación funcional diseñada íntegramente por estudiantes del club. Si bien es cierto que todavía no nos ha sido posible llevar a la práctica los planos obtenidos debido a la situadión de pandemia en que se encuentra actualmente nuestro país, el uso de software de simulación nos ayuda a cercionarnos de que nos encontramos en el buen camino.
 
-Los principales elementos de hardware de los que constará la estación serán los siguiente:
+A continuación se detallan los principales elementos de hardware de los que constará la estación.
 
 ### Antena
 
@@ -94,4 +94,4 @@ Démonos cuenta que existen multitud de valores de $$C$$ y $$L$$ que satisfacen 
 
 La gran mayoría del hardware utilizado es tanto de diseño como de fabricación propia. Si bien es una lástima que, dadas las circunstancias en que nos encontramos, no nos sea posible comenzar a construir ninguno de los elementos de hardware, el proceso de diseño fue lo suficientemente exhaustivo para asegurar buenos resultados. Además, el hecho de poder acompañar estos resultados con simulaciones que corroboren su veracidad demuestran la viabilidad del proyecto en sí.
 
-~mamado@EA1FID
+*~mamado@EA1FID*
