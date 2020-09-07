@@ -149,7 +149,7 @@ Si quieres añadir imagenes en tu página, pon las imágenes en `static/blog/TIT
 
 Las ecuaciones matemáticas se hacen con MathJax **siguiendo la sintaxis de LaTeX**.
 
-Cuando quieras añadir una ecuación matmática, hazlo de la siguiente forma:
+Cuando quieras añadir una ecuación matemática, hazlo de la siguiente forma:
 
 ```
 <div>
@@ -160,3 +160,5 @@ $$
 ```
 
 En hugo actualmente hay problemas con el `_`, que se utilizan para los subíndices , tienes que escribirlo de la forma `$ 2\_{asdf} $` o `$ var_ 2$`.
+
+Para escribir ecuaciones *in line* se haría así: `Estamos hablando de un tema de \\( \lambda /2 \\)`
