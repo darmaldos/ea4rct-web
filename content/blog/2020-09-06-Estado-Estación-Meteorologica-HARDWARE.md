@@ -22,13 +22,13 @@ A continuación se detallan los principales elementos de hardware de los que con
 
 ### Antena
 
-Como ya se comentó en una entrada anterior de esta misma web, la antena será una Yagi Uda de polarización circular (RHCP). Para ello, construiremos un array de dos Yagis de polariazción lineal, estando una de ellas rotada 90º con respecto a la otra en el eje de propagación y conectadas mediante una línea de retardo de $$\lambda/4$$.
+Como ya se comentó en una entrada anterior de esta misma web, la antena será una Yagi Uda de polarización circular (RHCP). Para ello, construiremos un array de dos Yagis de polariazción lineal, estando una de ellas rotada 90º con respecto a la otra en el eje de propagación y conectadas mediante una línea de retardo de $\lambda/4$.
 
 Previamente al diseño de la antena en sí, fue necesario enumerar las limitaciones con las que contaremos de cara a su construcción. Por un lado, sería conveniente que el mástil de la Yagi no fuera extremadamente largo, dada su fragilidad, dificultad de montaje y falta de espacio en el rotor. Además, los elementos deberán ser ligeros y de un diámetro relativamente pequeño (no superior a los 12mm), ya que, al ser estructuras metálicas, un grosor mayor conllevaría un peso excesivo, disminuyendo así la consistencia global de la antena. Finalmente, interesaría conseguir una impedancia final de 50Ohm a su entrada, para conseguir adaptación de impedancias con el coaxial del que disponemos en el club (RG-213).
 
 Dado que estamos trabajando con longitudes de onda de al rededor de 2,20m, nos decantamos por un diseño de 5 elementos (reflector, dipolo y tres directores), con una longitud del mástil de 2m. En lo referido a los elementos, éstos serán varillas metálicas de 6mm de grosor.
 
-Con respecto a la impedancia de 50Ohm, decidimos que lo mejor sería conseguir un aimpedancia nominal de 25Ohm en cada Yagi individual (horizontal y vertical). Mediante la conexión de dos cables coaxiales de 50Ohm en paralelo (25Ohm) y una longitud eléctrica de $$\lambda/4$$ entre ambas yaguis, conseguiríamos el retardo de fase de 90º necesario para la obtención de polarización circular. Asimismo, en el punto de unión entre la linea desfasadora y la segunda Yagui, tendríamos una impedancia de 12,5Ohm (dos líneas de 25Ohm en paralelo). Conectando en este punto otra línea de dos coaxiales de 50Ohm en paralelo y longitud eléctrica $$\lambda/4$$, conseguiríamos una impedancia final de 50Ohm en el extremo suelto del cable.
+Con respecto a la impedancia de 50Ohm, decidimos que lo mejor sería conseguir un aimpedancia nominal de 25Ohm en cada Yagi individual (horizontal y vertical). Mediante la conexión de dos cables coaxiales de 50Ohm en paralelo (25Ohm) y una longitud eléctrica de $\lambda/4$ entre ambas yaguis, conseguiríamos el retardo de fase de 90º necesario para la obtención de polarización circular. Asimismo, en el punto de unión entre la linea desfasadora y la segunda Yagui, tendríamos una impedancia de 12,5Ohm (dos líneas de 25Ohm en paralelo). Conectando en este punto otra línea de dos coaxiales de 50Ohm en paralelo y longitud eléctrica $\lambda/4$, conseguiríamos una impedancia final de 50Ohm en el extremo suelto del cable.
 
 ![](/blog/2020-09-06/9.jpg)
 
@@ -43,13 +43,13 @@ Una vez obtenida en Matlab una antena que cumpliera los requerimientos del proye
 Diagrama de radiación en 3D:
 ![](/blog/2020-09-06/1.jpg)
 
-Corte con el eje $$\theta = 90º$$ (polares):
+Corte con el eje $\theta = 90º$ (polares):
 ![](/blog/2020-09-06/2.jpg)
 
-Corte con el eje $$\theta = 90º$$ (cartesianas):
+Corte con el eje $\theta = 90º$ (cartesianas):
 ![](/blog/2020-09-06/3.jpg)
 
-Parámetro $$S_{11}$$:
+Parámetro $S_{11}$:
 ![](/blog/2020-09-06/4.jpg)
 
 ### Filtro
@@ -88,7 +88,7 @@ Y
 
 $$2\pi f L >> Z_0$$
 
-Démonos cuenta que existen multitud de valores de $$C$$ y $$L$$ que satisfacen las anteriores inecuaciones. Se opta por elegir $$C=100nF$$ y $$L=10uH$$.
+Démonos cuenta que existen multitud de valores de $C$ y $L$ que satisfacen las anteriores inecuaciones. Se opta por elegir $C=100nF$ y $L=10uH$.
 
 ## Conclusión
 
