@@ -33,7 +33,7 @@ Uno de los diplomas que oferta la URE, promovido por la IARU, es el **WAC: Worke
 
 ![](/blog/2020-10-09/wac.jpg)
 
-El diploma WAC obtenido es el correspondiente a la modalidad _general_. Esto se debe a que la IARU, además, convoca una segunda modalidad, llamada 5-Band WAC. Para conseguir este otro diploma, es necesario hablar con todos los continentes en cada una de las principales bandas: 80m (3,5MHz), 40m (7MHz), 20m (14MHz), 15m (21MHz) y 10m (28 MHz).
+El diploma WAC obtenido es el correspondiente a la modalidad _general_. Esto se debe a que la IARU, además, convoca una segunda modalidad llamada 5-Band WAC. Para conseguir este otro diploma, es necesario contactar con todos los continentes en cada una de las principales bandas: 80m (3,5MHz), 40m (7MHz), 20m (14MHz), 15m (21MHz) y 10m (28 MHz).
 
 Esta es la situación actual de nuestro WAC 5 bandas:
 
