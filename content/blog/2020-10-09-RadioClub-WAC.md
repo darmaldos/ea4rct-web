@@ -1,5 +1,4 @@
 ---
-
 layout: post
 published: true
 title: ¡El RadioClub consigue el diploma WAC!
@@ -52,7 +51,7 @@ Esta es la situación actual de nuestro WAC 5 bandas:
 
 **40m:**
 
-![](/blog/2020-10-09/40m.jpg
+![](/blog/2020-10-09/40m.jpg)
 
 **80m:**
 
