@@ -26,6 +26,8 @@ map: https://meet.jit.si/radioclub
 
 Para comenzar las actividades de este curso 2020-2021 vamos a empezar con un taller para renovar algunas funcionalidades de la web del Radio. El taller consistirá en una tarde de trabajo en el que cada participante se pondrá a mejorar una parte de [la web del RadioClub](https://radio.clubs.etsit.upm.es/). Será una actividad **100% telemática**.
 
+En la activiadad explicaremos cómo se puede contribuir en la web y cómo funciona. No hace falta tener mucha idea en creación de páginas web, basta con tener ganas de colaborar y aportar ideas.
+
 ---
 
 ### ¿QUÉ HAREMOS?
