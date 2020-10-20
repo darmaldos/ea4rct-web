@@ -43,6 +43,6 @@ Todas las propuestas son más que bienvenidas, aunque algunas cosas interesantes
 * Poner las últimas imagenes de recepciones meteorológicas echas en el RadioClub
 * Poner lista con todas las redes sociales
 
-Nos organizaremos de tal forma que los asistentes se pongan a trabajar con la parte que más se vean capacitados y más ganas tengan de mejorar. El esfuerzo y el trabajo de los asistentes se recompensará con una cerveza presencial el día que habrán nuestro club :3
+Nos organizaremos de tal forma que los asistentes se pongan a trabajar con la parte que más se vean capacitados y más ganas tengan de mejorar. El esfuerzo y el trabajo de los asistentes se recompensará con una cerveza presencial el día que abrán nuestro club :3
 
 ---
