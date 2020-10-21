@@ -57,9 +57,9 @@ disqusShortname = "radioclub-eit"
 # Slideshow of pictures on homepage.
 [params.slideshow]
   [params.slideshow.pic1]
-    file = "/slideshow/junta1920.jpeg"
-    title = "Junta 2019-20"
-    desc = "Septiembre 2019"
+    file = "/slideshow/junta2021.jpg"
+    title = "Junta 2020-21"
+    desc = "Octubre 2020"
   [params.slideshow.pic2]
     file = "/slideshow/recepcionSept19.jpeg"
     title = "Recepción telemetría satélite Meteor desde el RadioClub"
