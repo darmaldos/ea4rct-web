@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Nuevos diplomas para el RadioClub: EADX100 y TTLOC HF
+title: "Nuevos diplomas para el RadioClub: EADX100 y TTLOC HF"
 date: 2020-10-22  # La fecha va con la forma YYYY-MM-DD
 tags: [
   "radioaficion",
@@ -125,3 +125,7 @@ Tras una extensa labor aún por rematar de búsqueda de información sobre parti
 ## Conclusión
 
 Gracias a esta tarea que llevaba pendiente unos cuantos años, nos fue posible conocer un poco más la historia de nuestro club. Esperemos que la consecución de estos nuevos diplomas anime a los socios más jóvenes a adentrarse en el mundo de la radioafición y luchar por conseguir otros reconocimientos como los diplomas TPEA, 5B-WAC o Diploma España, para los que ya faltan muy pocos QSO por confirmar.
+
+
+-------
+mamado@EA1FID
