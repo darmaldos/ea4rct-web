@@ -118,7 +118,7 @@ Volviendo al diploma que se nos otorgó, fue necesaria la confirmación de conta
 
 ## Concursos
 
-Tras una extensa labor aún por rematar de búsqueda de información sobre participaciones del EA4RCT en concursos internacionales, hemos conseguido obtener certificados de participación y diplomas de premio correspondientes a numerosas competicioens de alto calibre, como pueden ser el CQWW, el CQ WPX, el ARRL DX Contest, el IARU HF World CHampionship o, en ámbito nacional, el concurso S.M. el Rey. Se recomienda acceder a nuestro ![repositorio de diplomas público](https://git.radio.clubs.etsit.upm.es/junta/diplomas) a todos aquellso que estén interesados en conocer el pasado del RadioClub.
+Tras una extensa labor aún por rematar de búsqueda de información sobre participaciones del EA4RCT en concursos internacionales, hemos conseguido obtener certificados de participación y diplomas de premio correspondientes a numerosas competiciones de alto calibre, como pueden ser el CQWW, el CQ WPX, el ARRL DX Contest, el IARU HF World CHampionship o, en ámbito nacional, el concurso S.M. el Rey. Se recomienda acceder a nuestro [repositorio de diplomas público](https://git.radio.clubs.etsit.upm.es/junta/diplomas) a todos aquellso que estén interesados en conocer el pasado del RadioClub.
 
 ![](/blog/2020-10-22/arrl.png)
 
