@@ -62,3 +62,6 @@ Esta es la situación actual de nuestro WAC 5 bandas:
 Los actuales miembros del RadioClub vemos este diploma como una recompensa a los antiguos socios, por su dedicación a la radio y los numerosos contactos que se llevaron a cabo en épocas donde _"hacer radio"_ no era tan sencillo como hoy día (las QSL se enviaban por corre postal, no se hacía uso de modos digitales, era complicado prever y obtener información acerca de la propagación en HF...). Asimismo, la existencia de un 5-Band WAC nos anima a marcarnos nuevos objetivos y seguir promoviendo la radioafición en el club.
 
 P.D.: podéis consultar el resto de nuestros diplomas en su [repositorio de GiTea](https://git.radio.clubs.etsit.upm.es/junta/diplomas). Esperemos ir agrandando la colección poco a poco!
+
+-------
+mamado@EA1FID
