@@ -13,7 +13,7 @@ categorias: [
   "diploma",
   "hf"
 ]
-image: /blog/2020-10-22/wac.jpg
+image: /blog/2020-10-22/ttloc.png
 ---
 
 Tras unas cuantas semanas de intensos trabajos, por fin conseguimos completar nuestra misión de actualizar y llevar al día las QSL telemáticas del Radio club desde su creación. Una vez completada la creación y verificación de perfiles en eQSL, LoTW y QRZ, procedimos a la confirmación (QSL) de todos los contactos realizados a lo largo de la historia del club. Una vez finalizada esta tarea. nos encontramos ni más ni menos que con 4670 QSLs, con fechas que abarcan desde 1983 hsta hoy día y provenientes de lugares de todo el planeta.
