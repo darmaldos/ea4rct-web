@@ -2,7 +2,7 @@
 nombre: "Pablo López Querol"
 pic: "/team/plopez.jpg"
 funcion: "VOCAL DE COMUNICACIÓN"
-estudios: "Master Universitario en energía solar fotovoltaica"
+estudios: "Master interuniversitario en Ingeniería fotónica"
 
 correo: "social@ea4rct.org"
 
