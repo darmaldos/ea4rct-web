@@ -12,7 +12,8 @@ tags: [
 categorias: [
   "Radioafición",
   "Antenas",
-  "Proyecto"
+  "Proyecto",
+  "Satnogs"
 ]
 ---
 

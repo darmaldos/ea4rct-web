@@ -8,7 +8,8 @@ tags: [
   "Música"
 ]
 categorias: [
-  "Instrumentación"
+  "Instrumentación",
+  "Pedales de guitarra"
 ]
 image: /blog/2019-03-06/construccion2.jpeg
 ---
@@ -28,9 +29,9 @@ En esta primera sesión se abordaron los primeros 3 puntos. Se crearon dos grupo
 
 ## Introducción y background del efecto Overdrive:
 
-Los pedales eléctricos son dispositivos electrónicos que tienen como objetivo alterar el sonido, proveniente normalmente de instrumentos eléctricos como la guitarra eléctrica, el bajo o los sintetizadores. También existen pedales para fuentes acústicas como la voz. Para favorecer su uso y no obligar a los músicos a utilizar las manos, se suelen situar en el suelo, pudiendo activarlo o modificarlo por medio del pie, de ahí el nombre de “pedal”. 
+Los pedales eléctricos son dispositivos electrónicos que tienen como objetivo alterar el sonido, proveniente normalmente de instrumentos eléctricos como la guitarra eléctrica, el bajo o los sintetizadores. También existen pedales para fuentes acústicas como la voz. Para favorecer su uso y no obligar a los músicos a utilizar las manos, se suelen situar en el suelo, pudiendo activarlo o modificarlo por medio del pie, de ahí el nombre de “pedal”.
 
-El pedal que hemos estudiado es el Overdrive. Este efecto nació en los años 50 de la mano de guitarristas de blues y rock. Consiguieron este efecto al poner los amplificadores de válvulas de baja fidelidad al volumen máximo. La señal excedía la capacidad de las válvulas y la onda se veía deformada. 
+El pedal que hemos estudiado es el Overdrive. Este efecto nació en los años 50 de la mano de guitarristas de blues y rock. Consiguieron este efecto al poner los amplificadores de válvulas de baja fidelidad al volumen máximo. La señal excedía la capacidad de las válvulas y la onda se veía deformada.
 
 En la siguiente imagen podemos ver el esquemático que hemos usado para construir el pedal:
 
@@ -40,7 +41,7 @@ En la siguiente imagen podemos ver el esquemático que hemos usado para construi
 A continuación, se explicará más detalladamente lo que hizo cada grupo.
 
 
-## Simulación del pedal: 
+## Simulación del pedal:
 *Implicados: Santiago Maldonado Hernández, Alejandro Ramos Martín, Juan Ruiz Ortega, Ignacio López Delgado*
 
 Nos basamos en los esquemáticos mostrados anteriormente, tanto para la compra de componentes como para el montaje y simulación del prototipo. Para esta primera simulación empleamos el programa LTSpice, de uso gratuito, el cual tiene un funcionamiento sencillo y variedad de dispositivos para integrar en la simulación. Cabe destacar que hemos utilizado ciertos componentes, como el transistor npn y los diodos (ideales: tensión de codo 0V), que no necesariamente se corresponden con los modelos adquiridos para el montaje, pero que sirven como una buena referencia para el seguimiento y estudio del funcionamiento correcto del circuito.
@@ -62,7 +63,7 @@ La función de los diodos en ambos submódulos es limitar en tensión a la seña
 
 5. Finalmente, el módulo recuadrado en marrón funcionaría como un distorsionador de la señal de audio. Este tiene como entradas la señal de sonido, que hemos representado como una nota LA – señal sinusoidal de frecuencia 440 Hz y amplitud 0.3 V, y la alimentación del circuito (+9V). La distorsión generada por este subsistema crea diferentes efectos de sonido, y depende del valor de saturación del transistor y el nivel de amplificación de la señal de audio. Cuando el nivel de esta supera el valor de saturación, los máximos de la señal quedan recortados y de esta manera se generan los efectos de distorsión buscados. La señal distorsionada pasará a continuación a los módulos de filtrado 1 y 2.
 
-A continuación, se muestran dos capturas obtenidas mediante LTSpice en el circuito, en las que se representan la señal de entrada (en verde) y de salida (en morado) del módulo completo. Se puede observar como la onda de salida está saturada, consiguiendo resultados acertados. 
+A continuación, se muestran dos capturas obtenidas mediante LTSpice en el circuito, en las que se representan la señal de entrada (en verde) y de salida (en morado) del módulo completo. Se puede observar como la onda de salida está saturada, consiguiendo resultados acertados.
 
 
 ![figura2](/blog/2019-03-06/figura2.jpg)

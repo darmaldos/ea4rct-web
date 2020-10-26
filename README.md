@@ -136,6 +136,16 @@ Las imágenes guárdalas en el directorio `static/team/`, y para referenciarla s
 
 Para ver que todo está en órden, ejecuta `snap run hugo server` y entra en la dirección que te proporciona el comando.
 
+## Cómo añadir un nuevo proyecto
+
+La pestaña de proyectos tiene recogido cuales han sido los proyectos todos los años. Para añadir un nuevo proyecto a la lista copia el fichero `examples/PROYECTO.md` en la carpeta `content/proyectos` y llámalo con el nombre del proyecto.
+
+Actualiza el fichero con la información del proyecto. Ten en cuenta que la variable `category` tiene el nombre de la categoría donde estarán los posts relacionados con ese proyecto.
+
+Las imágenes guárdalas en el directorio `static/proyectos/`, y para referenciarla será `/proyectos/fotoproyecto.jpg`, por ejemplo.
+
+Para ver que todo está en órden, ejecuta `snap run hugo server` y entra en la dirección que te proporciona el comando.
+
 ## Añadiendo imágenes
 
 Si quieres añadir imagenes en tu página, pon las imágenes en `static/blog/TITULODELPOST/` si es un post del blog, y `static/activities/TITULO_DE_LA_ACTIVIDAD`. Y en el post puedes referencial la imagen así:

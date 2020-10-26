@@ -1,0 +1,67 @@
+{{ define "main" }}
+  <div class="main" role="main">
+    <article class="article about">
+      <h1 class="article-title">Proyectos</h1>
+      <hr class="article-title-bottom">
+
+
+      {{ range .Pages.GroupByParam "curso" "desc"}}
+      <h2>Curso {{ .Key }}</h2>
+      <hr class="style2">
+
+
+      <div class="row">
+      {{ range .Pages }}
+        <div class="card-project card">
+          <div class="card-project-thumbnail card-img-top">
+            <img class="rounded" src="{{ .Params.image }}" alt="Card image cap">
+          </div>
+          <div class="card-body card-text">
+            <h5 class="card-title"> {{ .Title }} </h5>
+            <p class="card-function text-uppercase">{{ .Params.funcion }}</p>
+            <p class="card-studies">{{ .Params.estudios }}</p>
+
+            <p>
+            {{ if .Params.shortdescription }}
+              {{ .Params.shortdescription }}
+            {{ end }}
+            </p>
+
+            <p>
+            {{ if .Params.twitter }}
+            <a href="{{ .Params.twitter }}"><i class="fab fa-twitter fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.github }}
+	          <a href="{{ .Params.github }}"><i class="fab fa-github fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.gitea }}
+            <a href="{{ .Params.gitea }}"><i class="fas fa-code-branch fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.correo }}
+	          <a href="mailto:{{ .Params.correo }}"><i class="fas fa-envelope fa-lg" style="color:gray"></i></a>
+            {{ end }}
+
+            {{ if .Params.web }}
+            <a href="{{ .Params.webpersonal }}"><i class="fas fa-link fa-lg" style="color:gray"></i></a>
+            {{ end }}
+            </p>
+
+            {{ if .Params.category }}
+              <a href="{{ "/" | relURL }}categorias/{{ .Params.category | urlize }}/">Posts relacionados</a>
+            {{ end }}
+
+          </div>
+        </div>
+
+
+      {{ end }}
+
+              </div>
+      {{ end }}
+
+    </article>
+  </div>
+{{ end }}
