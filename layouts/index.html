@@ -39,7 +39,9 @@
 
   <div class="col" style="min-width: 300px; max-width: 310px; ">
     <a href="{{ .URL }}">
-      <img src="{{ .Params.image }}" width="100%" alt="">
+      {{ if .Params.image }}
+        <img src="{{ .Params.image }}" width="100%" alt="">
+      {{ end }}
     </a>
     <h4>
       <a href="{{ .URL }}">{{ .Title }}</a>
