@@ -33,6 +33,31 @@
       <p><a href="/blog" class="button">Ver blog</a></p>
     </div>
   </div>
+  <h4>Noticias destacadas</h4>
+  <div class="row justify-content-center">
+  {{ range first 3 (where .Pages "Params.layout" "post") }}
+
+  <div class="col" style="min-width: 300px; max-width: 310px; ">
+    <a href="{{ .URL }}">
+      <img src="{{ .Params.image }}" width="100%" alt="">
+    </a>
+    <h4>
+      <a href="{{ .URL }}">{{ .Title }}</a>
+    </h4>
+    <p class="text-justify">
+      <!-- {{ split .Summary "." | html }} -->
+      {{ $mainSection := split .Summary ". " }}
+      {{ index $mainSection 0 | html }}.
+      <a href="{{ .URL }}">
+        <br>
+        Leer más
+        <!-- <img src="fileadmin/template/images/lista.png"> -->
+      </a>
+    </p>
+  </div>
+  {{ end }}
+  </div>
+
   <h4>Servicios</h4>
   <div class="row">
     <div class="col">
