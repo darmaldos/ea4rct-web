@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: "Reparación y mantenimiento de las antenas del club - Parte 1"
-date: 2020-10-22  # La fecha va con la forma YYYY-MM-DD
+date: 2020-11-04  # La fecha va con la forma YYYY-MM-DD
 tags: [
  "radioaficion",
  "diploma",
