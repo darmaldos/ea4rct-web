@@ -38,7 +38,7 @@ No fue hasta este mes que encontramos las varillas encargadas de sujetar el ilum
 
 ### Desensamblado de la estación de satélites.
 
-Como ya se comentó en anteriores entradas de esta web, al usar de forma intensiva el rotor de la estación de satélites del club (un Yaesu G5500), se acabó estropeando el mecanismo encargado de variar la elevación a la que apuntan las antenas. Con el fin de repararlo, fue necesario desmontar por completo toda la parte relativa a las antenas yagi de VHF y UHF.
+Como ya se comentó en anteriores entradas de esta web, al usar de forma intensiva el rotor de la estación de satélites del club (un Yaesu G5500), se acabó estropeando el mecanismo encargado de variar la elevación a la que apuntan las antenas. Con el fin de repararlo, fue necesario desmontar por completo toda la parte relativa a las antenas yagi de VHF y UHF. Esta tarea se llevó a cabo gracias a la colaboración de Dani, Alicia y Pablo.
 
 ![](/blog/2020-11-04/sat.jpeg)
 
