@@ -26,13 +26,13 @@ Retomando donde lo dejamos en la entrada anterior, contamos ya con una antena di
 
 - **Elevado factor de ruido del sistema** Si bien nuestro SDR (un Airspy HF+ Discovery) se caracteriza por contar con una figura de ruido relativamente baja (en torno a 3dB), añadiendo a este valor la contribución al ruido generada en la bajada de cable coaxial, observarmos cómo la potencia de ruido total a la entrada del desmodulador es especialmente elevada. Tomando una atenuación del cable de 3,2dB (8dB/100m según la [hoja de datos](https://www.fscglobal.com/sites/admin/plugins/elfinder/files/fsglobal/Datasheets/390213H.pdf) del fabricante), y asumiendo que éste se encuentra a la temperatura de referencia (lo que equivale a que su factor de ruido sea igual a su atenuación), podríamos aplicar la fórmula de Friis para obtener una figura de ruido global de 6,2dB:
 
-\\(f_{tot}=f_{cable}+a_{cable}(f_{SDR} -1)\approx 6.2\text{dB} \\)
+$f_{tot}=f_{cable}+a_{cable}(f_{SDR} -1)\approx 6.2\text{dB}$
 
 - **Presencia de señales de elevada potencia en frecuencias próximas.** Los satélites a recibir emiten en frecuencias extremadamente cercanas a la banda reservada para radiodifusión FM (88MHz - 108MHz). La elevada potencia con que emiten estas estaciones de radio puede producir tanto saturación del amplificador de señal situado a la entrada del SDR como del desmodulador en sí.
 
 Como solución al primer problema, se propone la introducción de un preamplificador de bajo nivel de ruido (LNA por sus siglas en inglés). El uso de un preamplificador de tan sólo 18dB de ganancia y 0,6dB de figura de ruido conseguiría mejorar sustancialmente el factor de ruido del sistema completo:
 
-\\(f_{tot}=f_{LNA}+\frac{1}{g_{LNA}}(f_{cable} -1)+\frac{a_{cable}}{g_{LNA}}(f_{SDR} -1) \approx 0.78\text{dB} \\)
+$f_{tot}=f_{LNA}+\frac{1}{g_{LNA}}(f_{cable} -1)+\frac{a_{cable}}{g_{LNA}}(f_{SDR} -1) \approx 0.78\text{dB}$
 
 En lo referido al segundo inconveniente, éste podría ser solucionado de forma sencilla mendiante la inclusión de un filtro de RF. Si bien un mero filtro banda eliminada conseguiría hacer frente a la saturación causada por la radiodifusión FM, se optó por el diseño de un filtro paso banda. Un filtro de este estilo cuya banda de paso fuera capaz de abarcar tanto el rango de frecuencias usado por satélites meteorológicos como la banda de 2m de radioaficionados ofrecería un amplio rechazo a todo tipo de posibles señales interferentes independientemente de su localización en el espectro.
 
