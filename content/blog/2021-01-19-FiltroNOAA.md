@@ -36,7 +36,7 @@ Como solución al primer problema, se propone la introducción de un preamplific
 
 En lo referido al segundo inconveniente, éste podría ser solucionado de forma sencilla mendiante la inclusión de un filtro de RF. Si bien un mero filtro banda eliminada conseguiría hacer frente a la saturación causada por la radiodifusión FM, se optó por el diseño de un filtro paso banda. Un filtro de este estilo cuya banda de paso fuera capaz de abarcar tanto el rango de frecuencias usado por satélites meteorológicos como la banda de 2m de radioaficionados ofrecería un amplio rechazo a todo tipo de posibles señales interferentes independientemente de su localización en el espectro.
 
-Una vez más, cabe señalar que todos ficheros relacionados con el diseño de este filtro (ADS, KiCAD, Gerber...) se encuentran disponibles en su [correspondiente repositorio de GiTea](https://git.radio.clubs.etsit.upm.es/Meteor-automated/Filtro-2m-NOAA).
+Una vez más, cabe señalar que todos los ficheros relacionados con el diseño de este filtro (ADS, KiCAD, Gerber...) se encuentran disponibles en su [correspondiente repositorio de GiTea](https://git.radio.clubs.etsit.upm.es/Meteor-automated/Filtro-2m-NOAA).
 
 ## Especificaciones del filtro 
 
@@ -84,7 +84,7 @@ Los componentes necesarios para su construcción son:
 | Conectores |  SMA  |    -    |
 
 
-Asímismo, es necesario fabricar la correspondiente placa de circuito impreso. Dada la sencillez del diseño y el tamaño de las pistas utilizadas, es sencillo fabricarla de forma casera mediante atacado de ácido en una PCB virgen de doble cara. No obstante, en nuestro caso optamos por enviar los planos a una empresa para recibir las piezas fabricadas con calidad profesional. Independientemente del método utilizado, resulta de vital importancia realizar una elección adecuada del substrato. La línea de transmisión utilizada en nuestro caso se adapta a un dieléctro FR4 de permitividad 4,4 y grosor 1,565mm (1,6mm).
+Asimismo, es necesario fabricar la correspondiente placa de circuito impreso. Dada la sencillez del diseño y el tamaño de las pistas utilizadas, es posible fabricarla de forma casera mediante atacado de ácido en una PCB virgen de doble cara. No obstante, en nuestro caso optamos por enviar los planos a una empresa, recibiendo las piezas fabricadas con calidad profesional. Independientemente del método utilizado, resulta de vital importancia realizar una elección adecuada del substrato. La línea de transmisión utilizada en nuestro caso se adapta a un dieléctro FR4 de permitividad 4,4 y grosor 1,565mm (1,6mm).
 
 En las siguientes imágenes se muestran las capas superior e inferior de la placa una vez rematada la etapa de rutado.
 
@@ -98,7 +98,7 @@ Capa inferior:
 
 ## Resultados de las simulaciones
 
-Por último, añadimos los resultados con la respuesta en frecuencia teórica del filtro. Una vez más, éstas gráficas fueron obtenidas mediante el uso del software ADS.
+Por último, añadimos los resultados con la respuesta en frecuencia teórica del filtro. Una vez más, estas gráficas fueron obtenidas mediante el uso del software ADS.
 
 **Parámetros S**
 
