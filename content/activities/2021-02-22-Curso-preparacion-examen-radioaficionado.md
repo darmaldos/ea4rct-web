@@ -44,6 +44,7 @@ Si tenéis alguna duda no dudéis en preguntar ¡Os esperámos!
 El contenido del curso tratará de las materias que recoge el titulo de operador de Radioaficionado. Consistirá en un rápido resumen de los contenidos del examen, los cuales ya hemos estudiado en el grado de telecomunicación. Por ello, sólo nos enfocaremos en las preguntas más comunes y los aspectos más importantes de la Radioafición. La obtención del examen de Radioaficionado es muy asequible para los estudiantes del grado de telecomunicaciones, y es un título de gran valor.
 
 Hablaremos de:
+
 1. TEORÍA DE LA ELECTRICIDAD, ELECTROMAGNETISMO Y RADIO.
 2. COMPONENTES.
 3. CIRCUITOS.
@@ -60,6 +61,7 @@ Hablaremos de:
 ### PROGRAMA
 
 Este curso constará de tres sesiones que dada la situación actual se impartirán de manera online a través de la plataforma Microsoft Teams distribuyéndose de la siguiente forma:
+
 * **22 Febrero a las 17:00h**; Electrónica y Electromagnetismo
 * **24 Febrero a las 17:00h**; Antenas, Filtros y Bandas
 * **26 Febrero a las 17:00h**; Legislación y Código de Radioaficionados
