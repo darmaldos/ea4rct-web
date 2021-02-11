@@ -39,6 +39,14 @@ Si tenéis alguna duda no dudéis en preguntar ¡Os esperámos!
 
 ---
 
+### Inscripción
+
+No es necesario inscribirse en la actividad, lo único necesario es estar los días del curso a la hora indicada en la sesión de Teams.
+
+**Para unirse al grupo de teams** se puede hacer [por medio de este link](https://teams.microsoft.com/l/channel/19%3acc7cb9381f544df594e181874878cedd%40thread.tacv2/General?groupId=3dd436b9-fe61-4dc9-a0cf-e62a2f8bdb6f&tenantId=6afea85d-c323-4270-b69d-a4fb3927c254) o con el con el código **p6a1kps**.
+
+---
+
 ### ¿DE QUÉ HABLAREMOS?
 
 El contenido del curso tratará de las materias que recoge el titulo de operador de Radioaficionado. Consistirá en un rápido resumen de los contenidos del examen, los cuales ya hemos estudiado en el grado de telecomunicación. Por ello, sólo nos enfocaremos en las preguntas más comunes y los aspectos más importantes de la Radioafición. La obtención del examen de Radioaficionado es muy asequible para los estudiantes del grado de telecomunicaciones, y es un título de gran valor.
