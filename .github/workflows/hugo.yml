@@ -33,4 +33,3 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           source: "./public/*"
           target: "/home/hugo/ea4rct-web"
-          strip_components: 1
