@@ -2,7 +2,7 @@
 nombre: "Francisco Jesús Acién Pérez"
 pic: "/team/facien.jpg"
 funcion: "Presidente"
-estudios: "Estudiante del grado en Ingeniería de Tecnologías y Servicios de Telecomunicación"
+estudios: "Graduado en Ingeniería de Tecnologías y Servicios de Telecomunicación"
 
 twitter: "https://twitter.com/amil101"
 github: "https://github.com/acien101"
