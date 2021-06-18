@@ -1,4 +1,4 @@
-name: deploy hugo
+name: deploy-hugo
 
 on:
   push:
