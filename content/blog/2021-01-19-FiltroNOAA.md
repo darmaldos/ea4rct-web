@@ -44,7 +44,7 @@ $$
 
 En lo referido al segundo inconveniente, éste podría ser solucionado de forma sencilla mendiante la inclusión de un filtro de RF. Si bien un mero filtro banda eliminada conseguiría hacer frente a la saturación causada por la radiodifusión FM, se optó por el diseño de un filtro paso banda. Un filtro de este estilo cuya banda de paso fuera capaz de abarcar tanto el rango de frecuencias usado por satélites meteorológicos como la banda de 2m de radioaficionados ofrecería un amplio rechazo a todo tipo de posibles señales interferentes independientemente de su localización en el espectro.
 
-Una vez más, cabe señalar que todos los ficheros relacionados con el diseño de este filtro (ADS, KiCAD, Gerber...) se encuentran disponibles en su [correspondiente repositorio de GiTea](https://git.radio.clubs.etsit.upm.es/Meteor-automated/Filtro-2m-NOAA).
+Una vez más, cabe señalar que todos los ficheros relacionados con el diseño de este filtro (ADS, KiCAD, Gerber...) se encuentran disponibles en su [correspondiente repositorio de GiTea](https://github.com/WX-Ground-Station-RadioClub-E-I-T/filtro-2m-noaa).
 
 ## Especificaciones del filtro
 
@@ -62,7 +62,7 @@ Una vez más, cabe señalar que todos los ficheros relacionados con el diseño d
 
 ## Diseño
 
-El diseño del filtro se efectuó mediante el uso de la herramienta Advanced Design System (ADS). Los ficheron generados se encuentran disponibles en el [repositorio del proyecto](https://git.radio.clubs.etsit.upm.es/Meteor-automated/Filtro-2m-NOAA).
+El diseño del filtro se efectuó mediante el uso de la herramienta Advanced Design System (ADS). Los ficheron generados se encuentran disponibles en el [repositorio del proyecto](https://github.com/WX-Ground-Station-RadioClub-E-I-T/filtro-2m-noaa).
 
 Posteriormente, se procedió al diseño de una PCB con su consecuente trazado de gerbers. Tanto los archivos de proyecto como los gerbers se encuentran también públicos.
 

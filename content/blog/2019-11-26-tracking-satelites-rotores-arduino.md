@@ -115,7 +115,7 @@ Una vez reconocido dicho valor y estando éste almacenado en una variable, se re
 
 El código completo puede obtenerse en el siguiente enlace:
 
-https://git.radio.clubs.etsit.upm.es/Pablo/AutomatedRotorTacker
+https://github.com/WX-Ground-Station-RadioClub-E-I-T/automatedrotortracker
 
 Algunas fotos del sistema funcionando:
 

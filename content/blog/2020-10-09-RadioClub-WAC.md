@@ -18,7 +18,7 @@ image: /blog/2020-10-09/wac.jpg
 
 Con la llegada del nuevo curso académico, y como consecuencia de la pandemia que estamos sufriendo, comenzó una campaña de digitalización de todos los archivos online del club. De este modo, redescubrimos las distintas opciones que existen a la hora de transformas un QSO (para los más novatos, un contacto entre radioaficionados) en un QSL (el acuse de recibo asociado a dicho contacto).
 
-Parte de este proceso fue la apertura de cuentas en los dos principales estándares de QSL electrónicas: **LoTW y eQSL**. Nuestra gran sorpresa llegó al darnos cuenta de que el EA4RCT ya contaba con una cuenta en eQSL con algún que otro contacto confirmado. 
+Parte de este proceso fue la apertura de cuentas en los dos principales estándares de QSL electrónicas: **LoTW y eQSL**. Nuestra gran sorpresa llegó al darnos cuenta de que el EA4RCT ya contaba con una cuenta en eQSL con algún que otro contacto confirmado.
 
 Aprovechamos esto para sincronizar nuestra cuenta de **GDURE** (web de la Unión de Radioaficionados Española para la Gestión de Diplomas) con las anteriormente mencionadas (LoTW y eQSL). Una vez terminados de procesar los logs, nos encontramos con las siguientes estadísticas sobre los lugares trabajados y confirmados con QSL:
 
@@ -61,7 +61,7 @@ Esta es la situación actual de nuestro WAC 5 bandas:
 
 Los actuales miembros del RadioClub vemos este diploma como una recompensa a los antiguos socios, por su dedicación a la radio y los numerosos contactos que se llevaron a cabo en épocas donde _"hacer radio"_ no era tan sencillo como hoy día (las QSL se enviaban por corre postal, no se hacía uso de modos digitales, era complicado prever y obtener información acerca de la propagación en HF...). Asimismo, la existencia de un 5-Band WAC nos anima a marcarnos nuevos objetivos y seguir promoviendo la radioafición en el club.
 
-P.D.: podéis consultar el resto de nuestros diplomas en su [repositorio de GiTea](https://git.radio.clubs.etsit.upm.es/junta/diplomas). Esperemos ir agrandando la colección poco a poco!
+P.D.: podéis consultar el resto de nuestros diplomas en su [repositorio de GiTea](https://github.com/RadioClub-E-I-T/diplomas). Esperemos ir agrandando la colección poco a poco!
 
 -------
 mamado@EA1FID

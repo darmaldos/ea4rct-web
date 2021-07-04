@@ -84,7 +84,7 @@ Tras unas cuantas semanas de intensos trabajos, por fin conseguimos completar nu
 |  2020 	|   4	|
 
 
-Es importante tener en cuenta que en estas estadísticas sólamente se refleja el número de **contactos confirmados de forma electrónica**. Es muy probable que en épocas anteriores al 2000 se realizara un gran número de QSOs en el RadioClub, pero sería necesario revisar las tarjetas QSL para confirmarlo. 
+Es importante tener en cuenta que en estas estadísticas sólamente se refleja el número de **contactos confirmados de forma electrónica**. Es muy probable que en épocas anteriores al 2000 se realizara un gran número de QSOs en el RadioClub, pero sería necesario revisar las tarjetas QSL para confirmarlo.
 
 ## Gestión de diplomas
 
@@ -94,7 +94,7 @@ Una vez terminada la verificación de todos los contactos, procedimientos a real
 
 #### EADX100
 
-El primero de ellos es el llamado EADX100. Este diploma se otorga a aquellos radioaficionados o radioclubs por haber conseguido confirmar contactos con al menos **100 entidades DXCC** (principalmente países) diferentes entre las que se encuentren España (EA1-EA5 y EA7), Ceuta y Melilla (EA9), Baleares (EA6) y Canarias (EA8). 
+El primero de ellos es el llamado EADX100. Este diploma se otorga a aquellos radioaficionados o radioclubs por haber conseguido confirmar contactos con al menos **100 entidades DXCC** (principalmente países) diferentes entre las que se encuentren España (EA1-EA5 y EA7), Ceuta y Melilla (EA9), Baleares (EA6) y Canarias (EA8).
 
 
 **Modalidad Fonía:**
@@ -118,7 +118,7 @@ Volviendo al diploma que se nos otorgó, fue necesaria la confirmación de conta
 
 ## Concursos
 
-Tras una extensa labor aún por rematar de búsqueda de información sobre participaciones del EA4RCT en concursos internacionales, hemos conseguido obtener certificados de participación y **diplomas de premio** correspondientes a numerosas competiciones de alto calibre, como pueden ser el CQWW, el CQ WPX, el ARRL DX Contest, el IARU HF World CHampionship o, en ámbito nacional, el concurso S.M. el Rey. Se recomienda acceder a nuestro [repositorio de diplomas público](https://git.radio.clubs.etsit.upm.es/junta/diplomas) a todos aquellos que estén interesados en conocer el pasado del RadioClub.
+Tras una extensa labor aún por rematar de búsqueda de información sobre participaciones del EA4RCT en concursos internacionales, hemos conseguido obtener certificados de participación y **diplomas de premio** correspondientes a numerosas competiciones de alto calibre, como pueden ser el CQWW, el CQ WPX, el ARRL DX Contest, el IARU HF World CHampionship o, en ámbito nacional, el concurso S.M. el Rey. Se recomienda acceder a nuestro [repositorio de diplomas público](https://github.com/RadioClub-E-I-T/diplomas) a todos aquellos que estén interesados en conocer el pasado del RadioClub.
 
 ![](/blog/2020-10-22/arrl.png)
 

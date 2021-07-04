@@ -234,7 +234,7 @@ Finalmente, se sacarán estos datos por pantalla.
 
 ## Descarga de la aplicación
 
-Toda la información relacionada con la app se puede encontrar en su [repositorio de Gitea](https://git.radio.clubs.etsit.upm.es/Pablo/ControlAntenas_Android).
+Toda la información relacionada con la app se puede encontrar en su [repositorio de Github](https://github.com/WX-Ground-Station-RadioClub-E-I-T/controlantenas_android).
 
 No sólo encontrarás el archivo .apk para la instalación, sino todo el código fuente de la applicación y los archivos necesarios para la importación del proyecto desde Android Studio.
 

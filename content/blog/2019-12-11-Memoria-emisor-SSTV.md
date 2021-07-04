@@ -75,7 +75,7 @@ El esquemático final del proyecto es el siguiente:
 ![](/blog/2019-12-11/2.jpg)
 
 
-El código completo se puede encontrar en el [repositorio git del RadioClub](https://git.radio.clubs.etsit.upm.es/SSTV-Encoder/SSTV-arduino-scottie1).
+El código completo se puede encontrar en el [repositorio git del RadioClub](https://github.com/SSTV-Encoder-EA4RCT/SSTV-Arduino-Scottie1).
 
 ## Grado de consecución de los objetivos
 

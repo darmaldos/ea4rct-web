@@ -20,7 +20,7 @@ image: /blog/2020-04-18/3.jpg
 
 Este post forma parte del proyecto [Estación automática para la recepción de satélites meteorológicos en VHF](https://radio.clubs.etsit.upm.es/blog/2020-02-03-propuesta-automatizacion-noaa/). Parte del proyecto consiste en automatizar la recepción de satélites en Linux, en este post te explicaremos como lo hemos hecho.
 
-El código del proyecto se encuentra en [Meteor-automated/wx-ground-station](https://git.radio.clubs.etsit.upm.es/Meteor-automated/wx-ground-station). En este artículo iremos explicando detalladamente paso por paso cómo funciona el programa.
+El código del proyecto se encuentra en [Meteor-automated/wx-ground-station](https://github.com/WX-Ground-Station-RadioClub-E-I-T/wx-ground-station). En este artículo iremos explicando detalladamente paso por paso cómo funciona el programa.
 
 ## Objetivo
 
@@ -48,7 +48,7 @@ La automatización será de la siguiente forma:
 
 Incialmente tendremos que calcular cuándo va a pasar el satélite por nuestra estación. Para ello hemos utilizado la librería [orbit-predictor](https://github.com/satellogic/orbit-predictor) de Satellogic. Es una librería en python bastante fácil de usar.
 
-Hemos creado un script en python que cálcula cúando va a pasar el satélite y nos da diferente información. Lo podreis encontrar [aquí](https://git.radio.clubs.etsit.upm.es/Meteor-automated/python-predict).
+Hemos creado un script en python que cálcula cúando va a pasar el satélite y nos da diferente información. Lo podreis encontrar [aquí](https://github.com/WX-Ground-Station-RadioClub-E-I-T/python-predict).
 
 ```
 $ python predict.py --location 40.452591 -3.7286226 666 weather.tle
@@ -71,7 +71,7 @@ Con esta información programaremos los comandos para conectarlos a la estación
 
 El script lo hemos intentado hacer como el programa [predict](https://www.qsl.net/kd2bd/predict.html). Hemos optado por crear nuestro propio script porque predict da cálculos de órbita muy erroneos :disappointed: .
 
-Podeis ver cómo hemos integrado esto en nuestro programa para calcular la órbita y programar la recepción. El código de esta parte se encuentra [aquí](https://git.radio.clubs.etsit.upm.es/Meteor-automated/wx-ground-station/src/branch/master/schedule_all.sh).
+Podeis ver cómo hemos integrado esto en nuestro programa para calcular la órbita y programar la recepción. El código de esta parte se encuentra [aquí](https://github.com/WX-Ground-Station-RadioClub-E-I-T/wx-ground-station/blob/master/schedule_all.sh).
 
 
 ## Grabación del pase
@@ -94,7 +94,7 @@ $ ss_client iq -r ${SERVER} -q ${PORT} -f ${FREQ} -s ${SAMPLERATE} >> test.iq
 
 Conforme está pasando el satélite tendremos que ir moviendo las antenas de forma precisa hacia donde está el satélite. Para hacer esto he escrito un programa en Rust usando la librería [libgpredict](https://github.com/cubehub/libgpredict).
 
-El programa se puede encontrar [aquí](https://git.radio.clubs.etsit.upm.es/Meteor-automated/rotor). Tendremos que especificar el host, el puerto, el tle, el satélite y nos irá moviendo las antenas cuando la elevación sea positiva.
+El programa se puede encontrar [aquí](https://github.com/WX-Ground-Station-RadioClub-E-I-T/rotor). Tendremos que especificar el host, el puerto, el tle, el satélite y nos irá moviendo las antenas cuando la elevación sea positiva.
 
 El programa hace un pipe de audio de la entrada a la salida, por lo que se podría utilizar al mismo tiempo que estamos recibiendo de la siguiente manera:
 
@@ -149,7 +149,7 @@ sox -t raw -e signed-integer -r ${SAMPLERATE} -b 16 -c 1 -V1 - ${AUDIO_FILE} rat
 ```
 
 
-Todo lo explicado anteriormente se integra en nuestro programa en [este fichero](https://git.radio.clubs.etsit.upm.es/Meteor-automated/wx-ground-station/src/branch/master/receive_satellite.sh).
+Todo lo explicado anteriormente se integra en nuestro programa en [este fichero](https://github.com/WX-Ground-Station-RadioClub-E-I-T/wx-ground-station/blob/master/receive_satellite.sh).
 
 ## Decodificación de la señal
 
@@ -165,7 +165,7 @@ $ wxmap -T "${SAT}" -M ${MAX_ELEV} -H $TLE_FILE -b 0 -p 0 -l 0 -o $PassStart ${M
 $ wxtoimg -m ${MAP_FILE} -f ${SAMPLERATE} -e ZA $AUDIO_FILE ${IMAGE_DIR}/${FILEKEY}-ZA.png
 ```
 
-La parte de decodificación la hemos integrado en nuestro proyecto en [este fichero](https://git.radio.clubs.etsit.upm.es/Meteor-automated/wx-ground-station/src/branch/master/decode_satellite.sh).
+La parte de decodificación la hemos integrado en nuestro proyecto en [este fichero](https://github.com/WX-Ground-Station-RadioClub-E-I-T/wx-ground-station/blob/master/decode_satellite.sh).
 
 ## Subir los resultados
 
@@ -178,6 +178,3 @@ De esta forma nuestro bot de twitter queda así de chulo:
 Y también hemos creado una web para poder ver las diferentes recepciones y ver toda la información del pase. Estos días haremos un post explicando esta parte porque nos parece muy interesante. Se puede encontrar en <https://archive.ea4rct.org>
 
 ![](/blog/2020-04-18/4.gif)
-
-
-
