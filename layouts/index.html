@@ -17,17 +17,25 @@
     <div class="col-md-5">
       <h3>Próximas Actividades</h3>
       <ul>
-        {{ range where (.Pages.Reverse.ByParam "startDate") "Params.layout" "actividad" }}
-          {{ if now.Before (time .Params.startDate) }}
-            <li><span>{{ dateFormat "02 Jan 2006" .Params.startDate }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+        {{ range .Pages }}
+          {{ if eq .Section "activities" }}
+            {{ range .Pages }}
+              {{ if now.Before (time .Params.startDate) }}
+                <li><span>{{ dateFormat "02 Jan 2006" .Params.startDate }}</span> &raquo; <a href="{{ .URL }}">{{ .Title }}</a></li>
+              {{ end }}
+            {{ end }}
           {{ end }}
         {{ end }}
       </ul>
       <p><a href="/activities" class="button">Ver las actividades</a></p>
 	    <h3>Blog</h3>
       <ul>
-        {{ range first 3 (where .Pages "Params.layout" "post") }}
-          <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+        {{ range .Pages }}
+          {{ if eq .Section "blog" }}
+            {{ range first 3 (where .Pages "Params.layout" "post") }}
+              <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+            {{ end }}
+          {{ end }}
         {{ end }}
       </ul>
       <p><a href="/blog" class="button">Ver blog</a></p>
@@ -35,29 +43,32 @@
   </div>
   <h4>Noticias destacadas</h4>
   <div class="row justify-content-center">
-  {{ range first 3 (where .Pages "Params.layout" "post") }}
-
-  <div class="col" style="min-width: 300px; max-width: 310px; ">
-    <a href="{{ .URL }}">
-      {{ if .Params.image }}
-        <img src="{{ .Params.image }}" width="100%" alt="">
+    {{ range .Pages }}
+      {{ if eq .Section "blog" }}
+        {{ range first 3 (where .Pages "Params.layout" "post") }}
+          <div class="col" style="min-width: 300px; max-width: 310px; ">
+            <a href="{{ .URL }}">
+              {{ if .Params.image }}
+                <img src="{{ .Params.image }}" width="100%" alt="">
+              {{ end }}
+            </a>
+            <h4>
+              <a href="{{ .URL }}">{{ .Title }}</a>
+            </h4>
+            <p class="text-justify">
+              <!-- {{ split .Summary "." | html }} -->
+              {{ $mainSection := split .Summary ". " }}
+              {{ index $mainSection 0 | html }}.
+              <a href="{{ .URL }}">
+                <br>
+                Leer más
+                <!-- <img src="fileadmin/template/images/lista.png"> -->
+              </a>
+            </p>
+          </div>
+        {{ end }}
       {{ end }}
-    </a>
-    <h4>
-      <a href="{{ .URL }}">{{ .Title }}</a>
-    </h4>
-    <p class="text-justify">
-      <!-- {{ split .Summary "." | html }} -->
-      {{ $mainSection := split .Summary ". " }}
-      {{ index $mainSection 0 | html }}.
-      <a href="{{ .URL }}">
-        <br>
-        Leer más
-        <!-- <img src="fileadmin/template/images/lista.png"> -->
-      </a>
-    </p>
-  </div>
-  {{ end }}
+    {{ end }}
   </div>
 
   <h4>Servicios</h4>
