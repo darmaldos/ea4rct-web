@@ -2,7 +2,7 @@
 nombre: "Carlos Gómez Rodríguez"
 pic: "/team/cgomez.jpeg"
 funcion: "Secretario"
-estudios: "Doble Máster en Ing. de Telecomunicación e Ing. de Sistemas Electrónicos"
+estudios: "Graduado de Doble Máster en Ing. de Telecomunicación e Ing. de Sistemas Electrónicos"
 
 twitter: "https://twitter.com/goroca98"
 correo: "secretaria@ea4rc.org"
