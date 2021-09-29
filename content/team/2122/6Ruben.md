@@ -7,5 +7,4 @@ estudios: "Estudiante del grado en Ingeniería de Tecnologías y Servicios de Te
 instagram: "https://www.instagram.com/ruben.sanz94/"
 
 curso: 21-22
-draft: true
 ---

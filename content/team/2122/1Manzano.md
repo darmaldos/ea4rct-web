@@ -4,15 +4,9 @@ pic: "/team/cmanzano.jpeg"
 funcion: "Presidente"
 estudios: "Ingeniería de Tecnologías y Servicios de Telecomunicación"
 
-github: "https://github.com/USERNAME"
-gitea: "https://git.ea4rct.org/USERNAME"
-correo: "CORREO@ELECTRONICO"
-webpersonal: "https://TUPAGINAPERSONAL.org"
-linkedin: "https://www.linkedin.com/in/USERNAME"
-facebook: "https://facebook.com/USERNAME/"
-instagram: "https://www.instagram.com/USERNAME/"
+linkedin: "https://www.linkedin.com/in/carlos-manzano-herrero-a99335181/"
+facebook: "https://www.facebook.com/carlos.manzano.7121/"
+instagram: "https://www.instagram.com/cmanzano96/"
 
 curso: 21-22
-
-draft: true
 ---

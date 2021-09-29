@@ -7,5 +7,4 @@ estudios: "Estudiante del grado en Ingeniería de Tecnologías y Servicios de Te
 correo: "i.sardinero@alumnos.upm.es"
 
 curso: 21-22
-draft: true
 ---

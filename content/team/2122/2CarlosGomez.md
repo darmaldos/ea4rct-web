@@ -12,5 +12,4 @@ gitea: "https://git.radio.clubs.etsit.upm.es/Goroca"
 gitHub: "https://github.com/Goroca"
 
 curso: 21-22
-draft: true
 ---
