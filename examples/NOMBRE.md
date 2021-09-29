@@ -13,5 +13,5 @@ linkedin: "https://www.linkedin.com/in/USERNAME"
 facebook: "https://facebook.com/USERNAME/"
 instagram: "https://www.instagram.com/USERNAME/"
 
-curso: 1718
+curso: 17-18
 ---
