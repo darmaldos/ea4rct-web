@@ -16,6 +16,9 @@ googleAnalytics = "UA-155169045-1"
 # Disqus shortname
 disqusShortname = "radioclub-eit"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
   # whether to use CDN or local file for fontawesome
   #useCDN = false
