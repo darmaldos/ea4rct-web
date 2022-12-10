@@ -6,7 +6,7 @@ Este es el repositorio de la nueva web del Radioclub. Está alojada en `radio.cl
 
 La plantilla está creada con `HTML/CSS/BOOTSTRAP`, aunque cada página individual está escrita en markdown con la idea de simplificar su creación y mantener un estilo uniforme en toda la web.
 
-**La plantilla se trata de un submódulo de git alojada [aquí](https://git.radio.clubs.etsit.upm.es/Whiteclub/Whiteclub-Hugo-Theme)**, cuando se clone el repositorio hay que escribir: `git clone --recursive https://git.radio.clubs.etsit.upm.es/Whiteclub/Whiteclub-Hugo-Theme.git`
+El repositorio se tiene que clonar de forma recursiva: `git clone https://github.com/RadioClub-E-I-T/ea4rct-web`
 
 Para tareas de construcción, está hecho con `gohugo`.
 
@@ -27,7 +27,7 @@ Para más información: [Install Hugo](https://gohugo.io/getting-started/install
 Para utilizar Hugo vete a la carpeta raiz  de la web y ejecuta:
 
 ```
-$ snap run hugo server
+$ hugo server
 ```
 
 ## ¿Cómo trabajar con este repositorio?
@@ -44,7 +44,7 @@ Para hacer esto:
 
     ![Botón fork](./static/man/fork2.png)
 
-3. Clona el repositorio en tu ordenador. Para ello vete a al repositorio clonado, pulsa HTTPS, y luego copia la URL que te darán. La URL será de la forma `https://git.radio.clubs.etsit.upm.es/USUARIO/ea4rct-web.git`:
+3. Clona el repositorio en tu ordenador. Para ello vete a al repositorio clonado, pulsa HTTPS, y luego copia la URL que te darán. La URL será de la forma `git@github.com:RadioClub-E-I-T/ea4rct-web.git`:
 
     ![Link clonar](./static/man/clone1.png)
 
