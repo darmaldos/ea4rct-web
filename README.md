@@ -54,7 +54,7 @@ Para hacer esto:
 5. Cuando tengas terminados tus cambios, revisa que todo está en orden:
     ```
     $ cd ea4rct-web/
-    $ snap run hugo server
+    $ hugo server
     ```
     En la salida del comando, te dirá que la web está en localhost, en algún puerto. Abre esa web y verás lo que has cambiado en el navegador. Revisa que todo está en órden.
 6. Cuando tengas todo listo, sube los cambios a tu repositorio:
