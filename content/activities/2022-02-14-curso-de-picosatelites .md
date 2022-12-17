@@ -5,13 +5,13 @@ categorias:
   - actividades
 
 #Datos del Evento
-title: "Curso de Picosatélites y Servicio de Radioaficionados por Satélite"
-subtitle: "6 sesiones de 2h, desde el 14 de febrero del 2022 al 2 de marzo de 2022 / ETSIT UPM, Madrid"
-description: "Actividad Reconocible de Grado GITST, 1 Crédito ECTS, en el Catálogo Específico de Actividades ETSIT-UPM, 2ºC, curso 2019/20. Curso organizado por el RadioClub EIT de la ETSIT UPM con el respaldo del departamento Señales, Sistemas y Radiocomunicaciones."   #Descripción para el correo electrónico
+title: "Curso de Picosatélites y Servicio de Radioaficionados por Satélite 2023"
+subtitle: "6 sesiones de 2h, desde el 14 de febrero del 2023 al 2 de marzo de 2023 / ETSIT UPM, Madrid"
+description: "Actividad Reconocible de Grado GITST, 1 Crédito ECTS, en el Catálogo Específico de Actividades ETSIT-UPM, 2ºC, curso 2022/23. Curso organizado por el RadioClub EIT de la ETSIT UPM con el respaldo del departamento Señales, Sistemas y Radiocomunicaciones."   #Descripción para el correo electrónico
 
 #Fecha del evento. Las fechas van con la forma YYYY-MM-DDTHH:MM:SS
-startDate: 2022-02-14T15:00:00
-endDate: 2022-03-02T17:00:00
+startDate: 2023-02-14T15:00:00
+endDate: 2023-03-02T17:00:00
 
 #Lugar
 place: "Radioclub, ETSIT UPM, Madrid"
@@ -52,7 +52,7 @@ Se tratarán los siguientes puntos:
 
 ### PREINSCRIPCIÓN
 
-La preinscripción se llevará a cabo **enviando un correo electrónico** a *jm.riera(at)upm.es*. En el correo tendrá que manifestar la intención de realizar el curso, indicando  nombre, apellidos, curso matriculado este año, dirección e-mail para notificaciones y documentación. **Preincipciones abiertas hasta el 10 de febrero de 2022**.
+La preinscripción se llevará a cabo **enviando un correo electrónico** a *jm.riera(at)upm.es*. En el correo tendrá que manifestar la intención de realizar el curso, indicando  nombre, apellidos, curso matriculado este año, dirección e-mail para notificaciones y documentación. **Preinscripciones abiertas hasta el 10 de febrero de 2023**.
 
 
 **La actividad se llevará a cabo si se tiene un número suficiente de alumnos**. En caso de que no se pre-inscriba un número suficiente de alumnos se cancelará la actividad y se avisará a los pre-inscritos.
@@ -67,7 +67,7 @@ Además de ofrecerse como actividad acreditable del GITST, se permitirá la part
 
 Consta de **5 dias x 2 h de clase + 2h de visita a la estación terrena para pico-satélites** del Grupo de Radiación de la ETSIT. Asistencia obligatoria.
 
-**Las sesiones serán entre el 14 de febrero y el 2 de marzo de 2022**  (detalles el primer día de clase). **Martes y jueves de 15 a 17 h.**
+**Las sesiones serán entre el 14 de febrero y el 2 de marzo de 2023**  (detalles el primer día de clase). **Martes y jueves de 15 a 17 h.**
 
 ---
 
