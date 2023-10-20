@@ -4,12 +4,12 @@ published: true
 title: El RadioClub E.I.T EA4RCT gana el Concurso Universitario de Software Libre 2019/2020
 date: 2020-09-28  # La fecha va con la forma YYYY-MM-DD
 tags: [
-  "proyectos",
+  "Proyecto",
   "antenas",
   "satélites"
 ]
 categorias: [
-  "proyectos",
+  "Proyecto",
   "SDR",
   "WX Ground Station"
 ]
