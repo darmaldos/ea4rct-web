@@ -6,7 +6,7 @@ date: 2023-08-29  # La fecha va con la forma YYYY-MM-DD
 tags: [
   "Futbolín",
   "Programación",
-  "Proyecto"
+  "Proyecto "
 ]
 categorias: [
   "Futbolín",
