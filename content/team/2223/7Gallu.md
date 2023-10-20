@@ -2,7 +2,7 @@
 nombre: "Alberto Gallurralde"
 pic: "/team/gallu.jpeg"
 funcion: "Vocal"
-estudios: "Estudiante del grado en Ingeniería de Tecnologías y Servicios de Telecomunicación"
+estudios: "Estudiante del grado en Ingeniería Biomédica"
 
 
 curso: 22-23

@@ -1,0 +1,86 @@
+---
+layout: post
+published: false
+title: Reparación Rotores Elevacion y Azimuth Yaesu para VHF y UHF.
+date: 2023-08-29  # La fecha va con la forma YYYY-MM-DD
+tags: [
+  "Futbolín",
+  "Programación",
+  "Proyecto"
+]
+categorias: [
+  "Futbolín",
+  "Proyecto"
+]
+author: Rubén Sanz Sánchez EA1FRA
+image: /proyectos/VAR/VAR.jpeg
+---
+
+## Introducción
+
+El fundamento principal de este proyecto es crear un sistema de repeticiones de jugadas, para uno de nuestros clubes vecinos el Club Deportivo. El cual posee un futbolín para el uso y disfrute de los alumnos de la escuela.
+
+Para ello se utilizará un ordenador central a modo de servidor, donde además se almacenarán los vídeos, al que irá conectada la cámara. Los vídeos se podrán grabar mediante la pulsación de un botón que leerá un Arduino, que mediante un ejecutable programado en python, enviará los
+mismos en un canal de Telegram, mediante un bot.
+
+## Objetivos
+
+* Generar un sistema de repeticiones con precisión suficiente para poder tomar decisiones en situaciones dudosas. 
+* Programar el phyton y profundizar en el uso de bots de telegram.
+
+
+## Organización interna
+
+El proyecto se ha organizado en tres etapas, una de hardware, otra de software y otra de instalación e implementación conjunta.
+
+* **Equipo de hardware**: Se basó principalmente en la instalación de la cámara y el botón, la preparación del ordenador y la colocación del arduino.
+
+* La cámara debía ir instalada en el techo. Para ello, al no poder anclarse directamente,
+se tuvo que hacer uso de un tubo metálico para unirlos. Posteriormente, se rutaron los
+cables mediante el uso de canaletas por el techo hasta el lugar donde estará situado
+el ordenador.
+* Para el botón accionador se siguió una metodología similar. Se ancló el botón a la
+pared y se le soldó un cable lo suficientemente largo como para poder alcanzar el
+ordenador central, donde está conectado el Arduino encargado de detectar la
+
+<img src="/proyectos/VAR/image3.jpeg" width="400" height="600">
+<img src="/proyectos/VAR/VAR.jpeg" width="400" height="600">
+
+* **Equipo de software**: La parte de sofware consistió en generar la programación necesaria, para enfocar la cámara, entender el botón, grabar los segundos anteriores a la pulsación, y la posterior eliminación de la grabaciones una vez subidas al grupo de telegram para no saturar la memoria del ordenador.
+
+## Resultados
+
+Los resultados obtenidos, han sido los que se muestran en las siguientes imágenes y videos:
+<img src="/proyectos/VAR/image6.png" width="600" height="400">
+<img src="/proyectos/VAR/image7.png" width="600" height="400">
+
+## Presupuesto de gastos
+
+El coste total del proyeto asciende a la cantidad de trescientos sesenta (360€), el cual se desglosa en la siguiente tabla:
+
+| Concepto | Coste |
+|---|---|
+|Ordenador |69.25€|
+|Logitech Stream Cam|114.95€|
+|W375 Emergency Stop Switch|14€|
+|NIMASO Adaptador USB C a USB 3.0| 11,98 € |
+|CSL - Cable repetidor de extensión 5 m Metros USB 3.0|19,85 €|
+| Software | Gratuito |
+|||
+|**TOTAL**| 230.03€|
+
+## CONCLUSIONES Y ASPECTOS DE MEJORA
+Ha sido un proyecto transversal en el que se han tocado múltiples ramas de
+las estudiadas en la carrera de Ingeniería de Telecomunicaciones. En general
+el resultado ha sido bueno y bien acogido por los alumnos de la Escuela.
+En cuanto a capacidades de mejora, hay que destacar que en estos momentos
+la cámara solo puede ser utilizada por el bot, por lo que si se quisiera dar uso
+para otra finalidad como el estudio de las diferentes métricas asociadas a una
+partida de futbolín.
+
+## Videos
+<video  controls>
+  <source src="/proyectos/VAR/var.mp4" type="video/mp4">
+</video>
+
+Este proyecto fue terminado por Ruben Sanz Sanchez EA1FRA

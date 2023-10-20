@@ -5,13 +5,13 @@ published: true
 title: "Control remoto de la estación de satélites del RadioClub E.I.T."
 date: 2020-03-17  # La fecha va con la forma YYYY-MM-DD
 tags: [
-  proyectos,
+  Proyecto,
   antenas,
   satélites,
   SDR
 ]
 categorias: [
-  proyectos,
+  Proyecto,
   SDR,
   "WX Ground Station"
 ]

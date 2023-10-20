@@ -4,13 +4,13 @@ published: true
 title: Automatización recepción de satélites meteorológicos en remoto desde Linux
 date: 2020-04-18  # La fecha va con la forma YYYY-MM-DD
 tags: [
-  "proyectos",
+  "Proyecto",
   "antenas",
   "satélites",
   "SDR"
 ]
 categorias: [
-  "proyectos",
+  "Proyecto",
   "SDR",
   "WX Ground Station"
 ]

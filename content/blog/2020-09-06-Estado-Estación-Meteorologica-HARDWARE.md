@@ -4,12 +4,12 @@ published: true
 title: Estación Metereológica - Resumen del Hardware diseñado hasta la fecha
 date: 2020-09-06  # La fecha va con la forma YYYY-MM-DD
 tags: [
-  "proyectos",
+  "Proyecto",
   "antenas",
   "satélites"
 ]
 categorias: [
-  "proyectos",
+  "Proyecto",
   "SDR",
   "WX Ground Station"
 ]

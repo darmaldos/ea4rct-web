@@ -5,7 +5,7 @@ published: true
 date: 2020-03-29  # La fecha va con la forma YYYY-MM-DD
 title: "Control de la estación de satélites desde dispositivos Android"
 tags: [
-  proyectos,
+  Proyecto,
   antenas,
   satélites,
   SDR,
@@ -13,7 +13,7 @@ tags: [
   apps
 ]
 categorias: [
-  proyectos,
+  Proyecto,
   SDR,
   "WX Ground Station"
 ]

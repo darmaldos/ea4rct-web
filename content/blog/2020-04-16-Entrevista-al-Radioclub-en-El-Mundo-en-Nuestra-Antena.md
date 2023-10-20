@@ -5,10 +5,10 @@ title: "Entrevista al Radioclub en El Mundo en Nuestra Antena"
 author: Pablo Álvarez
 date: 2020-04-16
 tags: [
-  "Proyectos"
+  "Proyecto"
 ]
 categorias: [
-  "Proyectos"
+  "Proyecto"
 ]
 image: /blog/2020-04-16/2.png
 ---
