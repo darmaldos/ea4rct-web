@@ -1,6 +1,6 @@
 ---
 nombre: "Miguel Reino"
-pic: "/team/mike.jpeg"
+pic: "/team/mike.jpg"
 funcion: "Vocal"
 estudios: "Máster universitario de ingeniería de telecomunicación"
 
