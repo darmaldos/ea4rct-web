@@ -27,7 +27,7 @@ Esperamos que en un futuro podamos llevar acabo más visitas que cumplimenten el
 
 ## Algunas imágenes.
 
-![](/blog/Instituto-microgr/micgra1.jpg)
+
 ![](/blog/Instituto-microgr/micgra2.jpg)
 ![](/blog/Instituto-microgr/micgra3.jpg)
 ![](/blog/Instituto-microgr/micgra4.jpg)
@@ -38,8 +38,6 @@ Esperamos que en un futuro podamos llevar acabo más visitas que cumplimenten el
 ![](/blog/Instituto-microgr/micgra10.jpg)
 ![](/blog/Instituto-microgr/micgra11.jpg)
 ![](/blog/Instituto-microgr/micgra12.jpg)
-![](/blog/Instituto-microgr/micgra13.jpg)
-![](/blog/Instituto-microgr/micgra15.jpg)
 ![](/blog/Instituto-microgr/micgra16.jpg)
 ![](/blog/Instituto-microgr/micgra17.jpg)
 ![](/blog/Instituto-microgr/micgra18.jpg)
@@ -48,20 +46,5 @@ Esperamos que en un futuro podamos llevar acabo más visitas que cumplimenten el
 ![](/blog/Instituto-microgr/micgra21.jpg)
 ![](/blog/Instituto-microgr/micgra24.jpg)
 
-## Videos
-<video width="520" height="440" controls>
-  <source src="/blog/Instituto-microgr/micgra5.mp4" type="video/mp4>
-
-  </video>
-
-<video width="520" height="440" controls>
-   <source src="/blog/Instituto-microgr/micgra22.mp4" type="video/mp4>
-
-  </video>
-
-<video width="520" height="440" controls>
-  <source src="/blog/Instituto-microgr/micgra23.mp4" type="video/mp4>
-  
-</video>
 
  Ruben Sanz Sanchez EA1FRA.
