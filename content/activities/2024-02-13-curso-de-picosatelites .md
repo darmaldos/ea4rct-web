@@ -28,7 +28,7 @@ map: https://goo.gl/maps/VojD4d6S7An
 ### DESCRIPCIÓN
 <div class=text-justify>
 
-Se trata de una **Actividad Reconocible de Grado GITST**, **1 Crédito ECTS**, en el Catálogo Específico de Actividades ETSIT-UPM, 2ºC, curso 2022/23.
+Se trata de una **Actividad Reconocible de Grado GITST**, **1 Crédito ECTS**, en el Catálogo Específico de Actividades ETSIT-UPM, 2ºC, curso 2023/24.
 https://www.etsit.upm.es/estudios/grado-en-ingenieria-biomedica/actividades-acreditables/el-catalogo-especifico-de-la-etsit/actividades-formativas-de-grado.html
 
 Curso organizado por el RadioClub EIT de la ETSIT UPM con el respaldo del departamento *Señales, Sistemas y Radiocomunicaciones*.
