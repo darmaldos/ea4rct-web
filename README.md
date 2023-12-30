@@ -22,6 +22,11 @@ Para instalar Hugo en tu máquina Linux escribe en el terminal `sudo apt-get ins
 
 Para más información: [Install Hugo](https://gohugo.io/getting-started/installing/)
 
+Ejecutas el comando en la terminal para que funcione
+```
+$hash -r
+```
+
 ## ¿Cómo usar Hugo?
 
 Para utilizar Hugo vete a la carpeta raiz  de la web y ejecuta:
@@ -53,7 +58,7 @@ Para hacer esto:
 4. Añade nuevas actividades/posts. Más abajo se explica cómo se hace para añadir nuevas actividades o posts paso a paso.
 5. Cuando tengas terminados tus cambios, revisa que todo está en orden:
     ```
-    $ cd ea4rct-web/
+    $ cd  ea4rct-web/
     $ hugo server
     ```
     En la salida del comando, te dirá que la web está en localhost, en algún puerto. Abre esa web y verás lo que has cambiado en el navegador. Revisa que todo está en órden.
