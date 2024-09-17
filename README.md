@@ -18,7 +18,12 @@ La página cuenta con algunas automatizaciones hechas con *Zapier*:
 
 ## ¿Cómo instalar Hugo?
 
-Para instalar Hugo en tu máquina Linux escribe en el terminal `sudo apt-get install hugo`. La version de hugo que se está ejecutando es `v0.68.3/extended`
+Para instalar Hugo en tu máquina Linux es necesario usar la versión de Hugo que se está ejecutando qu es  `v0.68.3/extended`. Esta versión se encuentra disponible 
+en el propio repositorio por lo que solo sería descargar el archivo `hugo_extended_0.68.3_Linux-64bit.deb` y escribir en la terminal:
+
+```
+sudo dpkg -i hugo_extended_0.68.3_Linux-64bit.deb
+```
 
 Para más información: [Install Hugo](https://gohugo.io/getting-started/installing/)
 
